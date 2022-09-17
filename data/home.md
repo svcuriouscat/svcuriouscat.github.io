@@ -2,7 +2,7 @@
 
 Curious Cat is a fossil fuel-free solar electric sailing catamaran
 set to travel around the world while logging her excellent adventures.
-One of the main goals is to promote use of titanium,
+One of the main goals are to promote use of titanium,
 prove that having 3D printer aboard is a really great idea,
 and try out new marine tech.
 
