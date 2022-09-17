@@ -1,0 +1,12 @@
+<h1>Gallery</h1>
+<hr />
+{{#albums}}
+<h3>{{name}}</h3>
+<div>
+    {{#pictures}}
+    <div>
+        <img src="{{{.}}}" alt="" />
+    </div>
+    {{/pictures}}
+</div>
+{{/albums}}

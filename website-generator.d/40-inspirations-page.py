@@ -26,7 +26,7 @@ def stage(data):
     htmlFile.close()
     ## Copy asset files
     utils.cpr(
-        utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "assets", "inspirations"),
+        utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "inspirations"),
         utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", data["config"]["Site"]["InspirationsPath"])
     )
     ## Add inspiration page link to sitemap

@@ -166,6 +166,26 @@ table {
     }
 }
 
+.gallery {
+    & > div {
+        display: flex;
+        flex-wrap: wrap;
+
+        & > div {
+            align-items: center;
+            display: flex;
+            text-align: center;
+            width: 25%;
+
+            img {
+                display: block;
+                max-height: 95%;
+                max-width: 95%;
+            }
+        }
+    }
+}
+
 .inspirations {
     img {
         width: 33.333%;
@@ -317,6 +337,20 @@ table {
 
     .content {
         margin: $spacing-small;
+    }
+
+    .gallery {
+        & > div {
+            & > div {
+                width: 100%;
+
+                img {
+                    margin-bottom: $spacing-small;
+                    max-height: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
     }
 
     .inspirations {

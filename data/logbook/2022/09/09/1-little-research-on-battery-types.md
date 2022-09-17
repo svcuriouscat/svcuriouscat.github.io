@@ -6,9 +6,17 @@ and also happen to need to do something about heating and powering outlets throu
 Currently my one and only battery circuit is 12V.
 Since I have plans getting 230VAC inverter, and powerful ones (over 5KW) usually require at least 48V,
 it looks like I’ll have to get something like Victron [Multi RS Solar](https://www.victronenergy.com/inverters-chargers/multi-rs-solar).
-That one will let me charge from the shore, acts as my new MPPT, and also power my 230VAC devices if needed.
+That one will let me charge from the shore, act as my new MPPT, and also power 230VAC devices if needed.
+Having 48VDC, 12VDC, and 230VAC all at once is really useful — providing power for good 48V heater/AC,
+230VAC washer/dryer and welder, 12V electronics, and 24V 3D printer via additional DC-DC converter if needed.
+What more can the heart of a man desire?
+
 A mechanical or solid-state switch of sorts will have to be installed to direct the charge towards:
 port motor bank, starboard motor bank, central ship bank, or all at once.
+Or maybe I’ll get two additional 48V MPPT chargers and direct three zones of my PV system to either of them,
+depending on what I need to charge first.
+Directing 100% of my PV system to e.g. port bank and going on one motor could allow me to travel on solar alone,
+depending on how many watts of solar I’ll have in total.
 
 Victron has more powerful inverters, but they weigh over 40kg (vs. Multi RS’ 11kg),
 and just look like something superyachts or multihulls over 65’ usually have.

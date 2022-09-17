@@ -1,6 +1,10 @@
 # S/V Curious Cat
 
-Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel around the world while logging her excellent adventures for everyone to witness and feel very jealous.
+Curious Cat is a fossil fuel-free solar electric sailing catamaran
+set to travel around the world while logging her excellent adventures.
+One of the main goals is to promote use of titanium,
+prove that having 3D printer aboard is a really great idea,
+and try out new marine tech.
 
 
 ## Specifications
@@ -13,7 +17,7 @@ Curious Cat is a fossil fuel-free solar electric sailing catamaran set to travel
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
 - **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs)
-- **Hull materials**: vacuum-bagged waffle weave kevlar on top of foam core, carbon fiber, epoxy
+- **Hull materials**: vacuum-bagged waffle weave kevlar, foam core, carbon fiber, epoxy
 - **Propulsion**:
     - Volvo Penta MD22 diesel engine
     - 2 × hydraulic pumps
