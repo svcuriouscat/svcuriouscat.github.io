@@ -4,11 +4,14 @@
 
 BUILD_DIR ?= docs
 CONFIG_FILE ?= config.ini
-DOCKER ?= $(if $(shell docker -v),docker,podman)
+DOCKER ?= $(if $(shell docker -v 2> /dev/null),docker,podman)
 DOCKER_IMAGE_TAG ?= svcuriouscat/website-generator
 PORT ?= 8100
 
+.DEFAULT_GOAL := help
+
 all: build serve
+.PHONY: all
 
 include Prebuild.mk
 
@@ -20,7 +23,7 @@ help: ## Show this helpful message
 
 build: clean $(BUILD_DIR) $(CONFIG_FILE) ## Build and extract website files using container
 	@$(DOCKER) build -t $(DOCKER_IMAGE_TAG) .
-	@$(DOCKER) run --rm $(DOCKER_IMAGE_TAG) sh -c "tar -c -f - $(BUILD_DIR)" | tar -x -f -
+	@$(DOCKER) run --rm $(DOCKER_IMAGE_TAG) sh -c "tar -czf - $(BUILD_DIR)" | tar -xzf -
 .PHONY: build
 
 BUILD: clean $(BUILD_DIR) $(CONFIG_FILE) ## Build website files from filesystem
@@ -46,3 +49,7 @@ SERVE: $(BUILD_DIR) ## Serve website files directly from filesystem
 	echo "Starting local server for contents of $(BUILD_DIR) ..." && \
 	python3 -m http.server --directory $(BUILD_DIR) $(PORT)
 .PHONY: SERVE
+
+tunnel: ## Enter container shell
+	@$(DOCKER) run -it --rm $(DOCKER_IMAGE_TAG) sh || true
+.PHONY: tunnel
