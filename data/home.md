@@ -73,6 +73,8 @@ After getting reposessed twice and going through many owners while remaining doc
 
 She is a very spacious yet fast composite performance cruising catamaran.  It’s a shame a boat like this one wasn’t used at all in over two decades, she’s got a lot of life left in her and deserves much more than just sitting dead in the water.  But new adventures await her now, let’s see where the wind and current take her!
 
+In October of 2022 Curious Cat was damaged after being next to the eye of the storm during hurricane Ian.
+
 
 ## Upgrades and modifications
 
