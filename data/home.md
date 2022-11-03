@@ -1,10 +1,10 @@
 # S/V Curious Cat
 
-Curious Cat is a fossil fuel-free solar electric sailing catamaran
+Curious Cat is a <!-- fossil fuel-free solar electric --> sailing catamaran
 set to travel around the world while logging her excellent adventures.
 One of the main goals are to promote use of titanium,
 prove that having 3D printer aboard is a really great idea,
-and try out new marine tech.
+and try out cutting-edge marine tech.
 
 
 ## Specifications
@@ -66,14 +66,18 @@ and try out new marine tech.
 ## Vessel’s origin
 
 Built in Canada by TEK-composites and launched on July 5th 1998 under her original name “Northern Bounty”, she is the only TEK-45 (AKA Tektron 44) ever built.
-This boat is a love child of TEK-35 and Tektron 50, both [John Shuttleworth](https://www.shuttleworthdesign.com)’s designs, and the latter being at one point one of the fastest multihulls in the world.  TEK-composites Inc. was a subsidiary of Tektron Equipment Corporation formed in 1986 that specialized in manufacturing airplane and helicopter hulls, producing only fifteen boats during its lifetime.  Those included first three legendary Manta catamarans, molds to which were later sold to American investors with Manta becoming US-made cats.
+This boat is a love child of TEK-35 and Tektron 50, both [John Shuttleworth](https://www.shuttleworthdesign.com)’s designs, and the latter being at one point one of the fastest multihulls in the world.
+TEK-composites Inc. was a subsidiary of Tektron Equipment Corporation formed in 1986 that specialized in manufacturing airplane and helicopter hulls, producing only fifteen boats during its lifetime.
+Those included first three legendary Manta catamarans, molds to which were later sold to American investors with Manta becoming US-made cats.
 
 Originally purchased for $1M by three couples that took her on a one-year voyage, she ended up being a slip queen for over 20 years on the Gulf Coast of Florida near Saint James City.
 After getting reposessed twice and going through many owners while remaining docked at the very same spot, she now belongs to yours truly as of March 2022.
 
-She is a very spacious yet fast composite performance cruising catamaran.  It’s a shame a boat like this one wasn’t used at all in over two decades, she’s got a lot of life left in her and deserves much more than just sitting dead in the water.  But new adventures await her now, let’s see where the wind and current take her!
+She is a very spacious yet fast composite performance cruising catamaran.
+It’s a shame a boat like this one wasn’t used at all in over two decades, she’s got a lot of life left in her and deserves much more than just sitting dead in the water.
+But new adventures await her now, let’s see where the wind and current take her!
 
-In October of 2022 Curious Cat was damaged after being next to the eye of the storm during hurricane Ian.
+In October of 2022 Curious Cat was damaged after being next to the eye of the storm of hurricane Ian.
 
 
 ## Upgrades and modifications
@@ -92,6 +96,7 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - Replaced old Raytheon radar with [B&G Halo20+](https://www.bandg.com/bg/type/radar/halo20bgradar-c73626e8/)
 - Replaced old Raytheon CRT chart plotter with [16" Zeus³S Glass Helm by B&G](https://www.bandg.com/bg/series/zeuss-glass-helm/integrated-display-processor/zeus3s-gh-mfd-16-display-only/)
 - Applied phosphorescent stickers to light switches
+- New US-made 16"x24" US flag by (Allegiance Flag Supply)(https://www.showallegiance.com)
 
 ### Will be done in the future
 
@@ -144,6 +149,7 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - Food waste shredder by [Delitek](https://delitek.no/)
 - New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 - Electric headsail furling systems by [Harken](https://www.harken.com/en/home/), [Reckmann](https://www.reckmann.com), [Seldén](https://www.seldenmast.com), [Facnor](https://www.facnor.com), or [Profurl](https://www.profurl.com)
+- [QuenchSea](https://www.quenchsea.world/) seawater desalination device
 
 ### Done by previous owners
 
@@ -157,20 +163,20 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 
 ## Equipment
 
-- [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB tender
+- [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy
 - [Keelcrab](https://www.keelcrab.com) — underwater hull cleaning drone
 - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
 - Washer/dryer (Daewoo DWD-35MCRCR)
 - Comms
-    - Raytheon RAY210 VHF marine radio
+    - ~Raytheon RAY210 VHF marine radio~
     - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
 - Navigation
     - 2 × backlit compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
 - Safety, emergency & rescue
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
-    - [ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)
-    - Flare gun
+    - ~[ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)~
+    - ~Flare gun~
     - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
     - 6 × PFDs
     - [Seabung](https://www.seabung.com)
@@ -184,9 +190,9 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
     - Batteries
         - 3 × [Interstate](https://www.interstatebatteries.com) AGM 12V batteries, 62Ah each
     - Photovoltaic system
-        - 4 × Sunpower 170W flexible solar panels
+        - ~4 × Sunpower 170W flexible solar panels~
         - 2 × Victron BlueSolar MPPT 100/30 charge controllers
-- 3D printer (FDM)
+- ~3D printer (FDM)~
 - 3 × 5 gal sun showers
 - Transom shower by [Whale Pumps](https://www.whalepumps.com/marine/)
 

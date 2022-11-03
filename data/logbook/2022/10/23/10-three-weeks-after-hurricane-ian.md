@@ -50,12 +50,14 @@ The officers didn't believe I owned the boat, so had to prove it using the bill 
 1. Should've put cushions of sorts on the dock's piling
 1. Should've put a horizontal plank between the dock and fenders, protecting my hull during the surge
 1. Should've used spider webbing in a safe place somewhere else inside the canal
+1. Put valuable things in IP67 containers
+1. Laminate valuable paper items
 
 ## Damage taken
 
 1. Zodiac tender flipped, pierced, one paddle lost
 1. My T-top's material got completely destroyed, the boat was covered in blue threads
-1. 5x stanchions and one stainless steel cage on port side — an old sailboat got loose and ran into my port side
+1. 5x stanchions and one pulpit on port side — an old sailboat got loose and ran into my port side
 1. 2x Lewmar 30 hatch lids destroyed
 1. 1x aluminum cleat chipped on port side
 1. 1x 14"-long through-hull breach above waterline on port side
@@ -68,8 +70,17 @@ The officers didn't believe I owned the boat, so had to prove it using the bill 
 1. switches on breaker panel are covered in salt, ammeter and voltmeter malfunctioning
 1. 4x Sunpower 170W solar panels gone with the wind
 1. Raytheon wind vane is gone... with the wind
-1. Engine room blowers no longer work (but fuck them)
-1. My US flag disintegrated, only stars left, no stripes
+1. Raytheon VHF radio (RAY210) has drowned and effectively doesn't work any more
+1. My US flag has disintegrated, only stars left, no stripes
+
+## Books destroyed
+
+1. Catamarans by Gregor Tarjan
+1. Inland Nav. Rules (already replaced, have to have it on board by law)
+1. The complete book of anchoring and mooring (revised second edition) by HINZ
+1. The sea hunters by Clive Cussler & Craig Dirgo
+1. How to avoid collisions by Michael Cargal
+1. World cruising essentials by Jimmy Cornell
 
 Aside from that, many personal items, 3D printer, clothes, Ryobi power tools, and other things were destroyed by sea water.
 
