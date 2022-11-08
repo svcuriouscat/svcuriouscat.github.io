@@ -2,6 +2,8 @@
 
 [Allied Titanium](https://www.alliedtitanium.com)
 
+[GMT Composites](https://gmtcomposites.com)
+
 [Hillside Composites](https://hillsidecomposites.com)
 
 [Super B](https://www.super-b.com/en)
