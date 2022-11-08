@@ -199,7 +199,8 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 
 ## Links
 
-- [YouTube channel](https://www.youtube.com/channel/UC_tTH5no9lB5gV7Bl_6J2KA/about)
+- [YouTube channel](https://www.youtube.com/@RainAndStorm)
+- [Patreon](https://www.patreon.com/RainAndStorm)
 - [Designs for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
 - [Source code](https://github.com/svcuriouscat)
-- [Email](mailto:svcuriouscat@protonmail.com?subject=o/)
+- [Email](mailto:svcuriouscat@protonmail.com?subject=Ahoy%20Capt%E2%80%99n!)
