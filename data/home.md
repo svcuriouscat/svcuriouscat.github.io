@@ -139,7 +139,7 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - Reflective surface on the boom to increase energy output of solar panels
 - New topside paint by [Alexseal](https://www.alexseal.com)
 - SOLAS Orange paint on the bottom of bridgedeck (Alexseal 2165, International Orange)
-- Glow-in-the-dark coating for non-skid areas
+- Glow-in-the-dark coating for non-skid areas (likely from [Glow Technology](https://glowtechno.com))
 - Six underwater through-hull RGB LED lights, possibly two more on the inner sides of the hulls
 - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
 - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
