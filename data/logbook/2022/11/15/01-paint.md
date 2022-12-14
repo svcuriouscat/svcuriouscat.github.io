@@ -22,8 +22,8 @@ I kinda wanted to go with Alexseal to begin with, so gave them a call.
 Super cool kids, returned my call and taught everything there one needs to know about paint.
 
 First off, they’ve told me to ask GMT what kind of material they will be using to fair the part.
-Then, recommended to make sure to tell GMT to use soap and water (or water and scotchbrite) before fairing,
-to remove any amimes left from epoxy’s curing — otherwise something called “fish eyes” could pop up on the painted surface later.
+Then, recommended to make sure to tell GMT to use soap and water (or water and Scotch-Brite) before fairing,
+to remove any amines left from epoxy’s curing — otherwise something called “fish eyes” could pop up on the painted surface later.
 
 Told me to print out and keep these three documents as a reference while I work on my project:
 

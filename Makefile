@@ -50,6 +50,6 @@ SERVE: $(BUILD_DIR) ## Serve website files directly from filesystem
 	python3 -m http.server --directory $(BUILD_DIR) $(PORT)
 .PHONY: SERVE
 
-tunnel: ## Enter container shell
+tunnel: ## Enter container's shell
 	@$(DOCKER) run -it --rm $(DOCKER_IMAGE_TAG) sh || true
 .PHONY: tunnel

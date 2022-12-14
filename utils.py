@@ -11,6 +11,9 @@ import sass
 def compileSass(scss):
     return sass.compile(string=scss, include_paths=[resolveFsPath(getCwd(), "src", "styles")], output_style='compressed')
 
+def cp(src, dest):
+    return shutil.copyfile(src, dest)
+
 def cpr(src, dest):
     return shutil.copytree(src, dest)
 
