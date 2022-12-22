@@ -26,10 +26,10 @@ name = "Golden Palms Waterfront Resort"
 lat = 26.50841485308682
 long = -82.0821699725167
 date = "2022-mm-dd"
-name = "Hurricane Ian"
+name = "During hurricane Ian"
 
 [[destinations]]
 lat = 26.507169129451587
 long = -82.08206804857691
 date = "2022-mm-dd"
-name = "After Hurricane Ian"
+name = "After hurricane Ian"

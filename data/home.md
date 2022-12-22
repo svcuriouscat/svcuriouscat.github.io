@@ -86,7 +86,6 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 
 - Added 0.68KW photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
 - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
-- Replaced 2000 GPH Rule bilge pumps with 500 GPH [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)
 - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
 <!-- - Replaced Volvo Penta MD22 diesel engine and hydraulics with 20KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/) -->
 - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
@@ -143,11 +142,11 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - Six underwater through-hull RGB LED lights, possibly two more on the inner sides of the hulls
 - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
 - [Schenker® watermaker by tom logisch](https://tomlogisch.com/schenker/)
-- New wind generators: either [Superwind® by tom logisch](https://tomlogisch.com/superwind/), [TESUP](https://www.tesup.us/product-page/atlas40-48v-4kw-wind-turbine-generator-for-homes-battery-energy-amazon-usa), or DIY
+- [Harmony Turbines](https://www.startengine.com/offering/harmony-turbines) wind generators
 - New bean bags
 - New navigation lights by [RSL Fiber Systems](https://www.rslfibersystems.com/) or [Lopolight](https://www.lopolight.com/)
 - Food waste shredder by [Delitek](https://delitek.no/)
-- New rub rails (likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
+- New rub rails (most likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 - Electric headsail furling systems by [Harken](https://www.harken.com/en/home/), [Reckmann](https://www.reckmann.com), [Seldén](https://www.seldenmast.com), [Facnor](https://www.facnor.com), or [Profurl](https://www.profurl.com)
 - [QuenchSea](https://www.quenchsea.world/) seawater desalination device
 
