@@ -84,6 +84,7 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 
 ### Done by yours truly
 
+- Installed new carbon fiber seagull striker by [GMT Composites](https://gmtcomposites.com/)
 - Added 0.68KW photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
 - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
 - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
@@ -162,20 +163,21 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 
 ## Equipment
 
+- [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit
 - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy
-- [Keelcrab](https://www.keelcrab.com) — underwater hull cleaning drone
+- [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone
 - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
-- Washer/dryer (Daewoo DWD-35MCRCR)
+- Washer/dryer combo (Daewoo DWD-35MCRCR)
 - Comms
-    - ~Raytheon RAY210 VHF marine radio~
+    - ~~Raytheon RAY210 VHF marine radio~~
     - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
 - Navigation
     - 2 × backlit compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
 - Safety, emergency & rescue
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
-    - ~[ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)~
-    - ~Flare gun~
+    - ~~[ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)~~
+    - ~~Flare gun~~
     - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
     - 6 × PFDs
     - [Seabung](https://www.seabung.com)
@@ -189,9 +191,9 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
     - Batteries
         - 3 × [Interstate](https://www.interstatebatteries.com) AGM 12V batteries, 62Ah each
     - Photovoltaic system
-        - ~4 × Sunpower 170W flexible solar panels~
+        - 2 × Sunpower 100W flexible solar panels
         - 2 × Victron BlueSolar MPPT 100/30 charge controllers
-- ~3D printer (FDM)~
+- ~~3D printer (FDM)~~
 - 3 × 5 gal sun showers
 - Transom shower by [Whale Pumps](https://www.whalepumps.com/marine/)
 
