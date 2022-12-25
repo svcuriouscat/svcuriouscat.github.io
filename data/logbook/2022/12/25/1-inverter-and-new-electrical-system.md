@@ -37,7 +37,7 @@ As I add more and more panels, the setup will likely require additional charge c
 | 12V jump box                  |     $172.46 |
 | 2 x 100W SunPower solar panel |     $310.00 |
 | Deep cycle 12V marine battery |      $89.80 |
-| Total                         | $(a lot).70 |
+| Total                         | $(a lot).00 |
 
 
 ## References
