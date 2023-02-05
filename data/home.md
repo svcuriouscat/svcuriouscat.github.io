@@ -17,7 +17,7 @@ and try out cutting-edge marine tech.
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
 - **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs)
-- **Hull materials**: vacuum-bagged waffle weave kevlar, foam core, carbon fiber, epoxy
+- **Hull materials**: vacuum-bagged S-glass, kevlar, airex and corecell foams, carbon fiber, epoxy
 - **Propulsion**:
     - Volvo Penta MD22 diesel engine
     - 2 × hydraulic pumps
@@ -84,11 +84,11 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 
 ### Done by yours truly
 
+- Added 230V AC inverter
 - Installed new carbon fiber seagull striker by [GMT Composites](https://gmtcomposites.com/)
-- Added 0.68KW photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
+- Added 400W photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
 - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
-- Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with solar grill by [GoSun](https://gosun.co/products/sport-marine)
-<!-- - Replaced Volvo Penta MD22 diesel engine and hydraulics with 20KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/) -->
+- Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with [solar grill by GoSun](https://gosun.co/products/sport-marine)
 - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
 - Installed new electronics and autopilot by [nke](http://nke-marine-electronics.com)
 - Replaced small incandescent lamps with LEDs throughout the salon
@@ -96,25 +96,25 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - Replaced old Raytheon radar with [B&G Halo20+](https://www.bandg.com/bg/type/radar/halo20bgradar-c73626e8/)
 - Replaced old Raytheon CRT chart plotter with [16" Zeus³S Glass Helm by B&G](https://www.bandg.com/bg/series/zeuss-glass-helm/integrated-display-processor/zeus3s-gh-mfd-16-display-only/)
 - Applied phosphorescent stickers to light switches
-- New US-made 16"x24" US flag by (Allegiance Flag Supply)(https://www.showallegiance.com)
+- Put new US-made 16"x24" US flag by [Allegiance Flag Supply](https://www.showallegiance.com)
+<!-- - Replaced Volvo Penta MD22 diesel engine and hydraulics with 20KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/) -->
 
 ### Will be done in the future
 
 - Grade 5 titanium thru-hull fittings by either [Allied Titanium](https://www.alliedtitanium.com) or [Gemlux](https://gemlux.com)
 - New fenders by [AERÉ](http://aeredockingsolutions.com)
 - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
-- New VHF radio by either [B&G](https://www.bandg.com), [Standard Horizon](https://www.standardhorizon.com), or [Icom](https://www.icomamerica.com)
+- New [Icom](https://www.icomamerica.com) VHF radio
 - [Super B LiFePo4 batteries](https://www.super-b.com/en/lithium-marine-batteries/leisure-marine)
 - Shower boxes
-- Electric toilets
-- 240VAC and 120VAC inverters by [Victron Energy](https://www.victronenergy.com)
+- Kevlar® Honeycomb by [EURO-COMPOSITES](https://www.euro-composites.com/en/)
+- Two new electric toilets by [Saniflo](https://www.saniflo.com)
 - New shiny interior
 - Topside paint by [Alexseal](https://www.alexseal.com)
 - Anti-fouling [MacGlide](https://www.macglide.eu) sticker or [Speedcoat-49](http://www.wearloncorp.com/index.php/product/Wearlon_Speed_Coat-49) paint
 - Electric dinghy (either [ZeroJet](https://www.zerojet.nz), [Aeolos AP10](https://www.aeoloscomposites.com/aeolos-p10-dinghy), or [OCTenders](https://octenders.co.nz))
 - New audio system (possibly by [Naim Audio](https://www.naimaudio.com))
 - FLIR for avoiding shipping containers and other surprises (potentially by [Raymarine](https://www.raymarine.com/flir-thermal-cameras/))
-- Rotating carbon fiber wing mast
 - Composite standing rigging
 - Turnbuckle covers
 - Carbon fiber stanchions
@@ -150,12 +150,13 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - New rub rails (most likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 - Electric headsail furling systems by [Harken](https://www.harken.com/en/home/), [Reckmann](https://www.reckmann.com), [Seldén](https://www.seldenmast.com), [Facnor](https://www.facnor.com), or [Profurl](https://www.profurl.com)
 - [QuenchSea](https://www.quenchsea.world/) seawater desalination device
+- Thermo-acoustic air and water heaters by [EQUIUM](https://www.equium.fr/en/home)
 
 ### Done by previous owners
 
 - Switched to much larger davit system
-- Added large aluminum soft-top bimini
-- Switched nets for trampolines (by [Sunrise Yacht Products](https://multihullnets.com))
+- Added large aluminum T-top
+- Switched nets for trampolines by [Sunrise Yacht Products](https://multihullnets.com)
 - Added lightning guide with grounding plates on starboad side
 - Replaced leaky cabin windows with ten round 20" hatches
 - Added wind turbine on port side (Air X, 400W)
@@ -167,35 +168,42 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy
 - [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone
 - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
-- Washer/dryer combo (Daewoo DWD-35MCRCR)
+- Washer/dryer combo unit (Daewoo DWD-35MCRCR)
 - Comms
     - ~~Raytheon RAY210 VHF marine radio~~
     - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
 - Navigation
     - 2 × backlit compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
+- Lights
+    - Solar port & starboard red & green light
+    - Stern light
 - Safety, emergency & rescue
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
-    - ~~[ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)~~
-    - ~~Flare gun~~
-    - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
     - 6 × PFDs
+    - ~~[ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)~~
+    - [Orion](https://www.orionsignals.com) flare gun
+    - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
     - [Seabung](https://www.seabung.com)
     - [TruPlug by SeaKits](https://www.seakits.com/seakits-truplug/)
 - Fishing
     - 2 × fishing rods
     - 4 × Stainless steel fishing pole holders
-- 2 × Woolen chafe guards by [Osculati](https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black)
+    - 1 × [Cast net (1/4” mesh x 4’ high, 4.8lb)](https://www.amazon.com/gp/product/B08QJGRZNK/)
+- 4 × Woolen chafe guards by [Osculati](https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black)
 - Electric
-    - [Promariner](https://www.promariner.com) ProNautic 1230P 12V battery charger
-    - Batteries
-        - 3 × [Interstate](https://www.interstatebatteries.com) AGM 12V batteries, 62Ah each
+    - Battery charger (120V AC) [ProNautic 1230P 12V](https://www.promariner.com/en/p/63130/ProNautic-1230P)
+    - Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va)
+    - Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx)
+    - Batteries 
+        - 2 × [Interstate](https://www.interstatebatteries.com) 34M-AGM 12V battery (62Ah)
+        - 1 × [Interstate](https://www.interstatebatteries.com) 31M-AGM 12V battery (96Ah)
     - Photovoltaic system
-        - 2 × Sunpower 100W flexible solar panels
-        - 2 × Victron BlueSolar MPPT 100/30 charge controllers
-- ~~3D printer (FDM)~~
+        - 4 × Sunpower 100W flexible solar panels
+        - 2 × [Victron BlueSolar MPPT 100/30 charge controllers](https://www.victronenergy.com/solar-charge-controllers/mppt-100-30)
 - 3 × 5 gal sun showers
 - Transom shower by [Whale Pumps](https://www.whalepumps.com/marine/)
+<!-- - ~~3D printer (FDM)~~ -->
 
 
 ## Links
