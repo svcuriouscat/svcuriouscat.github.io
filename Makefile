@@ -2,9 +2,15 @@
 
 # Makefile for website generator
 
+ifeq ($(OS),Windows_NT)
+    CWD ?= "$(shell echo %CD%)"
+    DOCKER ?= docker
+else
+    CWD ?= "$(shell pwd)"
+    DOCKER ?= $(if $(shell docker -v 2>/dev/null),docker,podman)
+endif
 BUILD_DIR ?= docs
 CONFIG_FILE ?= config.ini
-DOCKER ?= $(if $(shell docker -v 2> /dev/null),docker,podman)
 DOCKER_IMAGE_TAG ?= svcuriouscat/website-generator
 PORT ?= 8100
 
@@ -42,14 +48,10 @@ $(BUILD_DIR): ## Create empty build directory
 	@mkdir -p $(BUILD_DIR)
 
 serve: $(BUILD_DIR) ## Serve website files using container
-	@$(DOCKER) run -it -v "`pwd`"/$(BUILD_DIR):/src/website-generator/$(BUILD_DIR) --rm -p $(PORT):$(PORT) $(DOCKER_IMAGE_TAG)
+	@$(DOCKER) run -it -v $(CWD)/$(BUILD_DIR):/src/website-generator/$(BUILD_DIR) --rm -p $(PORT):$(PORT) $(DOCKER_IMAGE_TAG)
 .PHONY: serve
 
 SERVE: $(BUILD_DIR) ## Serve website files directly from filesystem
 	echo "Starting local server for contents of $(BUILD_DIR) ..." && \
 	python3 -m http.server --directory $(BUILD_DIR) $(PORT)
 .PHONY: SERVE
-
-tunnel: ## Enter container's shell
-	@$(DOCKER) run -it --rm $(DOCKER_IMAGE_TAG) sh || true
-.PHONY: tunnel

@@ -1,5 +1,5 @@
-libsass==0.21.0
+libsass==0.22.0
 markdown==3.4.1
-pillow==9.3.0
+pillow==9.4.0
 pystache==0.6.0
-simple-http-server==0.18.3
+simple-http-server==0.19.4
