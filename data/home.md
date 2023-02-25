@@ -164,12 +164,14 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 
 ## Equipment
 
-- [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit
 - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy
 - [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone
-- Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
 - Washer/dryer combo unit (Daewoo DWD-35MCRCR)
+- Food preparation
+    - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
+    - Portable coffee maker by Makita
 - Comms
+    - [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit
     - ~~Raytheon RAY210 VHF marine radio~~
     - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
 - Navigation
@@ -204,6 +206,7 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 - 3 × 5 gal sun showers
 - Transom shower by [Whale Pumps](https://www.whalepumps.com/marine/)
 <!-- - ~~3D printer (FDM)~~ -->
+<!-- Moccamaster coffee machine, home style burr grinder -->
 
 
 ## Links

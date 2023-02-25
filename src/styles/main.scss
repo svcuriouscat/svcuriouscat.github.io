@@ -1,6 +1,8 @@
 @import 'variables';
 
 html {
+    background-color: $color-bg;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -396,6 +398,10 @@ table {
 
 // Dark mode
 @media (prefers-color-scheme: dark) {
+
+    html {
+        background-color: $color-bg-dark;
+    }
 
     nav {
         a {
