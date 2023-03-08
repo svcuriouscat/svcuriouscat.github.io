@@ -37,6 +37,7 @@ h3 {
 }
 
 ul {
+    line-height: 1.4;
     padding-left: $spacing * 1.45;
 }
 
@@ -52,7 +53,7 @@ blockquote {
 
 nav {
     font-size: 0.9rem;
-    margin: $spacing;
+    margin: $spacing/3 $spacing/3 0 $spacing/3;
     position: relative;
     text-transform: uppercase;
     z-index: 2;
@@ -64,7 +65,8 @@ nav {
         color: $color-bg;
         float: right;
         font-weight: 500;
-        padding: .5rem 0.333rem;
+        margin-bottom: $spacing/3;
+        padding: $spacing/2;
         text-decoration: none;
 
         &:not(:first-child):not(:last-child) {
@@ -336,7 +338,7 @@ table {
 
     nav {
         font-size: 0.7rem;
-        margin: $spacing-small;
+        margin: $spacing-small $spacing-small 0 $spacing-small;
 
         a {
             &:not(:first-child):not(:last-child) {

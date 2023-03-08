@@ -204,6 +204,7 @@ def stage(data):
             os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets"),
             os.path.join(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], data["config"]["Site"]["CaptainsLogPath"], "assets")
         )
+
     ## Add latest logbook page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
         data["sitemap"].append("/" + data["config"]["Site"]["CaptainsLogPath"] + "/")

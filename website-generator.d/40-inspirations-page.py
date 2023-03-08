@@ -29,6 +29,7 @@ def stage(data):
         utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "inspirations"),
         utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", data["config"]["Site"]["InspirationsPath"])
     )
+
     ## Add inspiration page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
         data["sitemap"].append("/" + data["config"]["Site"]["InspirationsPath"] + "/")

@@ -34,6 +34,7 @@ def generateNavigation():
     links.append(getWebPageLink("/captains-log/", "Captain’s log"))
     links.append(getWebPageLink("/inspirations/", "Inspirations"))
     links.append(getWebPageLink("/gallery/", "Gallery"))
+    links.append(getWebPageLink("/systems/", "Systems"))
     return links
 
 def getCwd():

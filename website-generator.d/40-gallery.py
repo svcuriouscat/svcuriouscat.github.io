@@ -72,6 +72,7 @@ def stage(data):
     )
     htmlFile.write(html)
     htmlFile.close()
+
     ## Add home page link to sitemap
     if data["config"].getboolean("Site", "CreateSitemap", fallback=False):
         data["sitemap"].append("/gallery/")
