@@ -20,9 +20,9 @@
 
 ## Steering
 - **Helms**:
-    - 2 × stainless steel helms by [Edson Marine](https://edsonmarine.com) with two detachable wheel breaks
+    - 2 × 30" stainless steel helms by [Edson Marine](https://edsonmarine.com) with two detachable wheel breaks
 - **Mechanism**:
-    - Stainless steel cable and roller chain
+    - Stainless steel cable and ANSI 50 roller chain (304 SS)
 - **Rudders**:
     - 2 × Carbon fiber rudders with round poles
         - 2 × Composite quandrants
@@ -65,10 +65,12 @@
 - **Compasses**:
     - 2 × backlit binnacle-mount compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
-- B&G 20" Radar
-- B&G Glass Helm
+- B&G Halo20+ radome
+- 16" Zeus³S Glass Helm by B&G
 - **Autopilot**:
     - nke Gyropilot 3
+- **AIS**:
+    - B&G NAIS-500 class B AIS transceiver
 
 
 ---
