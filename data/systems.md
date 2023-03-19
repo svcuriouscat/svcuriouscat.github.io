@@ -34,16 +34,16 @@
 ## Rigging
 - **Standing**:
     - 62' (18.9m) fixed aluminum mast
-        - 2 × spreaders
+        - 2 × aluminum spreaders
         - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
         - 18' 4" (5.6m) aluminum boom
-        - Fully battened mainsail
     - **Furling systems**
         - Profurl NCI-42 furler (forestay)
         - Profurl N31/N41 furler (inner forestay)
-    - 2 × forestays (stainless steel)
+    - 2 × forestays (stainless steel cables)
         - 2 × stainless steel martingales
-        - carbon fiber seagull striker by GMT Composites
+        - Carbon fiber seagull striker by GMT Composites
+            - Stainless steel martingale
     - 4 × stainless steel backstays
 - **Running**:
     - **Lines**:
@@ -56,7 +56,10 @@
         - 2 × Lewmar Size 2 (5' long, cabin)
         - 2 × Lewmar Size 2 (drilled, 4-1/4' long, cockpit)
         - 1 × Lewmar Size 3 (16-1/3' long, beam, mainsheet traveler)
-
+            - Lewmar Size 3 ocean mainsheet car
+- **Sails**:
+    - Fully battened mainsail
+        - 9 × fiberglass battens
 
 ---
 
