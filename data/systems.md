@@ -5,73 +5,102 @@
 
 
 ## Propulsion
+
 - **Motors**:
-    - 2 × 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/)
+    - 2 × 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+        - 2 × internal closed loop active cooling system
+            - 2 × radiators
+            - 4 × 12VDS fans
+            - 2 × coolant pumps
+            - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
+        - 2 × 48V BLDC motor controllers
+        - 2 × LCD displays 🇵🇱
+        - 2 × key switches 🇵🇱
+        - Aluminum dual-joystick controller 🇵🇱
+        - 4 × stainless steel brackets 🇵🇱
+        - 8 × [Marine X engine mounts](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
+        - 4 × [stainless steel rails](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
 - **Propellers**:
     - 2 × 3-blade feathering bronze propellers
         - 2 × 30mm stainless steel shafts
-<!-- - Volvo Penta MD22 diesel engine -->
-<!-- - 2 × hydraulic pumps -->
-<!-- - 2 × hydraulic motors -->
 
 
 ---
 
 
 ## Steering
+
 - **Helms**:
     - 2 × 30" stainless steel helms by [Edson Marine](https://edsonmarine.com) with two detachable wheel breaks
 - **Mechanism**:
     - Stainless steel cable and ANSI 50 roller chain (304 SS)
 - **Rudders**:
     - 2 × Carbon fiber rudders with round poles
-        - 2 × Composite quandrants
+        - 2 × Composite quandrants (foam core, S-glass, 40cm diameter, 2.25cm thick)
 
 
 ---
 
 
 ## Rigging
+
 - **Standing**:
-    - 62' (18.9m) fixed aluminum mast
+    - 62' fixed aluminum mast
         - 2 × aluminum spreaders
         - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
-        - 18' 4" (5.6m) aluminum boom
+        - 18-1/3' aluminum boom
+            - 2 × 5" plastic cleats
+            - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) for cushioning
+        - 3 × stainless steel winch and lock plates
+            - 28 × (1/4"-20 × 3/8") [button-head socket titanium grade 5 screws](https://www.ti64.com/product-p/5442.htm)
     - **Furling systems**
         - Profurl NCI-42 furler (forestay)
         - Profurl N31/N41 furler (inner forestay)
     - 2 × forestays (stainless steel cables)
         - 2 × stainless steel martingales
-        - Carbon fiber seagull striker by GMT Composites
+        - Composite seagull striker by GMT Composites (prepreg Carbon fiber, G-10)
             - Stainless steel martingale
+            - 2 × https://www.ti64.com/product-p/6315.htm
+            - 2 × https://www.ti64.com/product-p/1033.htm
     - 4 × stainless steel backstays
 - **Running**:
+    - **Winches**:
+        - 2 × Lewmar 50 self-tailing (cockpit) 🇬🇧
+        - 3 × Lewmar 44 self-tailing (cockpit) 🇬🇧
+        - 2 × Lewmar 40 self-tailing (mast) 🇬🇧
+    - **Tracks**:
+        - 2 × Lewmar Size 2 sliding bolt track (5' long, on top of the cabin) 🇬🇧
+        - 2 × Lewmar Size 2 sliding bolt track (drilled, 4-1/4' long, cockpit) 🇬🇧
+        - 1 × Lewmar Size 3 (16-1/3' long, beam) 🇬🇧
+            - Lewmar Size 3 ocean mainsheet car 🇬🇧
+    - **Locks**:
+        - ...
     - **Lines**:
         - ...
-    - **Winches**:
-        - 2 × Lewmar 50 self-tailing
-        - 3 × Lewmar 44 self-tailing
-        - 2 × Lewmar 40 self-tailing (mast)
-    - **Tracks**:
-        - 2 × Lewmar Size 2 (5' long, cabin)
-        - 2 × Lewmar Size 2 (drilled, 4-1/4' long, cockpit)
-        - 1 × Lewmar Size 3 (16-1/3' long, beam, mainsheet traveler)
-            - Lewmar Size 3 ocean mainsheet car
 - **Sails**:
     - Fully battened mainsail
-        - 9 × fiberglass battens
+        - **Battens**:
+            - Fiberglass, 508, 2.5, 40,  8, 2200
+            - Fiberglass, 477, 3.0, 40,  9, 2100
+            - Fiberglass, 441, 3.5, 40, 10, 1850
+            - Fiberglass, 396, 4.0, 40, 12, 1700
+            - Fiberglass, 332, 4.0, 40, 12, 1200
+            - Fiberglass, 227, 5.0, 40, 15, 650
+            - Fiberglass, 137, 6.0, 40, 16, 350
+
 
 ---
 
 
 ## Navigation
+
 - **Compasses**:
     - 2 × backlit binnacle-mount compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
 - B&G Halo20+ radome
 - 16" Zeus³S Glass Helm by B&G
 - **Autopilot**:
-    - nke Gyropilot 3
+    - [nke](https://nke-marine-electronics.com/) Gyropilot 3 🇫🇷
 - **AIS**:
     - B&G NAIS-500 class B AIS transceiver
 
@@ -80,41 +109,44 @@
 
 
 ## Safety
+
 - **Flotation devices**:
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
     - 6 × PFDs
 - **Signals**:
-    - [ACR](https://www.acrartex.com) [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/)
+    - [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/) by [ACR](https://www.acrartex.com)
+        - [Alkaline C batteries](https://www.amazon.com/dp/B09KD6YD8C) 🇩🇪
     - [Orion](https://www.orionsignals.com) flare gun
-    - Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
+        - 4 × cartidges
+    - 4 × Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
+    - Small stainless steel signaling mirror
+    - Orange daytime signal piece of square fabric by ACR
 - **Emergency repair**:
-    - [Seabung](https://www.seabung.com)
+    - [Seabung](https://www.seabung.com) 🇬🇧
     - [TruPlug by SeaKits](https://www.seakits.com/seakits-truplug/)
 - **Rescue**:
     - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
-
-
----
-
-
-## Transportation
-- **Tender**:
-    - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy
+- **Stanchions**:
+    - 10 × Vetus stainless steel stanchions [(75cm long, 2.5cm diameter)](http://www.vetusmarine.com/store/p/1022-Stanchion-750mm.aspx)
+        - 4 × Stainless steel lifeline wire, vinyl coated (white)
+<!-- https://starlightitalia.com/site/yachts/ -->
 
 
 ---
 
 
 ## Docking
+
 - **Cleats**:
     - 6 × 10" aluminum deck cleats
     - 2 × 6" aluminum stern cleats
-    - 2 × 5" plastic boom cleats
     - 2 × aluminum bow chocks
 - **Fenders**:
-    - 6 × 8" inflatable fenders
+    - 4 × 8" inflatable fenders by Taylor Made
+        - 4 × [braided nylon fender line](https://www.amazon.com/dp/B07HWDQJ51)
+    - 2 × DIY wooden fender planks
 - **Docking lines**:
-    - 4 × nylon docking lines
+    - 4 × Nylon docking lines
         - 4 × Woolen chafe guards by [Osculati](https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black)
 
 
@@ -122,8 +154,9 @@
 
 
 ## Comms
+
 - **Internet**:
-    - [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit
+    - [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit 🇺🇸
 - **Radio**:
     - ...
 <!-- - ~~Raytheon RAY210 VHF marine radio~~ -->
@@ -132,55 +165,61 @@
 ---
 
 
-## Maintenance
-- [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone
+## Electric
 
-
----
-
-
-## Power
-- Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va)
-- Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx)
+- Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va) 🇳🇱
+- Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱
 - **Batteries**: 
-    - 2 × [Interstate](https://www.interstatebatteries.com) 34M-AGM 12V battery (62Ah)
-    - 1 × [Interstate](https://www.interstatebatteries.com) 31M-AGM 12V battery (96Ah)
-- **Sources**:
-    - **Photovoltaic**:
-        - 6 × Sunpower 100W flexible solar panels
-            - 2 × [BlueSolar 100/30](https://www.victronenergy.com/solar-charge-controllers/mppt-100-30) MPPT charge controllers by Victron
-    - **Shore**:
-        - Battery charger (120V AC) [ProNautic 1230P 12V](https://www.promariner.com/en/p/63130/ProNautic-1230P)
+    - 2 × 12V 200Ah LiFePo4 by [Epoch](https://www.interstatebatteries.com)
+- **Photovoltaic**:
+    - 6 × Sunpower 100W flexible solar panels (600W total)
+        - 2 × [Victron BlueSolar 100/30](https://www.victronenergy.com/solar-charge-controllers/mppt-100-30) MPPT charge controllers
+            - 2 × BUSS(r) MRCB 30A 48V circuit breakers (Mexico)
+            - 1 × [Bluetooth adapter](https://www.victronenergy.com/accessories/ve-direct-bluetooth-smart-dongle) for flashing firmware and changing settings
+<!-- - **AC Input**: -->
+<!--     - Battery charger (120V AC) [ProNautic 1230P 12V](https://www.promariner.com/en/p/63130/ProNautic-1230P) -->
+<!-- - Victron [Multi RS Solar](https://www.victronenergy.com/inverter-charger-mppt/multi-rs-solar) inverter/charger/MPPT combo unit 🇳🇱 -->
 
 
 ---
 
 
-## Water
-- Flexible fresh water tank
-- Fresh water pump
+## Fresh Water
+
+- Flexible fresh water tank (midship, under cockpit)
+- 2.9GPM 12V [fresh water pump by Jabsco](https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html) 🇨🇳
+- Cold (blue) and hot (red) PVC lines (15mm outer diameter)
+- Plastic funnel (13cm in, 1.5cm out)
+- Apera Series EC60 water quality measurement device
+- **Water makers**:
+    - [Schenker Zen 30 12V](https://schenkerwatermakers.com/products/zen/)
+    - [QuenchSea](https://www.quenchsea.world/) emergency seawater desalination device
 - **Showers**:
     - 4 × RV style showers
-    - 3 × sun showers (5 gal each)
     - Transom shower by [Whale Pumps](https://www.whalepumps.com/marine/)
+    - 3 × sun showers (5 gal each)
+- **Containers**:
+   - 4 × 6-1/2 gal. water jerry cans
 
 
 ---
 
 
-## Lights
+## Navigation Lights
+
 - **Running**:
-    - Port & starboard red & green light (solar powered, temporary)
-    - Stern light
+    - Port & starboard red & green light (LED, solar powered, detachable)
+    - Stern light (12V, LED)
 
 
 ---
 
 
 ## Anchoring
+
 - Simpson-Lawrence Sprint 1500 12V windlass
     - RC162 gypsy
-    - 3/8" BBB, 42' long anchor chain
+    - 3/8" BBB, 42' long galvanized steel chain
     - Galvanized steel delta anchor
 - Galvanized steel bruce anchor
 
@@ -189,42 +228,130 @@
 
 
 ## Openings
+
 - **Portlights**:
-    - 6 × Lewmar Atlantic Size 32
+    - 6 × Lewmar Atlantic Size 32 🇬🇧
 - **Hatches**:
-    - 8 × Lewmar Size 30
-    - 2 × Lewmar Size 44 (escape)
-    - 1 × Lewmar Size 50 (cabin)
-- Sliding transparent door
+    - 8 × Lewmar Size 30 (deck) 🇬🇧
+    - 2 × Lewmar Size 44 (escape) 🇬🇧
+    - 1 × Lewmar Size 50 (cabin) 🇬🇧
+- **Inspection hatches**:
+    - 2 × [Ø 125mm by Nuova Rade](https://www.nuovarade.com/product.php?productId=5752&categoryId=219) (crash boxes) 🇮🇹
+- Sliding transparent cabin door 🇨🇦
+
+
+---
+
+
+## Paint
+
+- **Topdeck**:
+    - AwlGrip (sky blue)
+**Interior**:
+    - none (bare fiberglass)
+
+<!--
+    - [ALEXSEAL® Premium Topcoat 501](https://www.alexseal.com/products/premium-exterior-topcoats/premium-topcoat-501)
+        - T.... Plain White (secret color, bare titanium dioxide)
+        - … C5012
+        - … A5018 (1% by volume of T+C)
+        - ✅ R5015 (33% by volume of T+C+A)
+        - procedure: [mix T & C, add A, wait 20 minutes, then add R]
+        - target surface: sanded with 320 grit (soft pad backing)
+    - [ALEXSEAL® Finish Primer 442](https://www.alexseal.com/products/finish-primers/finish-primer-442) finish primer (epoxy-based)
+        - ✅ P4420
+        - ✅ C4427
+        - ✅ R5015 (12.5% by volume of P+C)
+        - target surface: sanded with 150 grit
+    - [ALEXSEAL® Super Build 302](https://www.alexseal.com/products/high-build-surfacers/super-build-302) high build primer (epoxy-based)
+        - ✅ P3002
+        - ✅ C3052
+        - ✅ R3040 (10%–12.5% by volume of P+C)
+        - target surface: sanded with 80 grit
+    - [ALEXSEAL® Fairing Compound 202](https://www.alexseal.com/products/fairing-compounds/fairing-compound-202) base (epoxy-based)
+        - ✅ P2094 (not P2083)
+        - ✅ C2075 (not C2028 — what is "LV"?)
+        - target surface: ?? grit
+**Interior**:
+    - [ALEXSEAL® Interior Topcoat 578](https://www.alexseal.com/products/premium-interior-coatings/interior-topcoat-578) 
+        - N....
+        - C6402
+        - R6068
+        - target surface: ?? grit
+**Bilges and storage compartments**:
+    - [TotalBilge Epoxy Bilge Paint](https://www.totalboat.com/products/totalbilge-epoxy-bilge-paint?variant=43757099221216) by TotalBoat
+-->
 
 
 ---
 
 
 ## Laundry
-- Daewoo DWD-35MCRCR 230VAC Washer/dryer combo unit
+
+- Daewoo DWD-35MCRCR 230VAC Washer/dryer combo unit 🇰🇷
+    - [Eco-friendly laundry detergent](https://www.amazon.com/gp/product/B06WCZRHQR/) 🇺🇸
+
+
+---
+
+
+## Food Preparation
+
+- Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
+    - Cover made out of GoSun Sport carry case
+- [Portable coffee maker](https://www.makitatools.com/products/details/DCM501Z) by Makita 🇯🇵
+- Mini Electric Oven Toaster (800W, 220V)
+- Magic bullet 110V blender
+<!-- Moccamaster coffee machine, home style burr grinder -->
+
+
+---
+
+
+## Maintenance
+
+- [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone 🇮🇹
+- Ryobi wet/dry [portable vacuum cleaner](https://www.ryobitools.com/products/details/33287201877) 🇨🇳
+- Ryobi cordless [power cleaner](https://www.ryobitools.com/products/details/46396036766) 🇨🇳
+
+
+---
+
+
+## Transportation
+
+- **Tender**:
+    - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy 🇫🇷 purchased through [Defender](https://defender.com)
+        - [ThrustMe Kicker](https://www.thrustme.no/eu/kicker-eu) electric outboard motor 🇳🇴 purchased through [eWatersportz](https://ewatersportz.com/)
 
 
 ---
 
 
 ## Fishing
-- 4 × fishing rods
-    - 4 × Stainless steel fishing pole holders
+
+- 4 × Fishing rods
+- 4 × Stainless steel fishing pole holders
 - 1 × [Cast net (1/4” mesh × 4’ high, 4.8lb)](https://www.amazon.com/gp/product/B08QJGRZNK/)
-- Tackle (lures, hooks, line, etc)
+- 1 × Bait container
+- 1 × Crawfish trap
+    - [Tritium light](https://countycomm.com/products/tritium-ember-glow-fob)
 - Aluminum landing net
+- Tackle (various lures, hooks, line, etc)
 
 
 ---
 
 
-## Food preparation
-- Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
-    - Cover made out of GoSun Sport carry case
-- [Portable coffee maker](https://www.makitatools.com/products/details/DCM501Z) by Makita
-<!-- Moccamaster coffee machine, home style burr grinder -->
+## Workshop
 
+- [FDM 3D printer](https://us.store.bambulab.com/products/p1p) 🇨🇳
+- [Laser 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇦
+- [CNC machine](https://sienci.com/product/longmill-mk2/) (48x30) 🇨🇦
+    - [7W laser beam](https://sienci.com/product/laser/)
+    - [1000W air-cooled router](https://ooznest.co.uk/product/mafell-fm-1000-milling-motor/) 🇩🇪
+        - **End mills**:
+            - [HSS1611-M](https://www.amanatool.com/hss1611-m-high-speed-steel-hss-foam-cutting-straight-v-flute-6mm-dia-x-25mm-x-6mm-shank-router-bit.html) purchased via toolstoday.com
+            - [48442-K](https://www.amanatool.com/48442-k-solid-carbide-cnc-spektratm-extreme-tool-life-coated-foam-cutting-up-cut-square-end-spiral-3mm-dia-x-28mm-x-6mm-shank-x-64mm-long-router-bit.html) purchased via toolstoday.com
 
-----
-
+---

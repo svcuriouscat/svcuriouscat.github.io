@@ -78,7 +78,7 @@ nav {
             float: left;
         }
 
-        &:visited,
+//        &:visited,
         &:hover {
             background-color: $color-fg;
             color: $color-bg;
@@ -147,10 +147,10 @@ table {
         text-decoration: none;
         white-space: nowrap;
 
-        &:visited {
-            background-color: $color-bg;
-            color: $color-fg;
-        }
+//        &:visited {
+//            background-color: $color-bg;
+//            color: $color-fg;
+//        }
 
         &:hover {
             background-color: rgba($color-fg, 0.25);
@@ -240,9 +240,9 @@ table {
                         opacity: .85;
                     }
 
-                    &:visited {
-                        color: inherit;
-                    }
+//                    &:visited {
+//                        color: inherit;
+//                    }
                 }
             }
         }
@@ -403,7 +403,7 @@ table {
             border-color: $color-fg-dark;
             color: $color-bg-dark;
 
-            &:visited,
+//            &:visited,
             &:hover {
                 background-color: $color-fg-dark;
                 color: $color-bg-dark;
@@ -417,10 +417,10 @@ table {
             border-color: $color-fg-dark;
             color: $color-bg-dark;
 
-            &:visited {
-                background-color: $color-bg-dark;
-                color: $color-fg-dark;
-            }
+//            &:visited {
+//                background-color: $color-bg-dark;
+//                color: $color-fg-dark;
+//            }
 
             &:hover {
                 background-color: rgba($color-fg-dark, 0.25);
