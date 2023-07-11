@@ -1,27 +1,26 @@
 # S/V Curious Cat
 
-Curious Cat is an electric sailing catamaran
-set to travel around the world while logging her excellent adventures.
+Curious Cat is a solar-electric sailing catamaran set to travel around the world while logging her excellent adventures.
 
 Main goals of the project:
 
-- promote use of titanium
-- prove that having a 3D printer aboard is extremely useful
 - try out cutting-edge marine tech
+- promote use of titanium
+- be solely electric and self-sustainable
 - open-source the vessel
 
 
 ## Specifications
 
-- **LOA**: 44' (13.40m)
-- **Beam**: 28' (8.60m)
-- **Draft**: 3.5' (1.07m)
+- **LOA**: 44' (13.4m)
+- **Beam**: 28' (8.6m)
+- **Draft**: 3.5' (1.1m)
 - **Hull type**: fixed mini-keels
 - **Launched**: July 5th 1998
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
 - **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs), Novara 44 molds
-- **Hull materials**: epoxy, foam, vacuum-bagged S-glass/carbon fiber/Kevlar
+- **Hull materials**: epoxy, foam, vacuum-bagged S-glass/CF/Kevlar
 
 
 ## Vessel’s origin
@@ -38,22 +37,23 @@ She is a very spacious yet fast composite performance cruising catamaran.
 It’s a shame a boat like this one wasn’t used at all in over two decades, she’s got a lot of life left in her and deserves much more than just sitting dead in the water.
 But new adventures await her now, let’s see where the wind and current take her!
 
-In October of 2022 Curious Cat was damaged after being next to the eye of the storm of hurricane Ian.
+In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 
 ## Changelog
 
 ### Done by yours truly
 
-- Replaced old and non-functioning 120VAC watermaker with 12V by Schenker®
-- Switched main battery system from AGM to LiFePo4
+- Switched all pumps to use [solid-state switches](https://www.spxflow.com/johnson-pump-marine/products/bilge-pump-switches/)
+- Replaced old and non-functioning 120VAC watermaker with [12V by Schenker®](https://schenkerwatermakers.com/products/zen/)
+- Switched main battery system from AGM to LiFePo4 ([Epoch Batteries](https://www.epochbatteries.com))
 - Added 230VAC 1.2KW AC inverter
 - Installed new aerodynamic carbon fiber seagull striker by [GMT Composites](https://gmtcomposites.com/)
 - Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
 - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
 - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with [solar grill by GoSun](https://gosun.co/products/sport-marine)
 - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
-- Installed new electronics and autopilot by [nke](http://nke-marine-electronics.com)
+- Replaced old Raytheon/Raymarine electronics and autopilot with [nke](http://nke-marine-electronics.com)
 - Replaced small incandescent lamps with LEDs throughout the salon
 - Added [NAIS-500 class B AIS transceiver by B&G](https://www.bandg.com/bg/type/vhf-ais/nais-500--nspl-500--gps-500--n2k/)
 - Replaced old Raytheon radar with [B&G Halo20+](https://www.bandg.com/bg/type/radar/halo20bgradar-c73626e8/)
@@ -125,6 +125,7 @@ In October of 2022 Curious Cat was damaged after being next to the eye of the st
 ## Links
 
 - [YouTube channel](https://www.youtube.com/@RainAndStorm)
+- [Instagram](https://www.instagram.com/svcuriouscat/)
 - [Patreon](https://www.patreon.com/RainAndStorm)
 - [Designs for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
 - [Source code](https://github.com/svcuriouscat)

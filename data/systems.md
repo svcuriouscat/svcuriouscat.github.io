@@ -6,23 +6,43 @@
 
 ## Propulsion
 
-- **Motors**:
-    - 2 × 10KW IP67 BLDC electric motors by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
-        - 2 × internal closed loop active cooling system
-            - 2 × radiators
-            - 4 × 12VDS fans
-            - 2 × coolant pumps
+- Aluminum dual-joystick controller by E-Tech 🇵🇱
+- 2 x LCD display by E-Tech 🇵🇱
+- 2 x Key switch by E-Tech 🇵🇱
+- **Port**:
+    - 10KW IP67 BLDC electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+        - internal closed-loop active cooling system
+            - aluminum radiator
+                - 2 × 12V fans
+                - coolant pump
             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-        - 2 × 48V BLDC motor controllers
-        - 2 × LCD displays 🇵🇱
-        - 2 × key switches 🇵🇱
-        - Aluminum dual-joystick controller 🇵🇱
-        - 4 × stainless steel brackets 🇵🇱
-        - 8 × [Marine X engine mounts](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
-        - 4 × [stainless steel rails](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
-- **Propellers**:
-    - 2 × 3-blade feathering bronze propellers
-        - 2 × 30mm stainless steel shafts
+        - 48V BLDC motor controller
+            - **fuses**:
+                - CNL 300A
+                - 2 × 3.15A 250V
+                - 315mA 250V
+        - 2 × stainless steel brackets by E-Tech 🇵🇱
+        - 4 × [Marine X engine mounts](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
+        - 2 × [stainless steel rails](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
+    - 3-blade feathering bronze propeller
+            - 1-1/8" stainless steel shaft
+- **Starboard**:
+    - 10KW IP67 BLDC electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+        - internal closed-loop active cooling system
+            - aluminum radiator
+            - 2 × 12V fans
+            - coolant pump
+            - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
+        - 48V BLDC motor controller
+            - **fuses**:
+                - CNL 300A
+                - 2 × 3.15A 250V
+                - 315mA 250V
+        - 2 × stainless steel brackets by E-Tech 🇵🇱
+        - 4 × [Marine X engine mounts](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
+        - 2 × [stainless steel rails](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
+    - 3-blade feathering bronze propeller
+        - 1-1/8" stainless steel shaft
 
 
 ---
@@ -31,7 +51,7 @@
 ## Steering
 
 - **Helms**:
-    - 2 × 30" stainless steel helms by [Edson Marine](https://edsonmarine.com) with two detachable wheel breaks
+    - 2 × 30" stainless steel helms by [Edson Marine](https://edsonmarine.com) with detachable wheel break
 - **Mechanism**:
     - Stainless steel cable and ANSI 50 roller chain (304 SS)
 - **Rudders**:
@@ -78,7 +98,7 @@
     - **Lines**:
         - ...
 - **Sails**:
-    - Fully battened mainsail
+    - Fully battened mainsail by [North Sails](https://www.northsails.com)
         - **Battens**:
             - Fiberglass, 508, 2.5, 40,  8, 2200
             - Fiberglass, 477, 3.0, 40,  9, 2100
@@ -158,7 +178,7 @@
 - **Internet**:
     - [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit 🇺🇸
 - **Radio**:
-    - ...
+    - [Icom M510 VHF](https://www.icomamerica.com/en/products/marine/mountedvhf/m510/default.aspx) 🇯🇵
 <!-- - ~~Raytheon RAY210 VHF marine radio~~ -->
 
 
@@ -167,15 +187,24 @@
 
 ## Electric
 
-- Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va) 🇳🇱
 - Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱
-- **Batteries**: 
-    - 2 × 12V 200Ah LiFePo4 by [Epoch](https://www.interstatebatteries.com)
+- **3 completely separate circuits**: 
+    - **12V bank**:
+        - 2 × LiFePo4 [12V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah)
+        - Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va) 🇳🇱
+    - **48V bank (port)**:
+        - ...
+        - MEGA-Fuse holder by victron
+    - **48V bank (starboard)**:
+        - 2 × LiFePo4 [48V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/lithium-trolling-motor-battery-48v-100ah)
+        - MPPT / charge controller / inverter (230V AC) [Victron Multi RS Solar 48/6000](https://www.victronenergy.com/inverters-chargers/multi-rs-solar) 🇳🇱 purchased through [energysystemspr](https://www.ebay.com/usr/energysystemspr)
+        - 200A 58V fuse by Victron
+        - MEGA-Fuse holder by victron
 - **Photovoltaic**:
     - 6 × Sunpower 100W flexible solar panels (600W total)
-        - 2 × [Victron BlueSolar 100/30](https://www.victronenergy.com/solar-charge-controllers/mppt-100-30) MPPT charge controllers
+        - 2 × [Victron BlueSolar 100/30](https://www.victronenergy.com/solar-charge-controllers/mppt-100-30) MPPT charge controllers 🇳🇱
             - 2 × BUSS(r) MRCB 30A 48V circuit breakers (Mexico)
-            - 1 × [Bluetooth adapter](https://www.victronenergy.com/accessories/ve-direct-bluetooth-smart-dongle) for flashing firmware and changing settings
+            - 1 × [Bluetooth adapter](https://www.victronenergy.com/accessories/ve-direct-bluetooth-smart-dongle) for flashing firmware and changing settings 🇳🇱
 <!-- - **AC Input**: -->
 <!--     - Battery charger (120V AC) [ProNautic 1230P 12V](https://www.promariner.com/en/p/63130/ProNautic-1230P) -->
 <!-- - Victron [Multi RS Solar](https://www.victronenergy.com/inverter-charger-mppt/multi-rs-solar) inverter/charger/MPPT combo unit 🇳🇱 -->
@@ -189,7 +218,7 @@
 - Flexible fresh water tank (midship, under cockpit)
 - 2.9GPM 12V [fresh water pump by Jabsco](https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html) 🇨🇳
 - Cold (blue) and hot (red) PVC lines (15mm outer diameter)
-- Plastic funnel (13cm in, 1.5cm out)
+- 2 × Pre-Pressurized Accumulator Tank by SHURflo
 - Apera Series EC60 water quality measurement device
 - **Water makers**:
     - [Schenker Zen 30 12V](https://schenkerwatermakers.com/products/zen/)
@@ -200,6 +229,16 @@
     - 3 × sun showers (5 gal each)
 - **Containers**:
    - 4 × 6-1/2 gal. water jerry cans
+
+
+---
+
+
+## Waste
+
+- 4 × Shurflo 3200-000 12V macerator pump
+- 4 × Electric toilets
+- 4 × Black water tanks
 
 
 ---
@@ -222,6 +261,16 @@
     - 3/8" BBB, 42' long galvanized steel chain
     - Galvanized steel delta anchor
 - Galvanized steel bruce anchor
+
+
+---
+
+
+## Transportation
+
+- **Tender**:
+    - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy 🇫🇷 purchased through [Defender](https://defender.com)
+        - [ThrustMe Kicker](https://www.thrustme.no/eu/kicker-eu) electric outboard motor 🇳🇴 purchased through [eWatersportz](https://ewatersportz.com/)
 
 
 ---
@@ -299,30 +348,10 @@
 
 - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
     - Cover made out of GoSun Sport carry case
-- [Portable coffee maker](https://www.makitatools.com/products/details/DCM501Z) by Makita 🇯🇵
+- Portable [Makita coffee maker](https://www.makitatools.com/products/details/DCM501Z) 🇯🇵
 - Mini Electric Oven Toaster (800W, 220V)
 - Magic bullet 110V blender
 <!-- Moccamaster coffee machine, home style burr grinder -->
-
-
----
-
-
-## Maintenance
-
-- [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone 🇮🇹
-- Ryobi wet/dry [portable vacuum cleaner](https://www.ryobitools.com/products/details/33287201877) 🇨🇳
-- Ryobi cordless [power cleaner](https://www.ryobitools.com/products/details/46396036766) 🇨🇳
-
-
----
-
-
-## Transportation
-
-- **Tender**:
-    - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy 🇫🇷 purchased through [Defender](https://defender.com)
-        - [ThrustMe Kicker](https://www.thrustme.no/eu/kicker-eu) electric outboard motor 🇳🇴 purchased through [eWatersportz](https://ewatersportz.com/)
 
 
 ---
@@ -343,15 +372,45 @@
 ---
 
 
+## Sound
+
+- 2 x 12V speakers Pioneer TS-MR165 (cockpit aft)
+<!-- bluetooth amplifier -->
+<!-- https://www.nauticexpo.com/prod/musashi/product-200788-590152.html -->
+
+
+---
+
+
+## Cleaning
+
+- [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone 🇮🇹
+- Ryobi wet/dry [portable vacuum cleaner](https://www.ryobitools.com/products/details/33287201877) 🇨🇳
+- Ryobi cordless [power cleaner](https://www.ryobitools.com/products/details/46396036766) 🇨🇳
+
+
+---
+
+
+## Inspection
+
+- [PROTIMETER Aquant](https://www.protimeter.com/aquant) moisture meter 🇬🇧
+
+
+---
+
+
 ## Workshop
 
 - [FDM 3D printer](https://us.store.bambulab.com/products/p1p) 🇨🇳
-- [Laser 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇦
+<!-- - [Laser 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇦 -->
+- [Shining Einstar 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇳
 - [CNC machine](https://sienci.com/product/longmill-mk2/) (48x30) 🇨🇦
     - [7W laser beam](https://sienci.com/product/laser/)
     - [1000W air-cooled router](https://ooznest.co.uk/product/mafell-fm-1000-milling-motor/) 🇩🇪
         - **End mills**:
             - [HSS1611-M](https://www.amanatool.com/hss1611-m-high-speed-steel-hss-foam-cutting-straight-v-flute-6mm-dia-x-25mm-x-6mm-shank-router-bit.html) purchased via toolstoday.com
             - [48442-K](https://www.amanatool.com/48442-k-solid-carbide-cnc-spektratm-extreme-tool-life-coated-foam-cutting-up-cut-square-end-spiral-3mm-dia-x-28mm-x-6mm-shank-x-64mm-long-router-bit.html) purchased via toolstoday.com
+
 
 ---
