@@ -44,6 +44,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 ### Done by yours truly
 
+- New [Icom](https://www.icomamerica.com) VHF radio
 - Switched all pumps to use [solid-state switches](https://www.spxflow.com/johnson-pump-marine/products/bilge-pump-switches/)
 - Replaced old and non-functioning 120VAC watermaker with [12V by Schenker®](https://schenkerwatermakers.com/products/zen/)
 - Switched main battery system from AGM to LiFePo4 ([Epoch Batteries](https://www.epochbatteries.com))
@@ -64,7 +65,6 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 ### Will be done in the future
 
-- New [Icom](https://www.icomamerica.com) VHF radio
 - New shiny interior
 - Topside paint by [Alexseal](https://www.alexseal.com)
 - Carbon fiber or titanium stanchions
@@ -82,7 +82,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - Turnbuckle covers
 - Carbon fiber helms
 - Carbon fiber winch handle by [Karver Systems](https://www.karver-systems.com/en/)
-- Flush hatches and portlights by either [Lewmar](https://www.lewmar.com/) or [Goiot Systems](https://goiot-systems.com)
+- Flush hatches and portlights by [Lewmar](https://www.lewmar.com/)
 - OLED lights throughout the interior by either [UIV Chem](http://www.ioledlight.com) or [OLEDWorks](http://oledworks.com)
 - Two staterooms instead of four — workshop on starboard side, hydropnic garden on port side
 - Walk-in closets instead of heads in aft staterooms

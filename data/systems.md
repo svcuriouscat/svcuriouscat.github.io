@@ -147,7 +147,7 @@
 - **Rescue**:
     - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
 - **Stanchions**:
-    - 10 × Vetus stainless steel stanchions [(75cm long, 2.5cm diameter)](http://www.vetusmarine.com/store/p/1022-Stanchion-750mm.aspx)
+    - 10 × [Vetus stainless steel stanchions](http://www.vetusmarine.com/store/p/1022-Stanchion-750mm.aspx) (75cm long, 2.5cm diameter)
         - 4 × Stainless steel lifeline wire, vinyl coated (white)
 <!-- https://starlightitalia.com/site/yachts/ -->
 
@@ -261,6 +261,7 @@
     - 3/8" BBB, 42' long galvanized steel chain
     - Galvanized steel delta anchor
 - Galvanized steel bruce anchor
+- 35lbs steel delta anchor
 
 
 ---
@@ -296,7 +297,7 @@
 
 - **Topdeck**:
     - AwlGrip (sky blue)
-**Interior**:
+- **Interior**:
     - none (bare fiberglass)
 
 <!--
@@ -403,7 +404,6 @@
 ## Workshop
 
 - [FDM 3D printer](https://us.store.bambulab.com/products/p1p) 🇨🇳
-<!-- - [Laser 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇦 -->
 - [Shining Einstar 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇳
 - [CNC machine](https://sienci.com/product/longmill-mk2/) (48x30) 🇨🇦
     - [7W laser beam](https://sienci.com/product/laser/)
@@ -411,6 +411,7 @@
         - **End mills**:
             - [HSS1611-M](https://www.amanatool.com/hss1611-m-high-speed-steel-hss-foam-cutting-straight-v-flute-6mm-dia-x-25mm-x-6mm-shank-router-bit.html) purchased via toolstoday.com
             - [48442-K](https://www.amanatool.com/48442-k-solid-carbide-cnc-spektratm-extreme-tool-life-coated-foam-cutting-up-cut-square-end-spiral-3mm-dia-x-28mm-x-6mm-shank-x-64mm-long-router-bit.html) purchased via toolstoday.com
+<!-- - [Laser 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇦 -->
 
 
 ---
