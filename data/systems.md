@@ -405,7 +405,7 @@
 
 - [FDM 3D printer](https://us.store.bambulab.com/products/p1p) 🇨🇳
 - [Shining Einstar 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇳
-- [CNC machine](https://sienci.com/product/longmill-mk2/) (48x30) 🇨🇦
+- [CNC machine](https://sienci.com/product/longmill-mk2/) 🇨🇦
     - [7W laser beam](https://sienci.com/product/laser/)
     - [1000W air-cooled router](https://ooznest.co.uk/product/mafell-fm-1000-milling-motor/) 🇩🇪
         - **End mills**:

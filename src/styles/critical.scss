@@ -2,7 +2,8 @@
 
 @import 'variables';
 
-body {
+body,
+html {
     background-color: $color-bg;
     color: $color-fg;
     font-family: Arial, sans-serif;
@@ -11,7 +12,8 @@ body {
 // Dark mode
 @media (prefers-color-scheme: dark) {
 
-    body {
+    body,
+    html {
         background-color: $color-bg-dark;
         color: $color-fg-dark;
     }
