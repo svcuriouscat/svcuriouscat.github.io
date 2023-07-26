@@ -31,6 +31,8 @@ Both bottom and top parts of this vessel are built as one piece (monocoque const
 
 ## Blue Saga — 2018 LUNA 47
 
+![Blue Saga main photo](../assets/inspirations/blue-saga/blue-saga-main.jpg)
+
 This is a high-end 47' sailing liveaboard catamaran that incorporates many interesting modern technologoies.
 Videos made by her owners served as great help in my research.
 All-electric propulsion, MacGlide environmentally-friendly antifouling sticker, flush port windows and hatches — those are the things that I imagined having on my dream boat.
@@ -53,10 +55,12 @@ More info is available on [their website](https://fossilfreearoundtheworld.org).
 
 ## Siva — 2012 Schionning Spirited 380
 
+![Siva main photo](../assets/inspirations/siva/siva-main.jpg)
+
 Equally beautiful inside and out.
 I really like the clean tidy interior this 38' Australian daggerboard cat has.
 On one of the pictures I spotted a strange shiny thing on the wall, that was a compact wall-mounted washer/dryer by Daewoo.
-Now, thanks to wonders of capitalism, I have one just like that on my boat!
+Now, thanks to wonders of capitalism, Curious Cat has a washing machine aboard!
 
 
 ---
@@ -78,6 +82,8 @@ Painted with Atlex Elite Polyurethane, this is one of the vessels I look up to, 
 
 ## Energy Observer
 
+![Energy Observer](../assets/inspirations/energy-observer/energy-observer-main.jpg)![Energy Observer](../assets/inspirations/energy-observer/energy-observer-back.jpg)![Energy Observer](../assets/inspirations/energy-observer/energy-observer-perspective.webp)
+
 A beautiful hydrogen/wind/solar/electric catamaran.
 The main idea behind this unique vessel is to combine various sources of energy to propel electric motors,
 to always be able to move.
@@ -86,6 +92,7 @@ My main object of interest is dual-faced solar panels.
 
 ---
 
+![Tûranor PlanetSolar](../assets/inspirations/turanor-planetsolar/turanor-planetsolar-main.jpg)
 
 ## Tûranor PlanetSolar
 
@@ -99,6 +106,8 @@ The vessel is a giant floating solar panel, and I hope to get a chance to one da
 
 
 ## Silent Yacht
+
+![Silent 62](../assets/inspirations/silent-yacht/silent-yacht-main.webp)
 
 These luxury electric power cats need no introduction.
 The main point of my interest in them is their massive photovoltaic system that theoretically allows infinite cruising range given enough sunlight.
@@ -115,7 +124,3 @@ Achieving that is one of the main goals that Curious Cat has.
 Custom one-of-a-kind all-carbon 50' luxury cruising catamaran built by Morrelli & Melvin.
 Early inspiration for Gunboats, this beauty is strong, light, and lets you sail while being protected from nasty wind and water.
 I wish there were more cats in the world like this masterpiece.
-
-
----
-

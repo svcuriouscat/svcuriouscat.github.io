@@ -4,10 +4,10 @@ Curious Cat is a solar-electric sailing catamaran set to travel around the world
 
 Main goals of the project:
 
-- try out cutting-edge marine tech
+- reverse engineer and open-source the vessel
 - promote use of titanium
-- be solely electric and self-sustainable
-- open-source the vessel
+- be self-sufficient and operate solely on electric power
+- try out cutting-edge marine tech
 
 
 ## Specifications
@@ -42,16 +42,20 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 ## Changelog
 
-### Done by yours truly
+### Done by the current owner
 
-- New [Icom](https://www.icomamerica.com) VHF radio
+- Replaced old diesel/hydraulic propulsion system with 2 × 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/)
+- Rebuilt rudders quadrants
+- Installed new VHF radio by [Icom](https://www.icomamerica.com)
 - Switched all pumps to use [solid-state switches](https://www.spxflow.com/johnson-pump-marine/products/bilge-pump-switches/)
+- Added 230VAC 6KW AC inverter
+- Added 48V LiFePo4 battery system
+- Switched 12V battery system from AGM to LiFePo4
 - Replaced old and non-functioning 120VAC watermaker with [12V by Schenker®](https://schenkerwatermakers.com/products/zen/)
 - Switched main battery system from AGM to LiFePo4 ([Epoch Batteries](https://www.epochbatteries.com))
-- Added 230VAC 1.2KW AC inverter
+- Added Starlink satellite internet system
 - Installed new aerodynamic carbon fiber seagull striker by [GMT Composites](https://gmtcomposites.com/)
 - Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
-- Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine))
 - Replaced [Magma](https://magmaproducts.com/collections/grills-marine) gas grill with [solar grill by GoSun](https://gosun.co/products/sport-marine)
 - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
 - Replaced old Raytheon/Raymarine electronics and autopilot with [nke](http://nke-marine-electronics.com)
@@ -61,7 +65,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - Replaced old Raytheon CRT chart plotter with [16" Zeus³S Glass Helm by B&G](https://www.bandg.com/bg/series/zeuss-glass-helm/integrated-display-processor/zeus3s-gh-mfd-16-display-only/)
 - Applied phosphorescent stickers to light switches
 - Put new US-made 16"x24" US flag by [Allegiance Flag Supply](https://www.showallegiance.com)
-<!-- - Replaced Volvo Penta MD22 diesel engine and hydraulics with 2 x 10KW electric propulsion system by [E-Tech](https://starboats.eu/electric-drives/) -->
+<!-- - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)) -->
 
 ### Will be done in the future
 
@@ -69,6 +73,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - Topside paint by [Alexseal](https://www.alexseal.com)
 - Carbon fiber or titanium stanchions
 - Composite lifelines
+- New cabin windows by [Rainer Marine](https://rainiermarine.com)
 - New fenders by [AERÉ](http://aeredockingsolutions.com)
 - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
 - Shower boxes
@@ -91,7 +96,6 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - Shiny [Lewmar](https://www.lewmar.com) or [Ultra](https://www.ultramarine-anchors.com/anchor) stainless steel anchor
 - Anchor depth counter
 - Anchor washdown pump
-- Solid-state fresh water pump by [Kinetic Ceramics](https://www.kineticceramics.com/products/solid-state-pumps/)
 - Rolling cleats by [Antal](http://antal.it/ENG/)
 - Solid-state thermoelectric air conditioner by either [EIC Solutions](https://www.eicsolutions.com/product-category/thermoelectric-air-conditioners/) or [TECA Corporation](https://www.thermoelectric.com/)
 - Solid-state thermoelectric fridge by [Phononic](https://phononic.com)
@@ -101,25 +105,27 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - New topside paint by [Alexseal](https://www.alexseal.com)
 - SOLAS Orange paint on the bottom of bridgedeck (Alexseal 2165, International Orange)
 - Glow-in-the-dark coating for non-skid areas (likely from [Glo Effex](https://www.gloeffex.com) or [Lumentics](https://premium-leuchtstoffe.de/en/))
-- Six underwater through-hull RGB LED lights, possibly two more on the inner sides of the hulls
 - Onboard waste treatment system by either [Raritan](https://www.raritaneng.com/en_US/) or [tom logisch](https://www.nauticexpo.com/prod/tom-logisch-exploring-world-better-way/product-64563-479247.html)
 - [Harmony Turbines](https://www.startengine.com/offering/harmony-turbines) wind generators
-- New bean bags
+- New bean bags (teardrop style)
 - New navigation lights by [RSL Fiber Systems](https://www.rslfibersystems.com/) or [Lopolight](https://www.lopolight.com/)
 - Food waste shredder by [Delitek](https://delitek.no/)
 - New rub rails (most likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 - Electric headsail furling systems by [Harken](https://www.harken.com/en/home/), [Reckmann](https://www.reckmann.com), [Seldén](https://www.seldenmast.com), [Facnor](https://www.facnor.com), or [Profurl](https://www.profurl.com)
 - Thermo-acoustic air and water heaters by [EQUIUM](https://www.equium.fr/en/home)
-- Grade 5 titanium thru-hull fittings by either [Allied Titanium](https://www.alliedtitanium.com) or [Gemlux](https://gemlux.com)
+<!-- - Grade 5 titanium thru-hull fittings by either [Allied Titanium](https://www.alliedtitanium.com) or [Gemlux](https://gemlux.com) -->
+<!-- - Solid-state fresh water pump by [Kinetic Ceramics](https://www.kineticceramics.com/products/solid-state-pumps/) -->
+<!-- - Six underwater through-hull RGB LED lights, possibly two more on the inner sides of the hulls -->
 
 ### Done by previous owners
 
-- Switched to much larger davit system
 - Added large aluminum T-top
+- Switched to much larger davit system
 - Switched nets for trampolines by [Sunrise Yacht Products](https://multihullnets.com)
 - Added lightning guide with grounding plates on starboad side
-- Replaced leaky cabin windows with ten round 20" hatches
+- Replaced cabin windows with ten round 20" hatches
 - Added wind turbine on port side (Air X, 400W)
+- Added retractable aluminum ladder on port side
 
 
 ## Links

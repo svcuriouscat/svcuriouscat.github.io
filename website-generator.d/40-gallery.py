@@ -54,7 +54,7 @@ def stage(data):
         "title":       utils.generatePageTitle("Gallery", data),
         "description": "Pictures of Curious Cat, old and new",
         "logo":        utils.renderTemplate(data["templates"]["link"], {
-            "href": ".",
+            "href": "..",
             "content": "Home",
         }),
         "navigation":  utils.generateNavigation(),
