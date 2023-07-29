@@ -97,9 +97,9 @@ My main object of interest is dual-faced solar panels.
 ## Tûranor PlanetSolar
 
 The largest solar-powered boat in the world.
-Launched in 2010, this catamaran has length of 102'.
+Launched in 2010, this catamaran is 102' long.
 Built by Howaldtswerke-Deutsche Werft and designed by LOMOcean Marine.
-The vessel is a giant floating solar panel, and I hope to get a chance to one day see her with my own eyes.
+The vessel is a giant floating solar panel, and I hope to get one day a chance to see her with my own eyes.
 
 
 ---

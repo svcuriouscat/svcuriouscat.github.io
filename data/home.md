@@ -4,7 +4,8 @@ Curious Cat is a solar-electric sailing catamaran set to travel around the world
 
 Main goals of the project:
 
-- reverse engineer and open-source the vessel
+- repair and restore the boat to bring her to her original glory (and better!)
+- reverse-engineer and open-source the vessel
 - promote use of titanium
 - be self-sufficient and operate solely on electric power
 - try out cutting-edge marine tech
@@ -53,6 +54,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - Switched 12V battery system from AGM to LiFePo4
 - Replaced old and non-functioning 120VAC watermaker with [12V by Schenker®](https://schenkerwatermakers.com/products/zen/)
 - Switched main battery system from AGM to LiFePo4 ([Epoch Batteries](https://www.epochbatteries.com))
+- Installed washing machine
 - Added Starlink satellite internet system
 - Installed new aerodynamic carbon fiber seagull striker by [GMT Composites](https://gmtcomposites.com/)
 - Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
@@ -65,6 +67,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - Replaced old Raytheon CRT chart plotter with [16" Zeus³S Glass Helm by B&G](https://www.bandg.com/bg/series/zeuss-glass-helm/integrated-display-processor/zeus3s-gh-mfd-16-display-only/)
 - Applied phosphorescent stickers to light switches
 - Put new US-made 16"x24" US flag by [Allegiance Flag Supply](https://www.showallegiance.com)
+- Got rid of propane tanks, stove and grill
 <!-- - Added high bilge water alarms (by [Johnson Pumps](https://www.spxflow.com/products/application?application=marine&subApplications=recreational-marine)) -->
 
 ### Will be done in the future
@@ -131,8 +134,8 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 ## Links
 
 - [YouTube channel](https://www.youtube.com/@RainAndStorm)
-- [Instagram](https://www.instagram.com/svcuriouscat/)
-- [Patreon](https://www.patreon.com/RainAndStorm)
 - [Designs for 3D printer](https://www.printables.com/social/309963-curious-cat/models)
 - [Source code](https://github.com/svcuriouscat)
+- [Instagram](https://www.instagram.com/svcuriouscat/)
+- [Patreon](https://www.patreon.com/RainAndStorm)
 - [Email](mailto:svcuriouscat@protonmail.com?subject=Ahoy%20Capt%E2%80%99n!)
