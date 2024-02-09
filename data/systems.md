@@ -10,10 +10,10 @@
     - 10KW IP67 BLDC electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
         - Internal closed-loop active cooling system
             - Aluminum radiator
-                - 2 × 12V fans
-                - Coolant pump
+                - 2 × 120mm 12V fans
+                - Coolant reservoir with two pumps
             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-        - 48V BLDC motor controller
+        - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
             - **fuses**:
                 - ANL 250A
                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
@@ -25,14 +25,15 @@
         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
     - 3-blade feathering bronze propeller
         - 1-1/8" keyed stainless steel shaft
+            - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
 - **Starboard**:
     - 10KW IP67 BLDC electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
         - Internal closed-loop active cooling system
             - Aluminum radiator
-            - 2 × 12V fans
-            - Coolant pump
+            - 2 × 120mm 12V fans
+            - Coolant reservoir with two pumps
             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
-        - 48V BLDC motor controller
+        - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
             - **fuses**:
                 - ANL 250A
                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
@@ -44,9 +45,10 @@
         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
     - 3-blade feathering bronze propeller
         - 1-1/8" keyed stainless steel shaft
+            - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
 - Aluminum dual-joystick controller by E-Tech 🇵🇱
-- 2 × LCD display by E-Tech 🇵🇱
-- 2 × Key switch by E-Tech 🇵🇱
+- 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
+- 2 × Key switch
 
 
 ---
@@ -102,9 +104,35 @@
     - **Locks**:
         - ...
     - **Lines**:
-        - ...
+        - **Jib**:
+            - 3/8" polyester double braid rope (white + blue tracer)
+        - **Genoa**:
+            - 3/8" polyester double braid rope (white + blue fleck)
+        - **Main**:
+            - ...
+        - **Davits**:
+            - 2 × 3/8" Sta-Set polyester double braid rope (white + red tracer) <!-- 50' -->
+    - **Sheet**:
+        - **Jib**:
+            - 10mm Endura Braid Dyneema® / polyester double braid rope (white + red fleck) <!-- 80' -->
+            - 10mm Endura Braid Dyneema® / polyester double braid rope (solid Euro red) <!-- 60' -->
+            - 10mm Endura Braid Dyneema® / polyester double braid rope (white + green fleck) <!-- 70' -->
+            - 10mm Endura Braid Dyneema® / polyester double braid rope (solid Euro red) <!-- 50' -->
+        - **Genoa**:
+            - ...
+        - **Main**:
+            - ...
+    - **Halyards**:
+        - **Jib**:
+            - ...
+        - **Genoa**:
+            - ...
+        - **Main**:
+            - ...
 - **Sails**:
-    - Fully battened mainsail by [North Sails](https://www.northsails.com)
+    - Genoa by [North Sails](https://www.northsails.com)
+    - Jib by [North Sails](https://www.northsails.com)
+    - Fully battened mainsail by [North Sails](https://www.northsails.com) (ND72V)
         - **Battens**:
             - Fiberglass, 508, 2.5, 40,  8, 2200
             - Fiberglass, 477, 3.0, 40,  9, 2100
@@ -123,8 +151,10 @@
 - **Compasses**:
     - 2 × backlit binnacle-mount compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
-- B&G Halo20+ radome
-- 16" Zeus³S Glass Helm by B&G
+- **Radars**:
+    - B&G Halo20+ radome
+- **Chart plotters**:
+    - 16" Zeus³S Glass Helm by B&G
 - **Autopilot**:
     - [nke](https://nke-marine-electronics.com/) Gyropilot 3 🇫🇷
 - **AIS**:
@@ -179,13 +209,12 @@
 ---
 
 
-## Comms
+## Communications
 
 - **Internet**:
     - [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit 🇺🇸
 - **Radio**:
     - [Icom M510 VHF](https://www.icomamerica.com/en/products/marine/mountedvhf/m510/default.aspx) 🇯🇵
-<!-- - ~~Raytheon RAY210 VHF marine radio~~ -->
 
 
 ---
@@ -193,25 +222,23 @@
 
 ## Electric
 
-- Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱
-- **3 completely separate circuits**: 
-    - **12V bank**:
+<!-- - Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱 -->
+- **Separate power circuits**: 
+    - **12V**:
         - 2 × LiFePo4 [12V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah)
         - Battery charger (120–240VAC) [ProNautic 1230P 12V](https://www.promariner.com/en/p/63130/ProNautic-1230P)
-    - **48V bank (port)**:
+    - **48V (port)**:
         - ...
         - MEGA-Fuse holder by victron
-    - **48V bank (starboard)**:
+    - **48V (starboard)**:
         - 2 × LiFePo4 [48V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/lithium-trolling-motor-battery-48v-100ah)
         - MPPT / charge controller / inverter (230V AC) [Victron Multi RS Solar 48/6000](https://www.victronenergy.com/inverters-chargers/multi-rs-solar) 🇳🇱 purchased through [Battery One PR](https://www.batteryonepr.com)
         - 200A 58V fuse by Victron
         - MEGA-Fuse holder by victron
-- **Photovoltaic**:
-    - 6 × Sunpower 100W flexible solar panels (600W total)
-        - 2 × [Victron BlueSolar 100/30](https://www.victronenergy.com/solar-charge-controllers/mppt-100-30) MPPT charge controllers 🇳🇱
-            - 2 × BUSS(r) MRCB 30A 48V circuit breakers (Mexico)
-            - 1 × [Bluetooth adapter](https://www.victronenergy.com/accessories/ve-direct-bluetooth-smart-dongle) for flashing firmware and changing settings 🇳🇱
+- **Photovoltaic system**:
+    - 10 × Sunpower 100W flexible solar panels
 <!-- - Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va) 🇳🇱 -->
+<!-- Scotty AI 1.5KW 48VDC-to-12VDC battery charger -->
 
 
 ---
@@ -219,13 +246,12 @@
 
 ## Fresh Water
 
-- 40 gal flexible fresh water tank (midship, under cockpit)
 - 30 gal stainless steel fresh water tank (midship, port side)
 - 30 gal stainless steel fresh water tank (midship, starboard side)
 - 2.9GPM 12V [fresh water pump by Jabsco](https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html) 🇨🇳
 - Cold (blue) and hot (red) PVC lines (15mm outer diameter)
 - 2 × Pre-pressurized accumulator tank by SHURflo
-- Apera Series EC60 water quality measurement device
+- [Air release valve](https://www.amazon.com/dp/B07V8TMX95)
 - **Water makers**:
     - [Schenker Zen 30 12V](https://schenkerwatermakers.com/products/zen/)
     - [QuenchSea](https://www.quenchsea.world/) emergency seawater desalination device
@@ -235,6 +261,9 @@
     - 3 × sun shower (5 gal)
 - **Containers**:
    - 4 × 6-1/2 gal. water jerry cans
+- Apera Series EC60 water quality measurement device
+
+<!-- P&L LL-210-48 high efficiency 210W DC thermoelectric heating water device peltier heater -->
 
 
 ---
@@ -242,9 +271,11 @@
 
 ## Waste
 
-- 4 × Shurflo 3200-000 12V macerator pump
-- 4 × Electric toilets
-- 4 × Waste water tanks
+- 2 × Electric toilets
+    - 1 × Jabsco 37010-0000 macerator pump
+    - 1 × Jabsco 74001-2460 macerator pump
+- 2 × Waste water tanks
+    - 2 × Shurflo 3200-000 12V macerator pump
 
 
 ---
@@ -291,6 +322,7 @@
     - 8 × Lewmar Size 30 (deck) 🇬🇧
     - 2 × Lewmar Size 44 (escape) 🇬🇧
     - 1 × Lewmar Size 50 (cabin) 🇬🇧
+    - 10 × Jim Black 592-20RND-05-02-05 20" (cabin, glued shut)
 - **Inspection hatches**:
     - 2 × [Ø 125mm by Nuova Rade](https://www.nuovarade.com/product.php?productId=5752&categoryId=219) (crash boxes) 🇮🇹
 - Sliding transparent cabin door 🇨🇦
@@ -400,6 +432,7 @@
 
 ## Cleaning
 
+- [6" wide boat hull scraper by America Go Fishing](https://www.americagofishing.com/shop/tools-and-accessories/boat-hull-scraper-6-inches)
 - [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone 🇮🇹
 - Ryobi wet/dry [portable vacuum cleaner](https://www.ryobitools.com/products/details/33287201877) 🇨🇳
 - Ryobi cordless [power cleaner](https://www.ryobitools.com/products/details/46396036766) 🇨🇳
@@ -412,6 +445,17 @@
 
 - [PROTIMETER Aquant](https://www.protimeter.com/aquant) moisture meter 🇬🇧
 
+<!--
+---
+
+
+## Exercise
+
+- [K-TOR Power Box 50](https://k-tor.com/shop/generators/power-box-50/) 12V pedal generator 🇬🇧
+-->
+<!-- MAXPRO SC Portable Cable Machine -->
+<!-- Water weights -->
+<!-- trystealth.com -->
 
 ---
 

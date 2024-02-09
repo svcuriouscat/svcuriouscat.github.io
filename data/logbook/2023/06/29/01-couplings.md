@@ -16,9 +16,10 @@ My current choices:
 - [HexaFlex](https://www.lenze-selection.com/en-at/products/couplings-and-shaft-and-flange-couplings/flexible-couplings-and-jaw-and-bolt-couplings/hexaflex-shaft-coupling)
 - [Vetus Type 6](https://www.vetus-shop.com/type-shaft-and216-35mm-p-1006.html)
 - [Vetus Combiflex](https://www.vetus-shop.com/vetus-combiflex-12-flexible-shaft-coupling-30mm-p-3669.html)
+- [Sigmadrive](http://bruntonspropellers.com/sigmadrive/) by Bruntons Propellers
 - Keep E-Tech's (if they perform well)
 - Repurpose stainless steel couplings that were used with hydraulic motors
-- Manufacture new ones
+- Manufacture new ones (possibly magnetic)
 
 I'm leaning towards either Type 6 or Combiflex by Vetus,
 they seem to be very customizable,

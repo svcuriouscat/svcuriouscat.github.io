@@ -1,6 +1,9 @@
 # Round hatches
 
-Those ten round hatches that were installed instead of leaky cabin windows about a decade ago, they turned out to be Jim Black,  More specifically, they are **592-20RND-05-02-05**.  20", but almost all stuck and leaking at this point.  The only good thing about them is that they’re tempered glass and not acrylic.  That can become a bad thing if I cut myself while removing them.
+Those ten round hatches that were installed instead of leaky cabin windows about a decade ago, they turned out to be Jim Black.
+More specifically, they are **592-20RND-05-02-05**.
+20", but almost all stuck and leaking at this point.  The only good thing about them is that they’re tempered glass and not acrylic.
+That can become a bad thing if I cut myself while removing them.
 
 Trying to figure out what to replace them with.  Lewmar only makes acrylic round hatches, but if I put four square 70cm hatches
 in the front to have a better view, then those will be definitely acrylic, and hence I could keep them all Lewmar without resorting to sketchy brands.  And I absolutely love how the boat looks from a side with those three round circles, I think there’s only one cat in the world that has that.  The front appearance I really hate, it looks like a retarded spider with those four round "eyes", not to mention you can barely see anything through them due to the angle.

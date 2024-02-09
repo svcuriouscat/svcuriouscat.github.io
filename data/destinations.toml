@@ -33,3 +33,15 @@ lat = 26.507169129451587
 long = -82.08206804857691
 date = "2022-mm-dd"
 name = "After hurricane Ian"
+
+[[destinations]]
+lat = 26.704974548217955
+long = -82.16612166979402
+date = "2023-mm-dd"
+name = "Anchorage"
+
+[[destinations]]
+lat = 26.69874671503813
+long = -82.16545564064178
+date = "2023-08-31"
+name = "After storm band from hurricane Idalia"
