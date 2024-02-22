@@ -1,5 +1,7 @@
 # Systems
 
+So many parts…
+
 
 ---
 
@@ -58,10 +60,11 @@
 
 - **Helms**:
     - 2 × 30" stainless steel helm by [Edson Marine](https://edsonmarine.com)
-    - 2 × detachable wheel break
+        - 2 × detachable wheel break
 - **Mechanism**:
-    - Stainless steel cable system
-        - 2 × ANSI 50 roller chain (304 SS)
+    - Stainless steel cables
+    - Sheaves by [Edson Marine](https://edsonmarine.com) (bronze)
+    - 2 × ANSI 50 titanium roller chain by [RaceTech Titanium](https://racetechtitanium.com) 🇺🇸
 - **Rudders**:
     - 2 × Carbon fiber rudders with round poles
         - 2 × Composite quandrants (foam core, S-glass, 40cm diameter, 2.25cm thick)
@@ -86,10 +89,10 @@
         - Profurl N31/N41 furler (inner forestay)
     - 2 × forestays (stainless steel cables)
         - 2 × stainless steel martingales
-        - Composite seagull striker by GMT Composites (prepreg Carbon fiber, G-10)
+        - Aerodynamic striker by [GMT Composites](https://gmtcomposites.com) (prepreg carbon fiber, G-10)
             - Stainless steel martingale
-            - 2 × https://www.ti64.com/product-p/6315.htm
-            - 2 × https://www.ti64.com/product-p/1033.htm
+            - 2 × [titanium screw](https://www.ti64.com/product-p/6315.htm)
+            - 2 × [titanium washer](https://www.ti64.com/product-p/1033.htm)
     - 4 × stainless steel backstays
 - **Running**:
     - **Winches**:
@@ -101,8 +104,11 @@
         - 2 × Lewmar Size 2 sliding bolt track (drilled, 4-1/4' long, cockpit) 🇬🇧
         - 1 × Lewmar Size 3 (16-1/3' long, beam) 🇬🇧
             - Lewmar Size 3 ocean mainsheet car 🇬🇧
-    - **Locks**:
-        - ...
+    - **Rope Clutches (Jammers)**:
+        - 2 × Single ??–??mm by Garhauer (cockpit starboard) 🇺🇸
+        - 1 × Double 14–16mm by Lewmar (cockpit port) 🇬🇧
+        - 3 × Double 14–16mm by Lewmar (mast) 🇬🇧
+        - 1 × Triple 14–16mm by Lewmar (mast) 🇬🇧
     - **Lines**:
         - **Jib**:
             - 3/8" polyester double braid rope (white + blue tracer)
@@ -151,9 +157,9 @@
 - **Compasses**:
     - 2 × backlit binnacle-mount compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
     - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
-- **Radars**:
+- **Radar**:
     - B&G Halo20+ radome
-- **Chart plotters**:
+- **Chart plotter**:
     - 16" Zeus³S Glass Helm by B&G
 - **Autopilot**:
     - [nke](https://nke-marine-electronics.com/) Gyropilot 3 🇫🇷
@@ -170,18 +176,18 @@
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
     - 6 × PFDs
 - **Signals**:
-    - [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/) by [ACR](https://www.acrartex.com)
+    - [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/) by [ACR](https://www.acrartex.com) 🇺🇸
         - [Alkaline C batteries](https://www.amazon.com/dp/B09KD6YD8C) 🇩🇪
     - [Orion](https://www.orionsignals.com) flare gun
         - 4 × cartidges
     - 4 × Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
     - Small stainless steel signaling mirror
-    - Orange daytime signal piece of square fabric by ACR
+    - Orange daytime signal piece of square fabric by ACR 🇺🇸
 - **Emergency repair**:
     - [Seabung](https://www.seabung.com) 🇬🇧
     - [TruPlug by SeaKits](https://www.seakits.com/seakits-truplug/)
 - **Rescue**:
-    - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual)
+    - 406MHz EPIRB emergency beacon ([ACR](https://www.acrartex.com) [RLB-41 2831 GLOBALFIX™ V4 Cat 2](https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/), manual) 🇺🇸
 - **Stanchions**:
     - 10 × [Vetus stainless steel stanchions](http://www.vetusmarine.com/store/p/1022-Stanchion-750mm.aspx) (75cm long, 2.5cm diameter)
         - 4 × Stainless steel lifeline wire, vinyl coated (white)
@@ -223,7 +229,7 @@
 ## Electric
 
 <!-- - Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱 -->
-- **Separate power circuits**: 
+- **Power circuits**: 
     - **12V**:
         - 2 × LiFePo4 [12V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah)
         - Battery charger (120–240VAC) [ProNautic 1230P 12V](https://www.promariner.com/en/p/63130/ProNautic-1230P)
@@ -236,7 +242,8 @@
         - 200A 58V fuse by Victron
         - MEGA-Fuse holder by victron
 - **Photovoltaic system**:
-    - 10 × Sunpower 100W flexible solar panels
+    - 10 × 100W flexible solar panels by Sunpower purchased through [ExpertPower](https://www.expertpower.us/products/100w-sunpower-solar-panel)
+
 <!-- - Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va) 🇳🇱 -->
 <!-- Scotty AI 1.5KW 48VDC-to-12VDC battery charger -->
 
@@ -249,10 +256,9 @@
 - 30 gal stainless steel fresh water tank (midship, port side)
 - 30 gal stainless steel fresh water tank (midship, starboard side)
 - 2.9GPM 12V [fresh water pump by Jabsco](https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html) 🇨🇳
-- Cold (blue) and hot (red) PVC lines (15mm outer diameter)
+- PVC fresh water lines (15mm outer diameter)
 - 2 × Pre-pressurized accumulator tank by SHURflo
-- [Air release valve](https://www.amazon.com/dp/B07V8TMX95)
-- **Water makers**:
+- **Water maker**:
     - [Schenker Zen 30 12V](https://schenkerwatermakers.com/products/zen/)
     - [QuenchSea](https://www.quenchsea.world/) emergency seawater desalination device
 - **Showers**:

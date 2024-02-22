@@ -24,6 +24,11 @@ Main goals of the project:
 - **Hull materials**: epoxy, foam, vacuum-bagged S-glass/CF/Kevlar
 
 
+## Lives left
+
+•••••••••/∞
+<!-- 9/∞ -->
+
 ## Links
 
 - [3D Designs](https://www.printables.com/@RainAndStorm/models)
@@ -32,6 +37,8 @@ Main goals of the project:
 - [Source Code](https://github.com/svcuriouscat)
 - [Instagram](https://www.instagram.com/svcuriouscat/)
 - [Email](mailto:svcuriouscat@protonmail.com?subject=Ahoy%20Capt%E2%80%99n!)
+
+<!-- https://www.last.fm/user/RainAndStorm -->
 
 
 ## Vessel’s origin

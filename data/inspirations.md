@@ -14,6 +14,7 @@ A beautiful hydrogen/wind/solar/electric catamaran.
 The main idea behind this unique vessel is to combine various sources of energy to propel electric motors,
 to always be able to move.
 My main object of interest is dual-faced solar panels.
+[Project’s website](https://www.energy-observer.org/).
 
 
 ---
@@ -26,7 +27,7 @@ The largest solar-powered boat in the world.
 Launched in 2010, this catamaran is 102' long.
 Built by Howaldtswerke-Deutsche Werft and designed by LOMOcean Marine.
 The vessel is a giant floating solar panel, and I hope to get one day a chance to see her with my own eyes.
-
+[Here](https://www.bluebird-electric.net/planetsolar.htm)’s more information.
 
 ---
 
@@ -67,17 +68,6 @@ Both bottom and top parts of this vessel are built as one piece (monocoque const
 ---
 
 
-## Kawaakari — 2013 Erik Lerouge 137
-
-![Kawaakari Erik Lerouge 137 main photo](../assets/inspirations/kawaakari-erik-lerouge-137/kawaakari-erik-lerouge-137-main.jpg)![Kawaakari Erik Lerouge 137 night photo](../assets/inspirations/kawaakari-erik-lerouge-137/kawaakari-erik-lerouge-137-at-night.jpg)
-
-An absolute stunner, this magnificent 45' vessel is a carbon kevlar daggerboard cat capable of sailing at 26 knots!
-Early in my search I was looking strictly for Erik Lerouge designs — that’s how much I like them.
-
-
----
-
-
 ## Blue Saga — 2018 LUNA 47
 
 ![Blue Saga main photo](../assets/inspirations/blue-saga/blue-saga-main.jpg)
@@ -85,6 +75,25 @@ Early in my search I was looking strictly for Erik Lerouge designs — that’s 
 This is a high-end 47' sailing liveaboard catamaran that incorporates many interesting modern technologoies.
 Videos made by her owners served as great help in my research.
 All-electric propulsion, MacGlide environmentally-friendly antifouling sticker, flush port windows and hatches — those are the things that I imagined having on my dream boat.
+More info can be found on [this beautiful website](https://www.thebluesaga.com/).
+
+---
+
+
+## Indigo Lady
+
+![Indigo Lady main photo](../assets/inspirations/indigo-lady/indigo-lady-main.jpg)![Indigo Lady rails photo](../assets/inspirations/indigo-lady/indigo-lady-rails.jpg)
+
+A sailing charter cat that was transformed into a “Silent Yacht”.
+Uses superb Super-B batteries, OceanVolt propulsion.
+I'm borrowing the idea of splitting the solar panels into two sections (port & starboard),
+since Curious Cat’s beam is 30', and I don't need the whole roof to fly away at once, next time she goes through a storm.
+
+Links:
+
+ - [Website](https://lisamarchi.com/author/lisamarchi1020/)
+ - [Facebook page A](https://www.facebook.com/Voyage440/)
+ - [Facebook page B](https://www.facebook.com/lifeonlady/)
 
 
 ---
@@ -98,6 +107,17 @@ Equally beautiful inside and out.
 I really like the clean tidy interior this 38' Australian daggerboard cat has.
 On one of the pictures I spotted a strange shiny thing on the wall, that was a compact wall-mounted washer/dryer by Daewoo.
 Now, thanks to wonders of capitalism, Curious Cat has a washing machine aboard!
+
+
+---
+
+
+## Kawaakari — 2013 Erik Lerouge 137
+
+![Kawaakari Erik Lerouge 137 main photo](../assets/inspirations/kawaakari-erik-lerouge-137/kawaakari-erik-lerouge-137-main.jpg)![Kawaakari Erik Lerouge 137 night photo](../assets/inspirations/kawaakari-erik-lerouge-137/kawaakari-erik-lerouge-137-at-night.jpg)
+
+An absolute stunner, this magnificent 45' vessel is a carbon kevlar daggerboard cat capable of sailing at 26 knots!
+Early in my search I was looking strictly for Erik Lerouge designs — that’s how much I like them.
 
 
 ---
