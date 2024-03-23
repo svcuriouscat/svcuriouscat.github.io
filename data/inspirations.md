@@ -97,7 +97,22 @@ Links:
 
 
 ---
+<!--
 
+## Australian catamaran with a windmill
+
+
+
+---
+
+
+## French off-grid catamaran for sustainable living
+
+
+
+---
+
+-->
 
 ## Siva — 2012 Schionning Spirited 380
 

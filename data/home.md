@@ -5,38 +5,41 @@ Curious Cat is a solar-electric sailing catamaran set to travel around the world
 Main goals of the project:
 
 - reverse-engineer and open-source the vessel
-- promote use of titanium
-- repair and restore the vessel to bring her to her original glory (and better!)
+- repair and restore the vessel to her original glory (and better!)
 - be self-sufficient and operate solely on electric power
 - try out cutting-edge marine tech
+- promote use of titanium
 
 
 ## Specifications
 
-- **LOA**: 44' (13.4m)
-- **Beam**: 28' (8.6m)
+- **Length**: 44' (13.4m)
+- **Beam**: 30' (9.14m)
 - **Draft**: 3.5' (1.1m)
-- **Hull type**: fixed mini-keels
+- **BOA / LOA ratio**: (30 / 44 =) 68%
+- **Waterline length**: 43
+- **Beam centerline**: 22' 6"
+- **BCL / LWL ratio**: (22.5 / 43 =) 52%
+- **Hull type**: hydrodynamic fixed mini-keels
+- **Mast clearance**: 62' (18.9m)
 - **Launched**: July 5th 1998
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
-- **Design**: custom, cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs), Novara 44 molds
-- **Hull materials**: epoxy, foam, vacuum-bagged S-glass/CF/Kevlar
+- **Hull materials**: foam, epoxy, vacuum-bagged S-glass/CF/Kevlar, honeycomb, basalt
+- **Design**: custom, a cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs), Novara 44 molds
+- **Lives left**: •••••••••/∞
 
-
-## Lives left
-
-•••••••••/∞
-<!-- 9/∞ -->
+<!-- Bridge deck clearance -->
+<!-- - **Displacement**: ?? -->
 
 ## Links
 
-- [3D Designs](https://www.printables.com/@RainAndStorm/models)
 - [YouTube](https://www.youtube.com/@RainAndStorm)
 - [Patreon](https://www.patreon.com/RainAndStorm)
-- [Source Code](https://github.com/svcuriouscat)
+- [3D Models](https://www.printables.com/@RainAndStorm/models)
 - [Instagram](https://www.instagram.com/svcuriouscat/)
 - [Email](mailto:svcuriouscat@protonmail.com?subject=Ahoy%20Capt%E2%80%99n!)
+- [Source Code](https://github.com/svcuriouscat)
 
 <!-- https://www.last.fm/user/RainAndStorm -->
 
@@ -64,21 +67,22 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 ### Done by the current owner
 
+- Replaced 4 seawater toilets with 2 fresh water toilets by Jabsco
 - Removed flexible water tank
 - New running rigging, davit lines
 - Replaced helm stainless steel roller chains with custom-made titanium roller chains by [RaceTechTitanium](https://racetechtitanium.com/)
 - Installed small Bluetooth amplifier for speakers in the cockpit
 - Replaced old diesel/hydraulic propulsion system with 2 × 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/)
-- Rebuilt rudders quadrants
+- Rebuilt rudder quadrants
 - Installed new VHF radio by [Icom](https://www.icomamerica.com)
 - Switched all pumps to use [solid-state switches](https://www.spxflow.com/johnson-pump-marine/products/bilge-pump-switches/)
 - Added 230VAC 6KW AC inverter
 - Added 48V LiFePo4 battery system
 - Replaced old and non-functioning 120VAC watermaker with [12V by Schenker®](https://schenkerwatermakers.com/products/zen/)
-- Switched main (12V) battery system from AGM to LiFePo4 ([Epoch Batteries](https://www.epochbatteries.com))
+- Switched main (12V) battery system from AGM to LiFePo4
 - Installed compact washing machine by Daewoo
 - Added SpaceX Starlink satellite internet system
-- Installed new aerodynamic carbon fiber seagull striker by [GMT Composites](https://gmtcomposites.com/)
+- Replaced aluminum seagull striker with new aerodynamic carbon fiber A-frame made by [GMT Composites](https://gmtcomposites.com/)
 - Added photovoltaic system (by [SunPower](https://us.sunpower.com/products/solar-panels) and [Victron Energy](https://www.victronenergy.com), purchased through [SunPoweredYachts](https://www.sunpoweredyachts.com))
 - Installed [solar grill by GoSun](https://gosun.co/products/sport-marine)
 - Added stainless steel marine horns by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
@@ -94,6 +98,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 ### Will be done in the future
 
+- Dual, completely separate 48V circuits
 - New docking lines by Robline
 - Ultraviolet water purifier by Bluonics
 - From-air fresh water generator by Genesis Systems
@@ -112,7 +117,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - 360° CCTV system for docking and security (potentially by [Yachtview 360°](http://www.yachtview360.eu))
 - Shower boxes
 - Flat High Performance Starlink
-- New rope clutches (Lewmar, Spinlock, Antal, Rutgerson, or Barton)
+- New rope clutches (Ronstan Constrictor, Nautos, Lewmar, Spinlock, Antal, Rutgerson, or Barton)
 - Clear screen windows for the cabin
 - Kevlar® Honeycomb by [EURO-COMPOSITES](https://www.euro-composites.com/en/)
 - Two new electric toilets by [Saniflo](https://www.saniflo.com)
@@ -159,7 +164,6 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - Added large aluminum T-top
 - Switched to larger davit system
 - Switched nets for trampolines by [Sunrise Yacht Products](https://multihullnets.com)
-- Added lightning guide with grounding plates on starboad side
-- Replaced cabin windows with ten round 20" hatches
+- Replaced cabin windows with 10 round 20" tempered glass hatches
 - Added wind turbine on port side (Air X, 400W)
 - Added retractable aluminum ladder on port side

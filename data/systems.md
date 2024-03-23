@@ -101,18 +101,24 @@ So many parts…
         - 2 × Lewmar 40 self-tailing (mast) 🇬🇧
     - **Tracks**:
         - 2 × Lewmar Size 2 sliding bolt track (5' long, on top of the cabin) 🇬🇧
+            - 2 × Lewmar Size 2 ocean T-track genoa car 🇬🇧
         - 2 × Lewmar Size 2 sliding bolt track (drilled, 4-1/4' long, cockpit) 🇬🇧
         - 1 × Lewmar Size 3 (16-1/3' long, beam) 🇬🇧
-            - Lewmar Size 3 ocean mainsheet car 🇬🇧
-    - **Rope Clutches (Jammers)**:
-        - 2 × Single ??–??mm by Garhauer (cockpit starboard) 🇺🇸
-        - 1 × Double 14–16mm by Lewmar (cockpit port) 🇬🇧
-        - 3 × Double 14–16mm by Lewmar (mast) 🇬🇧
-        - 1 × Triple 14–16mm by Lewmar (mast) 🇬🇧
+            - 1 × Lewmar Size 3 ocean T-track mainsheet car 🇬🇧
+    - **Clutches**:
+        - **Mast**:
+            - 1 × Single 12–14mm (1/2"–9/16") by Lewmar (for topping lift, port side) 🇬🇧
+            - 1 × Double 12–14mm (1/2"–9/16") by Lewmar (for jib and genoa, port side) 🇬🇧
+            - 1 × Double 12–14mm (1/2"–9/16") by Lewmar (for spinnaker and mainsail, port side) 🇬🇧
+            - 1 × Triple 12–14mm (1/2"–9/16") by Lewmar (starboard side) 🇬🇧
+        - **Cockpit**:
+            - 2 × Single 8–14mm (5/16"–9/16") by Garhauer (for furlers, starboard side) 🇺🇸
+            - 2 × Double 12–14mm (1/2"–9/16") by Lewmar (for jib sheets, starboadrd side) 🇬🇧
+            - 1 × Double 12–14mm (1/2"–9/16") by Lewmar ( port side) 🇬🇧
     - **Lines**:
-        - **Jib**:
+        - **Jib furler**:
             - 3/8" polyester double braid rope (white + blue tracer)
-        - **Genoa**:
+        - **Genoa furler**:
             - 3/8" polyester double braid rope (white + blue fleck)
         - **Main**:
             - ...
@@ -120,9 +126,9 @@ So many parts…
             - 2 × 3/8" Sta-Set polyester double braid rope (white + red tracer) <!-- 50' -->
     - **Sheet**:
         - **Jib**:
-            - 10mm Endura Braid Dyneema® / polyester double braid rope (white + red fleck) <!-- 80' -->
+            - 7/16" Endura Braid Dyneema® / polyester double braid rope (white + red fleck) <!-- 80' -->
             - 10mm Endura Braid Dyneema® / polyester double braid rope (solid Euro red) <!-- 60' -->
-            - 10mm Endura Braid Dyneema® / polyester double braid rope (white + green fleck) <!-- 70' -->
+            - 7/16" Endura Braid Dyneema® / polyester double braid rope (white + green fleck) <!-- 70' -->
             - 10mm Endura Braid Dyneema® / polyester double braid rope (solid Euro red) <!-- 50' -->
         - **Genoa**:
             - ...
@@ -176,6 +182,8 @@ So many parts…
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
     - 6 × PFDs
 - **Signals**:
+    - 2 × horn by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
+        - 2 × [stainless steel horn push button](https://www.sheridanmarine.com/product/stainless-steel-horn-push-switch) by Sheridan Marine
     - [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/) by [ACR](https://www.acrartex.com) 🇺🇸
         - [Alkaline C batteries](https://www.amazon.com/dp/B09KD6YD8C) 🇩🇪
     - [Orion](https://www.orionsignals.com) flare gun
@@ -233,18 +241,14 @@ So many parts…
     - **12V**:
         - 2 × LiFePo4 [12V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah)
         - Battery charger (120–240VAC) [ProNautic 1230P 12V](https://www.promariner.com/en/p/63130/ProNautic-1230P)
-    - **48V (port)**:
-        - ...
-        - MEGA-Fuse holder by victron
-    - **48V (starboard)**:
-        - 2 × LiFePo4 [48V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/lithium-trolling-motor-battery-48v-100ah)
-        - MPPT / charge controller / inverter (230V AC) [Victron Multi RS Solar 48/6000](https://www.victronenergy.com/inverters-chargers/multi-rs-solar) 🇳🇱 purchased through [Battery One PR](https://www.batteryonepr.com)
-        - 200A 58V fuse by Victron
-        - MEGA-Fuse holder by victron
+    - **48V**:
+        - MPPT / charge controller / inverter (230V AC) [Victron Multi RS Solar 48/6000](https://www.victronenergy.com/inverters-chargers/multi-rs-solar) 🇳🇱, purchased through [Battery One PR](https://www.batteryonepr.com)
+        - 4 × LiFePo4 [48V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/lithium-trolling-motor-battery-48v-100ah)
+        - 2 × 200A 58V fuse by Victron
+        - 2 × MEGA-Fuse holder by victron
 - **Photovoltaic system**:
-    - 10 × 100W flexible solar panels by Sunpower purchased through [ExpertPower](https://www.expertpower.us/products/100w-sunpower-solar-panel)
+    - 10 × 100W (1KW) array made of flexible solar panels by Sunpower, purchased through [ExpertPower](https://www.expertpower.us/products/100w-sunpower-solar-panel)
 
-<!-- - Inverter (230V AC) [Victron Phoenix 12/1200](https://www.victronenergy.com/inverters/phoenix-inverter-vedirect-250va-800va) 🇳🇱 -->
 <!-- Scotty AI 1.5KW 48VDC-to-12VDC battery charger -->
 
 
@@ -255,14 +259,15 @@ So many parts…
 
 - 30 gal stainless steel fresh water tank (midship, port side)
 - 30 gal stainless steel fresh water tank (midship, starboard side)
-- 2.9GPM 12V [fresh water pump by Jabsco](https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html) 🇨🇳
+- [2.9GPM 12V fresh water pump by Jabsco](https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html) 🇨🇳
 - PVC fresh water lines (15mm outer diameter)
 - 2 × Pre-pressurized accumulator tank by SHURflo
 - **Water maker**:
     - [Schenker Zen 30 12V](https://schenkerwatermakers.com/products/zen/)
-    - [QuenchSea](https://www.quenchsea.world/) emergency seawater desalination device
+        - [9/16"–1-1/16" stainless steel constant-tension worm-drive hose clamps](https://www.amazon.com/gp/product/B00NVA78BK/) by Breeze 🇺🇸
+    - [QuenchSea 1.0](https://www.quenchsea.world/) emergency seawater desalination device
 - **Showers**:
-    - 4 × RV-style shower
+    - 2 × RV-style shower
     - Transom shower by [Whale Pumps](https://www.whalepumps.com/marine/)
     - 3 × sun shower (5 gal)
 - **Containers**:
@@ -277,11 +282,16 @@ So many parts…
 
 ## Waste
 
-- 2 × Electric toilets
-    - 1 × Jabsco 37010-0000 macerator pump
-    - 1 × Jabsco 74001-2460 macerator pump
-- 2 × Waste water tanks
-    - 2 × Shurflo 3200-000 12V macerator pump
+- **Port**
+    - Jabsco 37055 electric fresh water toilet
+        - Jabsco 74001-2852EU 12V macerator pump
+        - Jabsco 37030-2012 solenoid valve
+    - 25×35×60cm (50 liter / 13.7 gallon) waste water tank
+        - Johnson Pump 10-13350-03 Viking Power 16 12V waste pump
+- **Starboard**
+    - Jabsco 37055 electric fresh water toilet
+    - 25×35×60cm (50 liter / 13.7 gallon) waste water tank
+        - Whale Gulper 12V toilet pump
 
 
 ---
@@ -297,7 +307,7 @@ So many parts…
 ---
 
 
-## Anchoring
+## Ground Tackle
 
 - Simpson-Lawrence Sprint 1500 12V windlass
     - RC162 gypsy
@@ -419,7 +429,7 @@ So many parts…
 
 ## Sound
 
-- 2 x 12V speakers Pioneer TS-MR165 (cockpit aft)
+- 2 × 12V speakers Pioneer TS-MR165 (cockpit aft)
 <!-- bluetooth amplifier -->
 <!-- https://www.nauticexpo.com/prod/musashi/product-200788-590152.html -->
 
@@ -436,9 +446,33 @@ So many parts…
 ---
 
 
+## Decals
+
+- Vessel name and home port (stern)
+- 2 × giant QR Codes (port & starboard) — DIY, vinyl by [TeckWrap](https://teckwrap.com)
+- Vessel number plate
+
+
+<!--
+---
+
+
+## Exercise
+
+- [K-TOR Power Box 50](https://k-tor.com/shop/generators/power-box-50/) 12V pedal generator 🇬🇧
+-->
+<!-- MAXPRO SC Portable Cable Machine -->
+<!-- Water weights -->
+<!-- trystealth.com -->
+
+
+---
+
+
 ## Cleaning
 
 - [6" wide boat hull scraper by America Go Fishing](https://www.americagofishing.com/shop/tools-and-accessories/boat-hull-scraper-6-inches)
+- [SeaSucker 4.5" suction cup w/ LP housing](https://www.seasucker.com/products/4-5-seasucker-lp-housing-black?variant=27661615057)
 - [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone 🇮🇹
 - Ryobi wet/dry [portable vacuum cleaner](https://www.ryobitools.com/products/details/33287201877) 🇨🇳
 - Ryobi cordless [power cleaner](https://www.ryobitools.com/products/details/46396036766) 🇨🇳
@@ -468,6 +502,9 @@ So many parts…
 
 ## Workshop
 
+- **Laser range meters**:
+    - 2 × Bosch GLM 20
+- [Electric resin mixer](https://pixiss.com/products/pixiss-epoxy-resin-mixer)
 - [FDM 3D printer](https://us.store.bambulab.com/products/p1p) 🇨🇳
 - [Shining Einstar 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇳
 - [CNC machine](https://sienci.com/product/longmill-mk2/) 🇨🇦
@@ -476,7 +513,12 @@ So many parts…
         - **End mills**:
             - [HSS1611-M](https://www.amanatool.com/hss1611-m-high-speed-steel-hss-foam-cutting-straight-v-flute-6mm-dia-x-25mm-x-6mm-shank-router-bit.html) purchased via toolstoday.com
             - [48442-K](https://www.amanatool.com/48442-k-solid-carbide-cnc-spektratm-extreme-tool-life-coated-foam-cutting-up-cut-square-end-spiral-3mm-dia-x-28mm-x-6mm-shank-x-64mm-long-router-bit.html) purchased via toolstoday.com
-<!-- - [Laser 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇦 -->
+- **Scales**:
+    - “Style Sense Safe 100” 180kg × 100g by [Soehnle](https://www.soehnle-professional.com/en) 🇩🇪
+    - “Page Profi 300” 20kg × 1g by [Soehnle](https://www.soehnle-professional.com/en) 🇩🇪
+    - “Ultra 2.0” 500g × 0.1g by [Soehnle](https://www.soehnle-professional.com/en) 🇩🇪
+
 <!-- tisin titanium silicium nitride / alcrn aluminum chromium nitride -->
+
 
 ---
