@@ -9,11 +9,13 @@ So many parts…
 ## Propulsion
 
 - **Port**:
-    - 10KW IP67 BLDC electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+    - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
         - Internal closed-loop active cooling system
+            - PVC fresh water lines (12mm outer diameter)
+                - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
             - Aluminum radiator
                 - 2 × 120mm 12V fans
-                - Coolant reservoir with two pumps
+            - Coolant reservoir with two pumps
             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
             - **fuses**:
@@ -29,14 +31,16 @@ So many parts…
         - 1-1/8" keyed stainless steel shaft
             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
 - **Starboard**:
-    - 10KW IP67 BLDC electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
+    - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
         - Internal closed-loop active cooling system
+            - PVC fresh water lines (12mm outer diameter)
+                - 5 × 12mm Union Elbows by [John Guest](https://www.johnguest.com/us/en/od-tube-fittings/metric-acetal-black/elbows/union-elbow)
             - Aluminum radiator
-            - 2 × 120mm 12V fans
+                - 2 × 120mm 12V fans
             - Coolant reservoir with two pumps
             - [Fish-friendly coolant](https://www.westmarine.com/west-marine-engine-antifreeze-coolant-gallon-337447.html) 🇺🇸
         - 48V BLDC motor controller by [Kelly Controls](https://kellycontroller.com/)
-            - **fuses**:
+            - **Fuses**:
                 - ANL 250A
                     - [ANL fuse holder with cover](https://www.osculati.com/en/11023-14.100.41/high-capacity-fuse-holder) by Osculati
                 - CNL 300A
@@ -75,7 +79,7 @@ So many parts…
 
 ## Rigging
 
-- **Standing**:
+- **Standing rigging**:
     - 62' fixed aluminum mast
         - 2 × aluminum spreaders
         - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
@@ -94,16 +98,17 @@ So many parts…
             - 2 × [titanium screw](https://www.ti64.com/product-p/6315.htm)
             - 2 × [titanium washer](https://www.ti64.com/product-p/1033.htm)
     - 4 × stainless steel backstays
-- **Running**:
+- **Running rigging**:
     - **Winches**:
         - 2 × Lewmar 50 self-tailing (cockpit) 🇬🇧
         - 3 × Lewmar 44 self-tailing (cockpit) 🇬🇧
         - 2 × Lewmar 40 self-tailing (mast) 🇬🇧
     - **Tracks**:
-        - 2 × Lewmar Size 2 sliding bolt track (5' long, on top of the cabin) 🇬🇧
+        - 2 × Lewmar Size 2 sliding bolt track (5' long, on top of the cabin, jib) 🇬🇧
             - 2 × Lewmar Size 2 ocean T-track genoa car 🇬🇧
-        - 2 × Lewmar Size 2 sliding bolt track (drilled, 4-1/4' long, cockpit) 🇬🇧
-        - 1 × Lewmar Size 3 (16-1/3' long, beam) 🇬🇧
+            - 4 × Lewmar Size 2 ocean T-track genoa car stops 🇬🇧
+        - 2 × Lewmar Size 2 sliding bolt track (drilled, 4-1/4' long, cockpit, genoa) 🇬🇧
+        - 1 × Lewmar Size 3 (16-1/3' long, beam, mainsail) 🇬🇧
             - 1 × Lewmar Size 3 ocean T-track mainsheet car 🇬🇧
     - **Clutches**:
         - **Mast**:
@@ -199,8 +204,11 @@ So many parts…
 - **Stanchions**:
     - 10 × [Vetus stainless steel stanchions](http://www.vetusmarine.com/store/p/1022-Stanchion-750mm.aspx) (75cm long, 2.5cm diameter)
         - 4 × Stainless steel lifeline wire, vinyl coated (white)
-<!-- https://starlightitalia.com/site/yachts/ -->
+- **Rub rails**:
+    - 2 × aluminum rub rails (3 segments per hull, 6 in total, mounted using 1-1/4" sheet metal screws)
 
+<!-- https://starlightitalia.com/site/yachts/ -->
+<!-- https://dragdevicedb.com -->
 
 ---
 
@@ -245,7 +253,8 @@ So many parts…
         - MPPT / charge controller / inverter (230V AC) [Victron Multi RS Solar 48/6000](https://www.victronenergy.com/inverters-chargers/multi-rs-solar) 🇳🇱, purchased through [Battery One PR](https://www.batteryonepr.com)
         - 4 × LiFePo4 [48V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/lithium-trolling-motor-battery-48v-100ah)
         - 2 × 200A 58V fuse by Victron
-        - 2 × MEGA-Fuse holder by victron
+        - 2 × MEGA-Fuse holder by Victron
+        - 2 × [275A 48V Switch by Victron](https://www.victronenergy.com/dc-distribution-systems/battery-switch-on-off)
 - **Photovoltaic system**:
     - 10 × 100W (1KW) array made of flexible solar panels by Sunpower, purchased through [ExpertPower](https://www.expertpower.us/products/100w-sunpower-solar-panel)
 
@@ -450,7 +459,7 @@ So many parts…
 
 - Vessel name and home port (stern)
 - 2 × giant QR Codes (port & starboard) — DIY, vinyl by [TeckWrap](https://teckwrap.com)
-- Vessel number plate
+- Stainless Steel Vessel number plate by [Vessel Placards](https://vesselplacards.com/product/stainless-steel-placard/)
 
 
 <!--
@@ -471,8 +480,8 @@ So many parts…
 
 ## Cleaning
 
-- [6" wide boat hull scraper by America Go Fishing](https://www.americagofishing.com/shop/tools-and-accessories/boat-hull-scraper-6-inches)
-- [SeaSucker 4.5" suction cup w/ LP housing](https://www.seasucker.com/products/4-5-seasucker-lp-housing-black?variant=27661615057)
+- [6" wide boat hull scraper by America Go Fishing](https://www.americagofishing.com/shop/tools-and-accessories/boat-hull-scraper-6-inches) 🇺🇸
+- [SeaSucker 4.5" suction cup w/ LP housing](https://www.seasucker.com/products/4-5-seasucker-lp-housing-black?variant=27661615057) 🇺🇸
 - [Keelcrab](https://www.keelcrab.com) underwater hull cleaning drone 🇮🇹
 - Ryobi wet/dry [portable vacuum cleaner](https://www.ryobitools.com/products/details/33287201877) 🇨🇳
 - Ryobi cordless [power cleaner](https://www.ryobitools.com/products/details/46396036766) 🇨🇳
@@ -518,6 +527,7 @@ So many parts…
     - “Page Profi 300” 20kg × 1g by [Soehnle](https://www.soehnle-professional.com/en) 🇩🇪
     - “Ultra 2.0” 500g × 0.1g by [Soehnle](https://www.soehnle-professional.com/en) 🇩🇪
 
+<!-- Premium Marine ClampTite Tool Kit -->
 <!-- tisin titanium silicium nitride / alcrn aluminum chromium nitride -->
 
 

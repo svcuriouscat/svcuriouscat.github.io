@@ -17,19 +17,19 @@ Main goals of the project:
 - **Beam**: 30' (9.14m)
 - **Draft**: 3.5' (1.1m)
 - **BOA / LOA ratio**: (30 / 44 =) 68%
-- **Waterline length**: 43
+- **Waterline length**: 43'
 - **Beam centerline**: 22' 6"
 - **BCL / LWL ratio**: (22.5 / 43 =) 52%
-- **Hull type**: hydrodynamic fixed mini-keels
+- **Bridge deck clearance**: 25"
 - **Mast clearance**: 62' (18.9m)
+- **Hull type**: hydrodynamic fixed mini-keels
 - **Launched**: July 5th 1998
 - **Country of origin**: Canada
 - **Manufacturer**: TEK-composites, Inc.
 - **Hull materials**: foam, epoxy, vacuum-bagged S-glass/CF/Kevlar, honeycomb, basalt
 - **Design**: custom, a cross between TEK-35 and Tektron 50 (both [John Shuttleworth](https://www.shuttleworthdesign.com/) designs), Novara 44 molds
-- **Lives left**: •••••••••/∞
+- **Lives left**: 9/∞
 
-<!-- Bridge deck clearance -->
 <!-- - **Displacement**: ?? -->
 
 ## Links
@@ -40,6 +40,7 @@ Main goals of the project:
 - [Instagram](https://www.instagram.com/svcuriouscat/)
 - [Email](mailto:svcuriouscat@protonmail.com?subject=Ahoy%20Capt%E2%80%99n!)
 - [Source Code](https://github.com/svcuriouscat)
+<!-- https://linktr.ee/RainAndStorm -->
 
 <!-- https://www.last.fm/user/RainAndStorm -->
 
@@ -67,6 +68,7 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 ### Done by the current owner
 
+- Removed aluminum rubrails
 - Replaced 4 seawater toilets with 2 fresh water toilets by Jabsco
 - Removed flexible water tank
 - New running rigging, davit lines
@@ -98,7 +100,8 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 
 ### Will be done in the future
 
-- Dual, completely separate 48V circuits
+- In-boom furling system by Furlcraft
+- Two completely separate 48V circuits
 - New docking lines by Robline
 - Ultraviolet water purifier by Bluonics
 - From-air fresh water generator by Genesis Systems
@@ -151,13 +154,12 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 - New bean bags (teardrop style)
 - New navigation lights by [RSL Fiber Systems](https://www.rslfibersystems.com/) or [Lopolight](https://www.lopolight.com/)
 - Food waste shredder by [Delitek](https://delitek.no/)
-- New rub rails (most likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/))
 - Electric headsail furling systems by Bamar, [Facnor](https://www.facnor.com), [Harken](https://www.harken.com/en/home/), [Reckmann](https://www.reckmann.com), [Seldén](https://www.seldenmast.com), or [Profurl](https://www.profurl.com)
 - Thermo-acoustic air and water heaters by [EQUIUM](https://www.equium.fr/en/home)
-<!-- - Grade 5 titanium thru-hull fittings by either [Allied Titanium](https://www.alliedtitanium.com) or [Gemlux](https://gemlux.com) -->
 <!-- - Solid-state fresh water pump by [Kinetic Ceramics](https://www.kineticceramics.com/products/solid-state-pumps/) -->
 <!-- https://www.r-g.de/en/list/Sandwich-material--Honeycombs--Foam- -->
-<!-- Hoosier Decal -->
+<!-- Sharrow prop -->
+<!-- - New rub rails (most likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/)) -->
 
 ### Done by previous owners
 
