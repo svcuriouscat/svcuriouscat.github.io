@@ -32,8 +32,8 @@ def generatePageTitle(name, data):
 def generateNavigation():
     links = []
     # links.append(getWebPageLink("/captains-log/", "Captain’s log"))
-    links.append(getWebPageLink("/software/", "Software"))
     links.append(getWebPageLink("/inspirations/", "Inspirations"))
+    links.append(getWebPageLink("/software/", "Software"))
     links.append(getWebPageLink("/gallery/", "Gallery"))
     links.append(getWebPageLink("/systems/", "Systems"))
     return links
