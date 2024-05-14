@@ -141,6 +141,7 @@ table {
         border: 1px solid $color-fg;
         border-radius: 0.15rem;
         color: $color-bg;
+        display: inline-block;
         font-size: calc(100% - 3px);
         margin-right: 1px;
         padding: 1px 2px;

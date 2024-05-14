@@ -19,6 +19,7 @@ My main object of interest is dual-faced solar panels.
 
 ---
 
+
 ![Tûranor PlanetSolar](../assets/inspirations/turanor-planetsolar/turanor-planetsolar-main.jpg)
 
 ## Tûranor PlanetSolar
@@ -28,6 +29,7 @@ Launched in 2010, this catamaran is 102' long.
 Built by Howaldtswerke-Deutsche Werft and designed by LOMOcean Marine.
 The vessel is a giant floating solar panel, and I hope to get one day a chance to see her with my own eyes.
 [Here](https://www.bluebird-electric.net/planetsolar.htm)’s more information.
+
 
 ---
 
@@ -113,7 +115,7 @@ Links:
 ---
 
 -->
-
+<!-- 
 ## Siva — 2012 Schionning Spirited 380
 
 ![Siva main photo](../assets/inspirations/siva/siva-main.jpg)
@@ -125,6 +127,7 @@ Now, thanks to wonders of capitalism, Curious Cat has a washing machine aboard!
 
 
 ---
+ -->
 
 
 ## Kawaakari — 2013 Erik Lerouge 137

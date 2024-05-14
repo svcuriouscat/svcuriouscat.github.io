@@ -5,10 +5,10 @@ Curious Cat is a solar-electric sailing catamaran set to travel around the world
 Main goals of the project:
 
 - reverse-engineer and open-source the vessel
-- repair and restore the vessel to her original glory (and better!)
+- repair and restore the vessel to her original glory (and better)
 - be self-sufficient and operate solely on electric power
+- promote use of titanium and other modern materials
 - try out cutting-edge marine tech
-- promote use of titanium
 
 
 ## Specifications
@@ -160,6 +160,8 @@ In October of 2022 Curious Cat was damaged in hurricane Ian.
 <!-- https://www.r-g.de/en/list/Sandwich-material--Honeycombs--Foam- -->
 <!-- Sharrow prop -->
 <!-- - New rub rails (most likely [BINO by TESSILMARE](https://rubrails-tessilmare.com/boat-rub-rails/bino-boat-rub-rails/)) -->
+<!-- WISAMO sail -->
+<!-- www.rotoclear.com -->
 
 ### Done by previous owners
 

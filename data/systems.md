@@ -512,7 +512,7 @@ So many parts…
 ## Workshop
 
 - **Laser range meters**:
-    - 2 × Bosch GLM 20
+    - 2 × [Bosch GLM 20](https://www.bosch-professional.com/eg/en/products/glm-20-0601072EG0)
 - [Electric resin mixer](https://pixiss.com/products/pixiss-epoxy-resin-mixer)
 - [FDM 3D printer](https://us.store.bambulab.com/products/p1p) 🇨🇳
 - [Shining Einstar 3D scanner](https://www.creaform3d.com/en/customer-support/legacy-products/revscan-scanner) 🇨🇳
