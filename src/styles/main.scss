@@ -134,6 +134,9 @@ table {
         background-position:0 0, 0 0, -10px -10px, 10px 10px;
 
         box-sizing: border-box;
+
+        margin: 0 auto;
+        max-width: 100%;
     }
 
     a {
@@ -164,11 +167,10 @@ table {
             opacity: 0;
             padding: 0;
         }
-    }
 
-    img {
-        margin: 0 auto;
-        max-width: 100%;
+        img {
+            display: block;
+        }
     }
 }
 
@@ -192,7 +194,6 @@ table {
             }
 
             img {
-                display: block;
                 max-height: 95%;
                 max-width: 95%;
             }
@@ -208,6 +209,7 @@ table {
     }
 }
 
+/*
 .logbook {
     display: flex;
     margin: 0;
@@ -267,6 +269,7 @@ table {
         }
     }
 }
+*/
 
 // Laptops
 @media (max-width: 120rem) {
