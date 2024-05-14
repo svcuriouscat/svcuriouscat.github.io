@@ -8,7 +8,7 @@
 A text-based 3D modeling tool.  You write code, it spits out shapes.  Pretty simple.
 All [3D designs](https://www.printables.com/@RainAndStorm/models) related to Curious Cat were made using this tool.
 
-[App Store](https://apps.apple.com/us/app/shapescript/id1441135869) [Website](https://shapescript.info)
+[App Store (iOS)](https://apps.apple.com/us/app/shapescript-mobile/id1606439346)  [App Store (macOS)](https://apps.apple.com/us/app/shapescript/id1441135869)  [Website](https://shapescript.info)
 
 ---
 
@@ -19,7 +19,7 @@ All [3D designs](https://www.printables.com/@RainAndStorm/models) related to Cur
 This app was created in 2023 by the captain of Curious Cat to reverse-engineer, refit and repair the vessel.
 Heavily inspired by hurricane Ian (especially the port side).
 
-[App Store](https://apps.apple.com/us/app/multi-bubble-level/id6467743326) [Indiegogo](https://www.indiegogo.com/projects/multilevel-mobile-app/x/36585286)
+[App Store](https://apps.apple.com/us/app/multi-bubble-level/id6467743326)  [Indiegogo](https://www.indiegogo.com/projects/multilevel-mobile-app/x/36585286)
 
 
 <!-- ## OpenFOAM -->
