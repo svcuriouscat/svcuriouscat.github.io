@@ -1,5 +1,7 @@
 # SVCuriousCat.com
 
+Website of sailing vessel Curious Cat
+
 
 ## Installing dependencies
 

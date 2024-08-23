@@ -99,6 +99,31 @@ Links:
 
 
 ---
+
+
+## MODX 70
+
+Very new concept, lots of great architectural and engineering decisions.
+Wing sails, electric propulsion.
+
+Links:
+
+ - [Website](https://modx-catamarans.com/en/modx-70/)
+
+
+---
+
+
+## TAG 60
+
+Designed by Greg Young.  Just another beautiful boat that's nice to look at.
+
+Links:
+
+ - [Video](https://www.youtube.com/watch?app=desktop&v=ofXevc705q4)
+
+
+
 <!--
 
 ## Australian catamaran with a windmill

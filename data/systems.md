@@ -27,6 +27,11 @@ So many parts…
         - 2 × Stainless steel brackets by E-Tech 🇵🇱
         - 4 × [Marine X engine mount](https://www.mecanocaucho.com/en-US/products/vibration-isolators/marine-x-mount/) (small) by AMC Mecanocaucho 🇪🇸
         - 2 × [stainless steel rail](https://www.onlinemetals.com/en/buy/stainless-steel/2-5-x-2-5-x-0-1875-stainless-angle-316-316l/pid/2169) (2.5" × 2.5" × 24", 0.1875" thick) 🇺🇸
+    - Magnetic coupling by MGT
+        - 6 x Mag wheel 200
+            - 8 x [#8-32 x 2" titanium countersunk socket screw](https://www.ti64.com/product-p/6834.htm)
+            - 8 x [#8-32 titanium hex nylon insert lock nut](https://www.ti64.com/product-p/6735.htm)
+            - 8 x [#8 flat washer](https://www.ti64.com/product-p/6835.htm)
     - 3-blade feathering bronze propeller
         - 1-1/8" keyed stainless steel shaft
             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
@@ -72,6 +77,8 @@ So many parts…
 - **Rudders**:
     - 2 × Carbon fiber rudders with round poles
         - 2 × Composite quandrants (foam core, S-glass, 40cm diameter, 2.25cm thick)
+    - 2 × 1113
+    - 2 × 1050
 
 
 ---
@@ -81,18 +88,27 @@ So many parts…
 
 - **Standing rigging**:
     - 62' fixed aluminum mast
-        - 2 × aluminum spreaders
+        - 2 × aluminum spreader
+            - 2 x stainless steel diamond
+                - 4 x bronze turnbuckle
+            - 2 x [spreader light](https://www.pactrademarine.com/marine-spotlights-c-47_35/marine-boat-spreader-light-replacement-bright-55w-12v-fixed-moun-p-991.html)
+                - 4 x 10-24 stainless steel screws
         - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
         - 18-1/3' aluminum boom
-            - 2 × 5" plastic cleats
-            - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) for cushioning
+            - 2 × 5" plastic cleat
+            - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) on T-top for cushioning
         - 3 × stainless steel winch and lock plates
             - 28 × (1/4"-20 × 3/8") [button-head socket titanium grade 5 screws](https://www.ti64.com/product-p/5442.htm)
+        - 2 × cap shroud
+            — 2 × 5/8" 8" bronze turnbuckle
+        - 2 × lower shroud
+            — 2 × 5/8" 8" bronze turnbuckle
     - **Furling systems**
-        - Profurl NCI-42 furler (forestay)
-        - Profurl N31/N41 furler (inner forestay)
+        - Profurl NCI-42 furler (genoa)
+        - Profurl N31/N41 furler (staysail)
     - 2 × forestays (stainless steel cables)
         - 2 × stainless steel martingales
+            — 2 × 5/8" 8" bronze turnbuckle
         - Aerodynamic striker by [GMT Composites](https://gmtcomposites.com) (prepreg carbon fiber, G-10)
             - Stainless steel martingale
             - 2 × [titanium screw](https://www.ti64.com/product-p/6315.htm)
@@ -108,18 +124,22 @@ So many parts…
             - 2 × Lewmar Size 2 ocean T-track genoa car 🇬🇧
             - 4 × Lewmar Size 2 ocean T-track genoa car stops 🇬🇧
         - 2 × Lewmar Size 2 sliding bolt track (drilled, 4-1/4' long, cockpit, genoa) 🇬🇧
-        - 1 × Lewmar Size 3 (16-1/3' long, beam, mainsail) 🇬🇧
-            - 1 × Lewmar Size 3 ocean T-track mainsheet car 🇬🇧
+        - Lewmar Size 3 (16-1/3' long, beam, mainsail) 🇬🇧
+            - Lewmar Size 3 ocean T-track mainsheet car 🇬🇧
+                - 118 × 3/8" Torlon balls
+                - 2 × 5187
+                - 2 × 5195
+                - 3 × 5107
     - **Clutches**:
         - **Mast**:
-            - 1 × Single 12–14mm (1/2"–9/16") by Lewmar (for topping lift, port side) 🇬🇧
-            - 1 × Double 12–14mm (1/2"–9/16") by Lewmar (for jib and genoa, port side) 🇬🇧
-            - 1 × Double 12–14mm (1/2"–9/16") by Lewmar (for spinnaker and mainsail, port side) 🇬🇧
-            - 1 × Triple 12–14mm (1/2"–9/16") by Lewmar (starboard side) 🇬🇧
+            - Single 12–14mm (1/2"–9/16") by Lewmar (for topping lift, port side) 🇬🇧
+            - Double 12–14mm (1/2"–9/16") by Lewmar (for jib and genoa, port side) 🇬🇧
+            - Double 12–14mm (1/2"–9/16") by Lewmar (for spinnaker and mainsail, port side) 🇬🇧
+            - Triple 12–14mm (1/2"–9/16") by Lewmar (starboard side) 🇬🇧
         - **Cockpit**:
             - 2 × Single 8–14mm (5/16"–9/16") by Garhauer (for furlers, starboard side) 🇺🇸
             - 2 × Double 12–14mm (1/2"–9/16") by Lewmar (for jib sheets, starboadrd side) 🇬🇧
-            - 1 × Double 12–14mm (1/2"–9/16") by Lewmar ( port side) 🇬🇧
+            - Double 12–14mm (1/2"–9/16") by Lewmar ( port side) 🇬🇧
     - **Lines**:
         - **Jib furler**:
             - 3/8" polyester double braid rope (white + blue tracer)
@@ -159,6 +179,7 @@ So many parts…
             - Fiberglass, 227, 5.0, 40, 15, 650
             - Fiberglass, 137, 6.0, 40, 16, 350
 
+<!-- https://www.colligomarine.com/products/p/torque-rope-clamps-hfrc9 -->
 
 ---
 
@@ -167,7 +188,7 @@ So many parts…
 
 - **Compasses**:
     - 2 × backlit binnacle-mount compasses by [Ritchie Navigation](https://www.ritchienavigation.com)
-    - 1 × [hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
+    - [Hand bearing compass](https://www.davisinstruments.com/products/hand-bearing-compass-illuminated) by Davis Instruments
 - **Radar**:
     - B&G Halo20+ radome
 - **Chart plotter**:
@@ -176,6 +197,7 @@ So many parts…
     - [nke](https://nke-marine-electronics.com/) Gyropilot 3 🇫🇷
 - **AIS**:
     - B&G NAIS-500 class B AIS transceiver
+        - Gam Electronics [SS-2](https://gamelectronicsinc.com/products/mini-series/) Stainless Steel Whip Antenna (162MHz)
 
 
 ---
@@ -183,6 +205,8 @@ So many parts…
 
 ## Safety
 
+- **Sea anchors**:
+    - [21' offshore para-anchor](https://www.para-anchor.com/pro.offsanchor.html) by Fiorentino
 - **Flotation devices**:
     - Horseshoe buoy throwable device by [West Marine](https://www.westmarine.com)
     - 6 × PFDs
@@ -204,11 +228,14 @@ So many parts…
 - **Stanchions**:
     - 10 × [Vetus stainless steel stanchions](http://www.vetusmarine.com/store/p/1022-Stanchion-750mm.aspx) (75cm long, 2.5cm diameter)
         - 4 × Stainless steel lifeline wire, vinyl coated (white)
-- **Rub rails**:
-    - 2 × aluminum rub rails (3 segments per hull, 6 in total, mounted using 1-1/4" sheet metal screws)
-
+- **Jacklines**:
+    - 4 x 1" wide nylon jacklines by Suncor
+<!-- https://polyformus.com/products/a-series-buoy-a-2-navy-blue-ropehold -->
+<!-- https://glorope.com/products/glo-tuff-end-vinyl-buoy (12"–15") -->
 <!-- https://starlightitalia.com/site/yachts/ -->
 <!-- https://dragdevicedb.com -->
+<!-- Kingii -->
+<!-- https://www.ibukikogyo.co.jp/english/prd01/product01es15.html -->
 
 ---
 
@@ -237,7 +264,7 @@ So many parts…
     - [Starlink RV](https://www.starlink.com/rv) satellite internet dish & router kit 🇺🇸
 - **Radio**:
     - [Icom M510 VHF](https://www.icomamerica.com/en/products/marine/mountedvhf/m510/default.aspx) 🇯🇵
-
+        - VHF antenna (mounted at the top of the mast)
 
 ---
 
@@ -335,6 +362,7 @@ So many parts…
     - [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy 🇫🇷 purchased through [Defender](https://defender.com)
         - [ThrustMe Kicker](https://www.thrustme.no/eu/kicker-eu) electric outboard motor 🇳🇴 purchased through [eWatersportz](https://ewatersportz.com/)
 
+<!-- Sabfoil Torpedo 100L -->
 
 ---
 
@@ -346,8 +374,8 @@ So many parts…
 - **Hatches**:
     - 8 × Lewmar Size 30 (deck) 🇬🇧
     - 2 × Lewmar Size 44 (escape) 🇬🇧
-    - 1 × Lewmar Size 50 (cabin) 🇬🇧
-    - 10 × Jim Black 592-20RND-05-02-05 20" (cabin, glued shut)
+    - Lewmar Size 50 (cabin) 🇬🇧
+    - 10 × Jim Black [592-20RND-05-02-05](https://www.greatlakesskipper.com/jim-black-boat-hatch-592-20rnd-05-02sc-05-polar-white-20-inch) 20" tempered glass (cabin, glued shut)
 - **Inspection hatches**:
     - 2 × [Ø 125mm by Nuova Rade](https://www.nuovarade.com/product.php?productId=5752&categoryId=219) (crash boxes) 🇮🇹
 - Sliding transparent cabin door 🇨🇦
@@ -360,8 +388,10 @@ So many parts…
 
 - **Topdeck**:
     - AwlGrip (sky blue)
+        - Alexseal Finish Primer 442
+            - [Insuladd](https://www.insuladd.com) insulating ceramic paint additive
 - **Interior**:
-    - none (bare fiberglass)
+    - Alexseal Super Build 302 high build primer
 
 <!--
     - [ALEXSEAL® Premium Topcoat 501](https://www.alexseal.com/products/premium-exterior-topcoats/premium-topcoat-501)
@@ -401,9 +431,8 @@ So many parts…
 
 ## Laundry
 
-- Daewoo DWD-35MCRCR 230VAC Washer/dryer combo unit 🇰🇷
+- Winia Daewoo DWD-35MCRCR 230VAC Washer/dryer combo unit 🇰🇷
     - [Eco-friendly laundry detergent](https://www.amazon.com/gp/product/B06WCZRHQR/) 🇺🇸
-
 
 ---
 
@@ -414,7 +443,7 @@ So many parts…
     - Cover made out of GoSun Sport carry case
 - Portable [Makita coffee maker](https://www.makitatools.com/products/details/DCM501Z) 🇯🇵
 - Mini Electric Oven Toaster (800W, 220V)
-- Magic bullet 110V blender
+- Magic bullet blender (110V)
 <!-- Moccamaster coffee machine, home style burr grinder -->
 
 
@@ -425,9 +454,9 @@ So many parts…
 
 - 4 × Fishing rods
 - 4 × Stainless steel fishing pole holders
-- 1 × [Cast net (1/4” mesh × 4’ high, 4.8lb)](https://www.amazon.com/gp/product/B08QJGRZNK/)
-- 1 × Bait container
-- 1 × Crawfish trap
+- [Cast net (1/4” mesh × 4’ high, 4.8lb)](https://www.amazon.com/gp/product/B08QJGRZNK/)
+- Bait container
+- Crawfish trap
     - [Tritium light](https://countycomm.com/products/tritium-ember-glow-fob)
 - Aluminum landing net
 - Tackle (various lures, hooks, line, etc)

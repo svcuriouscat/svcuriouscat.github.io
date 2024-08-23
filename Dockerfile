@@ -2,7 +2,7 @@ FROM alpine:3.16.3
 
 RUN apk update && apk add gcc g++ make musl-dev python3 python3-dev py3-pip py3-wheel
 
-WORKDIR /src/website-generator
+WORKDIR /src/svcuriouscat/webgen
 
 ADD Prebuild.mk requirements.txt .
 

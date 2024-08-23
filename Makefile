@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-# Makefile for website generator
+# Makefile for webgen
 
 ifeq ($(OS),Windows_NT)
     CWD ?= "$(shell echo %CD%)"
@@ -11,7 +11,7 @@ else
 endif
 BUILD_DIR ?= docs
 CONFIG_FILE ?= config.ini
-DOCKER_IMAGE_TAG ?= svcuriouscat/website-generator
+DOCKER_IMAGE_TAG ?= svcuriouscat/webgen
 PORT ?= 8100
 
 .DEFAULT_GOAL := help
