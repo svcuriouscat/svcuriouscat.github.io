@@ -1,22 +1,22 @@
 ## Responsible for creating systems page’s HTML file
 
-import utils
+import webgen
 
 def stage(data):
-    html = utils.renderTemplate(data["templates"]["page"], {
-        "title":       utils.generatePageTitle("", data),
+    html = webgen.renderTemplate(data["templates"]["page"], {
+        "title":       webgen.generatePageTitle("", data),
         "description": "Detailed description of various systems installed aboard SV Curious Cat",
-        "logo":        utils.renderTemplate(data["templates"]["link"], {
+        "logo":        webgen.renderTemplate(data["templates"]["link"], {
             "href": "..",
             "content": "Home",
         }),
-        "navigation":  utils.generateNavigation(),
-        "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
+        "navigation":  webgen.generateNavigation(),
+        "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
         "class":        "systems content",
-        "content":     utils.renderMarkdown(open("../data/systems.md", "r").read()),
+        "content":     webgen.renderMarkdown(open("../data/systems.md", "r").read()),
     })
-    htmlFile = utils.mkfile(
+    htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
         data["config"]["Site"]["SystemsPath"],

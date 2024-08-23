@@ -4,7 +4,7 @@ import datetime
 import os
 import re
 
-import utils
+import webgen
 
 def formatLogbookPageDate(logbookPage):
     return datetime.datetime(int(logbookPage["year"]), int(logbookPage["month"]), int(logbookPage["day"])).strftime("%d.%m.%Y")
@@ -81,18 +81,18 @@ def stage(data):
         recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
         for recordFileName in records:
             # Add ID anchor
-            # recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
+            # recordsHtml += "<a id=\"" + webgen.filenameToAnchorTagId(recordFileName) + "\"></a>"
             # Render the logbook entry
-            recordsHtml += utils.renderMarkdown(records[recordFileName])
+            recordsHtml += webgen.renderMarkdown(records[recordFileName])
         prevLinkHtml = ""
         if "prevPage" in logbookPage:
             prevRecords = logbookPage["prevPage"]["records"]
             prevRecordsHtml = "<h1>Captain’s log<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
             for recordFileName in prevRecords:
-                prevRecordsHtml += utils.renderMarkdown(prevRecords[recordFileName])
+                prevRecordsHtml += webgen.renderMarkdown(prevRecords[recordFileName])
             # Strip off all anchor tags
             prevRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', prevRecordsHtml)
-            prevLinkHtml = utils.renderTemplate(data["templates"]["link"], {
+            prevLinkHtml = webgen.renderTemplate(data["templates"]["link"], {
                 "href": "../../../" + logbookPage["prevPage"]["year"] + "/" + logbookPage["prevPage"]["month"] + "/" + logbookPage["prevPage"]["day"] + "/",
                 "class": "content",
                 "content": prevRecordsHtml
@@ -102,32 +102,32 @@ def stage(data):
             nextRecords = logbookPage["nextPage"]["records"]
             nextRecordsHtml = "<h1>Captain’s log<br />Dateline: " + formatLogbookPageDate(logbookPage["nextPage"]) + "</h1>"
             for recordFileName in nextRecords:
-                nextRecordsHtml += utils.renderMarkdown(nextRecords[recordFileName])
+                nextRecordsHtml += webgen.renderMarkdown(nextRecords[recordFileName])
             nextRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', nextRecordsHtml)
-            nextLinkHtml = utils.renderTemplate(data["templates"]["link"], {
+            nextLinkHtml = webgen.renderTemplate(data["templates"]["link"], {
                 "href": "../../../" + logbookPage["nextPage"]["year"] + "/" + logbookPage["nextPage"]["month"] + "/" + logbookPage["nextPage"]["day"] + "/",
                 "class": "content",
                 "content": nextRecordsHtml
             })
-        html = utils.renderTemplate(data["templates"]["page"], {
-            "title":       utils.generatePageTitle("Captain’s log, " + formattedDate, data),
+        html = webgen.renderTemplate(data["templates"]["page"], {
+            "title":       webgen.generatePageTitle("Captain’s log, " + formattedDate, data),
             "description": "Captain’s log, " + formattedDate,
-            "logo":        utils.renderTemplate(data["templates"]["link"], {
+            "logo":        webgen.renderTemplate(data["templates"]["link"], {
                 "href": "../../../..",
                 "content": "Home",
             }),
-            "navigation":  utils.generateNavigation(),
-            "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
+            "navigation":  webgen.generateNavigation(),
+            "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
             "css":         "../../../../" + data["definitions"]["filenames"]["css"],
             "class":        "logbook",
-            "content":     utils.renderTemplate(data["templates"]["logbook-page"], {
+            "content":     webgen.renderTemplate(data["templates"]["logbook-page"], {
                 "date": formattedDate,
                 "prevLink": prevLinkHtml,
                 "content": recordsHtml,
                 "nextLink": nextLinkHtml,
             })
         })
-        htmlFile = utils.mkfile(
+        htmlFile = webgen.mkfile(
             data["definitions"]["runtime"]["cwd"],
             data["config"]["Filesystem"]["DestinationDirPath"],
             data["config"]["Site"]["CaptainsLogPath"],
@@ -140,7 +140,7 @@ def stage(data):
         htmlFile.close()
         ## Copy asset files
         if os.path.isdir(os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets")):
-            utils.cpr(
+            webgen.cpr(
                 os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets"),
                 os.path.join(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], data["config"]["Site"]["CaptainsLogPath"], logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets")
             )
@@ -157,40 +157,40 @@ def stage(data):
     recordsHtml = "<h1>Captain’s log<br />Dateline: " + formattedDate + "</h1>"
     for recordFileName in records:
         # Add ID anchor
-        # recordsHtml += "<a id=\"" + utils.filenameToAnchorTagId(recordFileName) + "\"></a>"
+        # recordsHtml += "<a id=\"" + webgen.filenameToAnchorTagId(recordFileName) + "\"></a>"
         # Render the logbook entry
-        recordsHtml += utils.renderMarkdown(records[recordFileName])
+        recordsHtml += webgen.renderMarkdown(records[recordFileName])
     prevLinkHtml = ""
     if "prevPage" in logbookPage:
         prevRecords = logbookPage["prevPage"]["records"]
         prevRecordsHtml = "<h1>Captain’s log<br />Dateline: " + formatLogbookPageDate(logbookPage["prevPage"]) + "</h1>"
         for recordFileName in prevRecords:
-            prevRecordsHtml += utils.renderMarkdown(prevRecords[recordFileName])
+            prevRecordsHtml += webgen.renderMarkdown(prevRecords[recordFileName])
         # Strip off all anchor tags
         prevRecordsHtml = re.sub('<(?:a[^>]*>|/a>)', '', prevRecordsHtml)
-        prevLinkHtml = utils.renderTemplate(data["templates"]["link"], {
+        prevLinkHtml = webgen.renderTemplate(data["templates"]["link"], {
             "href": "./" + logbookPage["prevPage"]["year"] + "/" + logbookPage["prevPage"]["month"] + "/" + logbookPage["prevPage"]["day"] + "/",
             "class": "content",
             "content": prevRecordsHtml
         })
-    html = utils.renderTemplate(data["templates"]["page"], {
-        "title":       utils.generatePageTitle("Captain’s log, " + formattedDate, data),
+    html = webgen.renderTemplate(data["templates"]["page"], {
+        "title":       webgen.generatePageTitle("Captain’s log, " + formattedDate, data),
         "description": "Captain’s log, " + formattedDate,
-        "logo":        utils.renderTemplate(data["templates"]["link"], {
+        "logo":        webgen.renderTemplate(data["templates"]["link"], {
             "href": "..",
             "content": "Home",
         }),
-        "navigation":  utils.generateNavigation(),
-        "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
+        "navigation":  webgen.generateNavigation(),
+        "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
         "class":        "logbook",
-        "content":     utils.renderTemplate(data["templates"]["logbook-page"], {
+        "content":     webgen.renderTemplate(data["templates"]["logbook-page"], {
             "date": formattedDate,
             "prevLink": prevLinkHtml,
             "content": recordsHtml
         })
     })
-    htmlFile = utils.mkfile(
+    htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
         data["config"]["Site"]["CaptainsLogPath"],
@@ -200,7 +200,7 @@ def stage(data):
     htmlFile.close()
     ## Copy asset files
     if os.path.isdir(os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets")):
-        utils.cpr(
+        webgen.cpr(
             os.path.join(data["definitions"]["runtime"]["cwd"], "data", "logbook", logbookPage['year'], logbookPage['month'], logbookPage['day'], "assets"),
             os.path.join(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], data["config"]["Site"]["CaptainsLogPath"], "assets")
         )

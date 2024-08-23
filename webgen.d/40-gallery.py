@@ -3,7 +3,7 @@
 import os
 from PIL import Image
 
-import utils
+import webgen
 
 def stage(data):
     #
@@ -34,37 +34,37 @@ def stage(data):
                 ## Create thumbnail
                 image = Image.open("../data/gallery/" + albumName + "/" + fileName)
                 image.thumbnail((640, 640))
-                utils.mkdir(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "gallery", albumName)
-                image.save(utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "gallery", albumAndThumbFilePath))
+                webgen.mkdir(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "gallery", albumName)
+                image.save(webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "gallery", albumAndThumbFilePath))
                 ## Append to array of albums
                 galleryTemplateAlbums[-1]["pictures"].append({ "orig": "../assets/gallery/" + albumAndFilePath, "thumb": "../assets/gallery/" + albumAndThumbFilePath })
                 ## Copy original asset file
-                utils.cp(
-                    utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "gallery", albumAndFilePath),
-                    utils.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "gallery", albumAndFilePath)
+                webgen.cp(
+                    webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], "data", "gallery", albumAndFilePath),
+                    webgen.resolveFsPath(data["definitions"]["runtime"]["cwd"], data["config"]["Filesystem"]["DestinationDirPath"], "assets", "gallery", albumAndFilePath)
                 )
         else:
             ## Omit empty albums
             galleryTemplateAlbums.pop()
-    pageHTML = utils.renderTemplate(data["templates"]["gallery"], {
+    pageHTML = webgen.renderTemplate(data["templates"]["gallery"], {
         "albums": galleryTemplateAlbums
     })
     ## Generate HTML contents out of template
-    html = utils.renderTemplate(data["templates"]["page"], {
-        "title":       utils.generatePageTitle("Gallery", data),
+    html = webgen.renderTemplate(data["templates"]["page"], {
+        "title":       webgen.generatePageTitle("Gallery", data),
         "description": "Pictures of Curious Cat, old and new",
-        "logo":        utils.renderTemplate(data["templates"]["link"], {
+        "logo":        webgen.renderTemplate(data["templates"]["link"], {
             "href": "..",
             "content": "Home",
         }),
-        "navigation":  utils.generateNavigation(),
-        "criticalcss": utils.compileSass(open("../src/styles/critical.scss", "r").read()),
+        "navigation":  webgen.generateNavigation(),
+        "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
         "class":        "gallery content",
         "content":     pageHTML,
     })
     ## Create new HTML file
-    htmlFile = utils.mkfile(
+    htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
         "gallery",

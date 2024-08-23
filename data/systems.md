@@ -300,7 +300,7 @@ So many parts…
 - 2 × Pre-pressurized accumulator tank by SHURflo
 - **Water maker**:
     - [Schenker Zen 30 12V](https://schenkerwatermakers.com/products/zen/)
-        - [9/16"–1-1/16" stainless steel constant-tension worm-drive hose clamps](https://www.amazon.com/gp/product/B00NVA78BK/) by Breeze 🇺🇸
+        - 9/16"–1-1/16" [constant-tension hose clamps](https://www.amazon.com/gp/product/B00NVA78BK/) by Breeze 🇺🇸
     - [QuenchSea 1.0](https://www.quenchsea.world/) emergency seawater desalination device
 - **Showers**:
     - 2 × RV-style shower

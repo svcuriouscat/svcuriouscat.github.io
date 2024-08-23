@@ -34,7 +34,7 @@ build: clean $(BUILD_DIR) $(CONFIG_FILE) ## Build and extract website files usin
 
 BUILD: clean $(BUILD_DIR) $(CONFIG_FILE) ## Build website files from filesystem
 	@cd $(BUILD_DIR) && \
-		python3 ../website-generator.py
+		python3 ../webgen.py
 .PHONY: BUILD
 
 $(CONFIG_FILE): ## Generate config file if it doesn't already exist
@@ -48,7 +48,7 @@ $(BUILD_DIR): ## Create empty build directory
 	@mkdir -p $(BUILD_DIR)
 
 serve: $(BUILD_DIR) ## Serve website files using container
-	@$(DOCKER) run -it -v $(CWD)/$(BUILD_DIR):/src/website-generator/$(BUILD_DIR) --rm -p $(PORT):$(PORT) $(DOCKER_IMAGE_TAG)
+	@$(DOCKER) run -it -v $(CWD)/$(BUILD_DIR):/src/webgen/$(BUILD_DIR) --rm -p $(PORT):$(PORT) $(DOCKER_IMAGE_TAG)
 .PHONY: serve
 
 SERVE: $(BUILD_DIR) ## Serve website files directly from filesystem
