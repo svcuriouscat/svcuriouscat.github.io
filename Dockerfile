@@ -1,10 +1,12 @@
-FROM alpine:3.16.3
+FROM ubuntu:22.04
 
-RUN apk update && apk add gcc g++ make musl-dev python3 python3-dev py3-pip py3-wheel
+RUN apt-get update && apt-get install -y \
+make \
+python3-pip
 
 WORKDIR /src/svcuriouscat/webgen
 
-ADD Prebuild.mk requirements.txt .
+ADD Prebuild.mk requirements.txt ./
 
 RUN make -f Prebuild.mk INSTALL_DEPS
 
