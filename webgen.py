@@ -3,15 +3,14 @@
 
 import configparser
 import importlib.util
+import markdown
 import os
+import pystache
 import re
+import sass
 import shutil
 import sys
-from urllib.parse import quote, urljoin
-
-import markdown
-import pystache
-import sass
+import urllib.parse
 
 ##############################################################################
 
@@ -50,7 +49,7 @@ def getCwd():
 
 def getWebPageLink(target, label):
     return {
-        "href": quote(target),
+        "href": urllib.parse.quote(target),
         "label": label,
     }
 
@@ -73,7 +72,7 @@ def resolveFsPath(*additionalPath):
     return os.path.join(os.path.sep.join(additionalPath[:320000]))
 
 def resolveURL(base, url):
-    return urljoin(base, quote(url), allow_fragments=False)
+    return urllib.parse.urljoin(base, urllib.parse.quote(url), allow_fragments=False)
 
 ##############################################################################
 

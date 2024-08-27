@@ -52,6 +52,5 @@ serve: $(BUILD_DIR) ## Serve website files using container
 .PHONY: serve
 
 SERVE: $(BUILD_DIR) ## Serve website files directly from filesystem
-	echo "Starting local server for contents of $(BUILD_DIR) ..." && \
-	python3 -m http.server --directory $(BUILD_DIR) $(PORT)
+	@python3 -m http.server --directory $(BUILD_DIR) $(PORT)
 .PHONY: SERVE

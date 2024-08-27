@@ -1,14 +1,21 @@
 ## Compile Sass into CSS
 
+import os
+
 import webgen
 
 def stage(data):
+    css = ""
+    ## Read and compile Sass
+    for filename in os.listdir(os.path.join(data["definitions"]["runtime"]["cwd"], "src", "styles")):
+        if filename.endswith(".scss"):
+            with open(os.path.join(data["definitions"]["runtime"]["cwd"], "src", "styles", filename), 'r') as file:
+                css = css + webgen.compileSass(file.read())
     ## Write style file
     styleFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],
-        data["config"]["Filesystem"]["StyleFile"],
+        data["config"]["Filesystem"]["StyleFile"]
     )
-    css = webgen.compileSass(open("../src/styles/main.scss", "r").read())
     styleFile.write(css)
     styleFile.close()

@@ -85,9 +85,9 @@ In August of 2023 Curious Cat was damaged by a band of hurricane Idalia.
 - Rebuilt rudder quadrants
 - Installed new VHF radio by [Icom](https://www.icomamerica.com)
 - Switched all pumps to use [solid-state switches](https://www.spxflow.com/johnson-pump-marine/products/bilge-pump-switches/)
-- Added 230VAC 6KW AC inverter by [Victron Energy](https://www.victronenergy.com/)
+- Added 230V 6KW AC inverter by [Victron Energy](https://www.victronenergy.com/)
 - Added 48V LiFePo4 battery system by Epoch Batteries
-- Replaced old and non-functioning 120VAC watermaker with [12V by Schenker®](https://schenkerwatermakers.com/products/zen/)
+- Replaced old and non-functioning 110V watermaker with [12V by Schenker®](https://schenkerwatermakers.com/products/zen/)
 - Switched main (12V) battery system from AGM to LiFePo4
 - Installed compact washing machine by Daewoo
 - Added SpaceX Starlink satellite internet system
@@ -141,7 +141,7 @@ In August of 2023 Curious Cat was damaged by a band of hurricane Idalia.
 - OLED lights throughout the interior by either [UIV Chem](http://www.ioledlight.com) or [OLEDWorks](http://oledworks.com)
 - Two staterooms instead of four — workshop on starboard side, hydropnic garden on port side
 - Walk-in closets instead of heads in aft staterooms
-- 230VAC Induction stovetop
+- 230V Induction stovetop
 - New transom shower
 - Shiny [Lewmar](https://www.lewmar.com) or [Ultra](https://www.ultramarine-anchors.com/anchor) stainless steel anchor
 - Anchor depth counter

@@ -103,6 +103,8 @@ Links:
 
 ## MODX 70
 
+![MODX 70 main photo](../assets/inspirations/modx-70/modx-70-main.jpg)
+
 Very new concept, lots of great architectural and engineering decisions.
 Wing sails, electric propulsion.
 
@@ -115,6 +117,8 @@ Links:
 
 
 ## TAG 60
+
+![TAG 60 main photo](../assets/inspirations/tag-60/tag-60-main.jpg)
 
 Designed by Greg Young.  Just another beautiful boat that's nice to look at.
 
@@ -149,10 +153,10 @@ Equally beautiful inside and out.
 I really like the clean tidy interior this 38' Australian daggerboard cat has.
 On one of the pictures I spotted a strange shiny thing on the wall, that was a compact wall-mounted washer/dryer by Daewoo.
 Now, thanks to wonders of capitalism, Curious Cat has a washing machine aboard!
+-->
 
 
 ---
- -->
 
 
 ## Kawaakari — 2013 Erik Lerouge 137
