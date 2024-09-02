@@ -1,4 +1,4 @@
-# Food Preparation
+# Food
 
 - Solar grill ([Sport Marine by GoSun](https://gosun.co/products/sport-marine))
     - Cover made out of GoSun Sport carry case

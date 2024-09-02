@@ -3,7 +3,7 @@
 <!-- - Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱 -->
 
 
-## Power circuits
+## Power Circuits
 
 - **12V**:
     - 2 × LiFePo4 [12V 100Ah by Epoch Batteries](https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah)

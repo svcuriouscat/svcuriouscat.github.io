@@ -28,6 +28,7 @@
     - 3-blade feathering bronze propeller
         - 1-1/8" keyed stainless steel shaft
             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+
 - **Starboard**:
     - 10KW BLDC 1290 RPM 76 Nm electric motor by [E-Tech](https://starboats.eu/electric-drives/e-tech-wg-inboard-engines/) (PI\04\22\WG10\1956\C) 🇵🇱
         - Internal closed-loop active cooling system
@@ -50,6 +51,7 @@
     - 3-blade feathering bronze propeller
         - 1-1/8" keyed stainless steel shaft
             - [Big Boy Type “A”](http://www.frontlineindustries.com/products/couplings/) flexible shaft coupling coupling by [Frontline Industries, Inc.](http://www.frontlineindustries.com/) (modified) 🇺🇸
+
 - Aluminum dual-joystick controller by E-Tech 🇵🇱
 - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
 - 2 × Key switch

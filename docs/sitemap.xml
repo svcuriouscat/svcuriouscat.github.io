@@ -217,6 +217,9 @@
         <loc>https://svcuriouscat.com/systems/</loc>
     </url>
     <url>
+        <loc>https://svcuriouscat.com/systems/anchoring/</loc>
+    </url>
+    <url>
         <loc>https://svcuriouscat.com/systems/cleaning/</loc>
     </url>
     <url>
@@ -238,13 +241,7 @@
         <loc>https://svcuriouscat.com/systems/fishing/</loc>
     </url>
     <url>
-        <loc>https://svcuriouscat.com/systems/food-preparation/</loc>
-    </url>
-    <url>
-        <loc>https://svcuriouscat.com/systems/fresh-water/</loc>
-    </url>
-    <url>
-        <loc>https://svcuriouscat.com/systems/ground-tackle/</loc>
+        <loc>https://svcuriouscat.com/systems/food/</loc>
     </url>
     <url>
         <loc>https://svcuriouscat.com/systems/inspection/</loc>
@@ -284,6 +281,9 @@
     </url>
     <url>
         <loc>https://svcuriouscat.com/systems/waste/</loc>
+    </url>
+    <url>
+        <loc>https://svcuriouscat.com/systems/water/</loc>
     </url>
     <url>
         <loc>https://svcuriouscat.com/systems/workshop/</loc>

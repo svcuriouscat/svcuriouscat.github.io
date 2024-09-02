@@ -14,7 +14,7 @@
 - Lewmar Size 50 (cabin) 🇬🇧
 
 
-## Inspection hatches
+## Inspection Hatches
 
 - 2 × [Ø 125mm by Nuova Rade](https://www.nuovarade.com/product.php?productId=5752&categoryId=219) (crash boxes) 🇮🇹
 

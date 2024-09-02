@@ -11,7 +11,7 @@
             - 4 x 10-24 stainless steel screws
     - 22mm battcar system by [Harken](https://www.harken.com/en/home/)
     - 18-1/3' aluminum boom
-        - 2 × 5" plastic cleat
+        - 2 × 5" plastic cleat for lazy jacks
         - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) on T-top for cushioning
     - 3 × stainless steel winch and lock plates
         - 28 × (1/4"-20 × 3/8") [button-head socket titanium grade 5 screws](https://www.ti64.com/product-p/5442.htm)
@@ -85,6 +85,7 @@
         - ...
     - **Main**:
         - ...
+
 
 ## Sails
 
