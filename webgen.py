@@ -42,6 +42,7 @@ def generateNavigation():
     links.append(getWebPageLink("/software/", "Software"))
     links.append(getWebPageLink("/gallery/", "Gallery"))
     links.append(getWebPageLink("/systems/", "Systems"))
+    links.append(getWebPageLink("/money/", "Money"))
     return links
 
 def getCwd():
