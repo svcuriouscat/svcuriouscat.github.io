@@ -20,6 +20,7 @@ def stage(data):
         systemsLinks.append(webgen.renderTemplate(data["templates"]["link"], {
             "href": os.path.splitext(systemDocumentName)[0] + "/",
             "content": os.path.splitext(systemDocumentName)[0].replace('-', ' ', 1).title(),
+            "class": "system-link",
         }))
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.generatePageTitle("Systems", data),
