@@ -1,9 +1,9 @@
-# Transportation
+<legend>Transportation</legend>
 
 
 ## Tender
 
-- [Zodiac](https://www.zodiac-boats.com) Wave Aluminum Floor 9' RIB dinghy 🇫🇷 purchased through [Defender](https://defender.com)
+- [Zodiac](https://www.zodiac-boats.com) Wave 275 Aluminum Floor 9' RIB dinghy 🇫🇷 purchased through [Defender](https://defender.com)
 
 
 ## Outboard

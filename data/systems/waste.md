@@ -1,4 +1,5 @@
-# Waste
+<legend>Waste</legend>
+
 
 - **Port**
     - Jabsco 37055 electric fresh water toilet

@@ -13,15 +13,11 @@ def stage(data):
         "data",
         "systems",
     )
-    systemsLinks = []
+    pageHtml = ""
     systemsSourcePath = os.path.abspath(systemsSourcePath)
     systemsDocumentNames = sorted(next(os.walk(systemsSourcePath), (None, None, []))[2])
     for systemDocumentName in systemsDocumentNames:
-        systemsLinks.append(webgen.renderTemplate(data["templates"]["link"], {
-            "href": os.path.splitext(systemDocumentName)[0] + "/",
-            "content": os.path.splitext(systemDocumentName)[0].replace('-', ' ', 1).title(),
-            "class": "system-link",
-        }))
+        pageHtml += "<br /><br /><fieldset>" + webgen.renderMarkdown(open("../data/systems/" + systemDocumentName, "r").read()) + "</fieldset>"
     html = webgen.renderTemplate(data["templates"]["page"], {
         "title":       webgen.generatePageTitle("Systems", data),
         "description": "Detailed description of various systems installed aboard SV Curious Cat",
@@ -33,7 +29,7 @@ def stage(data):
         "criticalcss": webgen.compileSass(open("../src/styles/critical.scss", "r").read()),
         "css":         "../" + data["definitions"]["filenames"]["css"],
         "class":        "systems content",
-        "content":     webgen.renderMarkdown(open("../data/systems.md", "r").read()) + "".join(systemsLinks),
+        "content":     webgen.renderMarkdown(open("../data/systems.md", "r").read()) + pageHtml,
     })
     htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],

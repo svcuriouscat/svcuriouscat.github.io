@@ -1,4 +1,4 @@
-# Paint
+<legend>Paint</legend>
 
 
 ## Topdeck

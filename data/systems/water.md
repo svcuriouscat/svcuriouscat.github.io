@@ -1,4 +1,4 @@
-# Water
+<legend>Water</legend>
 
 
 ## Tanks

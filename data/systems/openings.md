@@ -1,4 +1,4 @@
-# Openings
+<legend>Openings</legend>
 
 
 ## Portlights

@@ -1,4 +1,4 @@
-# Rigging
+<legend>Rigging</legend>
 
 
 ## Standing

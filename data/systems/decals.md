@@ -1,4 +1,4 @@
-# Decals
+<legend>Decals</legend>
 
 - Vessel name and home port (stern)
 - 2 × QR Codes (port & starboard)

@@ -1,4 +1,4 @@
-# Electric
+<legend>Electric</legend>
 
 <!-- - Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱 -->
 

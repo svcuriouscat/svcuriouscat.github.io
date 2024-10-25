@@ -1,4 +1,4 @@
-# Lights
+<legend>Lights</legend>
 
 
 ## Navigation

@@ -1,4 +1,4 @@
-# Diving
+<legend>Diving</legend>
 
 
 ## Tanks

@@ -1,4 +1,4 @@
-# Safety
+<legend>Safety</legend>
 
 
 ## Flotation Devices

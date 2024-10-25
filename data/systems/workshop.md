@@ -1,4 +1,5 @@
-# Workshop
+<legend>Workshop</legend>
+
 
 - **Laser range meters**:
     - 2 × [Bosch GLM 20](https://www.bosch-professional.com/eg/en/products/glm-20-0601072EG0)
