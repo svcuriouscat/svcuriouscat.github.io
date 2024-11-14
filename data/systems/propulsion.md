@@ -1,3 +1,4 @@
+<!--
 <legend>Propulsion</legend>
 
 
@@ -55,3 +56,4 @@
 - Aluminum dual-joystick controller by E-Tech 🇵🇱
 - 2 × monochrome LCD display by [AmperFlex](https://amperflex.com/en/) 🇵🇱
 - 2 × Key switch
+-->

@@ -12,7 +12,7 @@
 - New running rigging, davit lines
 - Replaced helm stainless steel roller chains with custom-made titanium roller chains by [RaceTechTitanium](https://racetechtitanium.com/)
 - Installed small Bluetooth amplifier for speakers in the cockpit
-- Replaced old diesel/hydraulic propulsion system with 2 × 10KW electric motors by [E-Tech](https://starboats.eu/electric-drives/)
+- Replaced old diesel/hydraulic propulsion system with 2 × 10KW electric motors
 - Rebuilt rudder quadrants
 - Installed new VHF radio by [Icom](https://www.icomamerica.com)
 - Switched all pumps to use [solid-state switches](https://www.spxflow.com/johnson-pump-marine/products/bilge-pump-switches/)

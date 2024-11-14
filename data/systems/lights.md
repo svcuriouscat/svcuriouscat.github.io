@@ -3,7 +3,6 @@
 
 ## Navigation
 
-- Port & starboard red & green light (LED, solar powered, detachable)
 - Stern light (12V, LED)
 - Anchor light (12V)
 
