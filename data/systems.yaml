@@ -465,6 +465,57 @@ openings:
     material: aluminum, acrylic ## is it really acrylic?
     manufactured_in: CA
 
+paint:
+  ## Topdeck
+  - what: paint
+    name: topdeck paint
+    manufacturer: AwlGrip
+    color: sky blue
+    _:
+      - what: primer
+        name: primer
+        manufacturer: Alexseal
+        model: Finish Primer 442
+        _:
+          - what: additive
+            name: insulating ceramic paint additive
+            manufacturer: Insuladd
+            link: https://www.insuladd.com/product/insulating-additive-one-1-lb-bag/
+            image: https://www.insuladd.com/wp-content/uploads/2014/02/New-Insuladd-Bags.jpeg
+  ## Interior
+  # - what: paint
+  #   name: interior paint
+  # - Alexseal Super Build 302 high build primer
+#     - [ALEXSEAL® Premium Topcoat 501](https://www.alexseal.com/products/premium-exterior-topcoats/premium-topcoat-501)
+#         - T.... Plain White (secret color, bare titanium dioxide)
+#         - … C5012
+#         - … A5018 (1% by volume of T+C)
+#         - ✅ R5015 (33% by volume of T+C+A)
+#         - procedure: [mix T & C, add A, wait 20 minutes, then add R]
+#         - target surface: sanded with 320 grit (soft pad backing)
+#     - [ALEXSEAL® Finish Primer 442](https://www.alexseal.com/products/finish-primers/finish-primer-442) finish primer (epoxy-based)
+#         - ✅ P4420
+#         - ✅ C4427
+#         - ✅ R5015 (12.5% by volume of P+C)
+#         - target surface: sanded with 150 grit
+#     - [ALEXSEAL® Super Build 302](https://www.alexseal.com/products/high-build-surfacers/super-build-302) high build primer (epoxy-based)
+#         - ✅ P3002
+#         - ✅ C3052
+#         - ✅ R3040 (10%–12.5% by volume of P+C)
+#         - target surface: sanded with 80 grit
+#     - [ALEXSEAL® Fairing Compound 202](https://www.alexseal.com/products/fairing-compounds/fairing-compound-202) base (epoxy-based)
+#         - ✅ P2094 (not P2083)
+#         - ✅ C2075 (not C2028 — what is "LV"?)
+#         - target surface: ?? grit
+# **Interior**:
+#     - [ALEXSEAL® Interior Topcoat 578](https://www.alexseal.com/products/premium-interior-coatings/interior-topcoat-578) 
+#         - N....
+#         - C6402
+#         - R6068
+#         - target surface: ?? grit
+# **Bilges and storage compartments**:
+#     - [TotalBilge Epoxy Bilge Paint](https://www.totalboat.com/products/totalbilge-epoxy-bilge-paint?variant=43757099221216) by TotalBoat
+
 
 safety:
   ## Stanchions
@@ -522,6 +573,7 @@ sound:
   - what: amplifier
     name: Bluetooth amplifier
     link: https://www.amazon.com/gp/product/B07XG33WPN/
+    image: https://m.media-amazon.com/images/I/71+Mcv1gsqL._SX522_.jpg
     manufactured_in: CN
     _:
       - what: speaker
@@ -537,9 +589,10 @@ sound:
 steering:
   ## Helms
   - what: helm wheel
-    name: 30" helms
+    name: helms
     material: stainless steel
     manufacturer: Edson Marine
+    size: 30"
     link: https://edsonmarine.com/stainless-steel-sailboat-destroyer-wheel/
     image: https://www.mauriprosailing.com/mm5/Edson/images/pi/Oct-18/EDS-647ST_580x580.jpg
     count: "2"
@@ -749,6 +802,7 @@ workshop:
   - what: CNC machine
     name: CNC machine
     link: https://sienci.com/product/longmill-mk2/
+    image: https://sienci.com/wp-content/uploads/2023/04/Web_LongMill_18-scaled.jpg
     manufactured_in: CA
     _:
       - what: laser beam
@@ -780,6 +834,7 @@ workshop:
     model: GLM 20
     count: "2"
     link: https://www.bosch-professional.com/eg/en/products/glm-20-0601072EG0
+    image: https://www.bosch-professional.com/eg/en/ocsmedia/225436-54/application-image/1434x828/laser-measure-glm-20-0601072eg0.png
   - what: scales
     name: bathroom scales
     link: https://www.soehnle-professional.com/en
