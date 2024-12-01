@@ -1,0 +1,755 @@
+anchoring:
+  - what: anchor
+    name: delta anchor
+    material: galvanized steel
+    notes: Main anchor, located on the bow
+    weight: 45lbs
+    _:
+      - what: chain
+        name: BBB chain
+        material: galvanized steel
+        image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw289d473f/images/orig/P005_154_001_514_A.jpg
+        link: https://www.westmarine.com/acco-3-8inch-bbb-chain-inside-link-length-1.09inch-mwl-2650lb.-breaking-strength-11000lb.-weight-1.6lb.-ft.-standard-pack-400--158774.html
+        size: 3/8"
+        length: 42'
+        _:
+          - what: windlass
+            name: vertical windlass
+            manufacturer: Simpson-Lawrence
+            model: Sprint 1500
+            notes: RC162 gypsy
+            image: https://www.lewmar.com/sites/default/files/styles/large/public/sprint_1500_gypsy.png
+            voltage: 12VDC
+      - what: bridle
+        name: anchor bridle
+        material:
+          - nylon
+          - steel
+  - what: anchor
+    name: bruce anchor
+    material: galvanized steel
+    weight: 45lbs
+    _:
+      - what: rope
+        name: rode
+        material: nylon
+        length: 300'
+  - what: anchor
+    name: delta anchor
+    material: steel
+    weight: 35lbs
+    _:
+      - what: rope
+        name: docking lines
+        material: nylon
+        length: 150'
+  - what: sea anchor
+    name: offshore para-anchor
+    diameter: 21'
+    manufacturer: Fiorentino
+    image: https://cdn.landfallnavigation.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/f/i/fiorentino_sfao_1.jpg
+    link: https://www.para-anchor.com/pro.offsanchor.html
+    manufactured_in: US
+
+cleaning:
+  - what: scraper
+    name: boat hull scraper
+    manufacturer: America Go Fishing
+    model: 6"
+    manufactured_in: US
+    image: https://i.ebayimg.com/images/g/wMEAAOSwMLhkxGmg/s-l1600.webp
+    link: https://www.ebay.com/itm/325232489798
+  - what: suction cup
+    name: suction cup
+    manufacturer: SeaSucker
+    model: 4.5"
+    link: https://www.seasucker.com/products/4-5-seasucker-lp-housing-black?variant=27661615057
+    image: https://www.seasucker.com/cdn/shop/products/VM1001-2_v2_1200x.jpg?v=1589201121
+    manufactured_in: US
+  - what: vacuum cleaner
+    name: portable vacuum cleaner
+    manufacturer: Ryobi
+    voltage: 18VDC
+    manufactured_in: CN
+    link: https://www.ryobitools.com/products/details/33287201877
+  - what: pressure washer
+    name: cordless power cleaner
+    manufacturer: Ryobi
+    voltage: 18VDC
+    manufactured_in: CN
+    link: https://www.ryobitools.com/products/details/46396036766
+
+
+communication:
+  - what: satellite internet
+    name: satellite internet dish & router kit
+    manufacturer: Starlink
+    model: RV
+    manufactured_in: US
+    image: https://m.media-amazon.com/images/I/71qzo-1c7AL._AC_SL1500_.jpg
+    link: https://www.starlink.com/residential?referral=RC-2071102-88843-59RC-2071110-95086-55RC-2071140-14719-52RC-2071166-85262-61RC-2071200-37308-48RC-2071228-68274-64RC-2071253-93175-60RC-2071280-89385-68RC-2071312-28461-52RC-2071339-32459-63RC-2071358-32991-65RC-2071373-55215-56RC-2071383-44877-69
+  - what: radio
+    name: VHF radio
+    manufacturer: Icom
+    model: M510
+    image: https://www.icomamerica.com/uploads/lineup/products/IC-M510/20221118170108_50467.png
+    link: https://www.icomamerica.com/en/products/marine/mountedvhf/m510/default.aspx
+    manufactured_in: JP
+    _:
+      - what: antenna
+        name: VHF antenna
+        location: top of the mast
+
+
+decals:
+  - what: decal
+    name: vessel name and home port
+    material: vinyl
+    location: stern
+  - what: decal
+    name: QR Codes
+    material: vinyl
+    count: "2"
+    location: port & starboard
+  - what: metal plate
+    name: vessel number plate
+    manufacturer: Vessel Placards
+    link: https://vesselplacards.com/product/stainless-steel-placard/
+    material: stainless steel
+    location: cockpit, starboard side
+
+
+diving equipment:
+  - what: tank
+    name: diving tank
+    manufacturer: MiniDive
+    model: Pro+
+    material: aluminum
+    capacity: 0.85L (up to 15 minutes)
+    max_pressure: 200 bar
+    link: https://www.minidive.com/en/packs/air-tank-for-diving.html
+    image: https://www.minidive.com/2433-large_default/air-tank-for-diving.jpg
+    manufactured_in: FR
+  - what: tank
+    name: diving tank
+    manufacturer: MiniDive
+    model: Evo
+    material: aluminum
+    capacity: 0.2L (up to 3 minutes)
+    max_pressure: 200 bar
+    link: https://www.minidive.com/en/safety-products/emergency-underwater-breathing-device.html
+    image: https://www.minidive.com/2427-large_default/emergency-underwater-breathing-device.jpg
+    manufactured_in: FR
+  - what: compressor
+    name: electric compressor
+    manufacturer: MiniDive
+    model: MiniComp
+    voltage: 12VDC
+    max_pressure: 300bar
+    link:  https://www.minidive.com/en/products/12-v-compressor.html
+    image: https://www.minidive.com/1697-large_default/12-v-compressor.jpg
+
+
+docking:
+  - what: cleat
+    name: deck cleats
+    material: aluminum
+    size: 10"
+    count: "6"
+    location: three along each hull
+  - what: cleat
+    name: deck cleats
+    material: aluminum
+    size: 6"
+    count: "2"
+    location: stern
+  - what: chock
+    name: bow chocks
+    material: aluminum
+    count: "4"
+    location: two per bow
+  - what: fender
+    name: fenders
+    manufacturer: Taylor Made
+    size: 8"
+    count: "4"
+    _:
+      - what: fender line
+        name: braided nylon fender lines
+        link: https://www.amazon.com/dp/B07HWDQJ51
+        count: "4"
+      - what: fender board
+        name: wooden fender planks
+        count: "2"
+        _:
+          - what: fender line
+            name: braided nylon fender lines
+            link: https://www.amazon.com/dp/B07HWDQJ51
+            count: "4"
+  - what: docking line
+    name: docking lines
+    material: nylon
+    count: "4"
+    _:
+      - what: chafe guard
+        name: chafe guards
+        manufacturer: Osculati
+        link: https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black
+        material: wool, polyester, velcro
+        count: "4"
+
+
+electric:
+  ## 12V
+  - what: battery
+    name: 12V battery bank
+    type: LiFePo4
+    manufacturer: Epoch Batteries
+    link: https://www.epochbatteries.com/products/12v-marine-battery-lithium-100ah
+    image: https://cdn.shopify.com/s/files/1/0251/0484/2798/products/4456234562.png?v=1687029165
+    size: 2.4kWh
+    voltage: 12VDC
+    capacity: 200Ah (2 x 100Ah)
+    count: "2"
+    _:
+      - what: battery charger
+        name: battery charger
+        manufacturer: ProNautic
+        model: 1230P
+        voltage: 12VDC, 120VAC, 240VAC
+        link: https://www.promariner.com/en/p/63130/ProNautic-1230P
+        image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw848e2fd1/images/orig/12039467_1500.15062018013015.jpg
+      # - what: Scotty AI 1.5KW 48VDC-to-12VDC battery charger
+      # - what: Monitoring system [Victron Cerbo GX](https://www.victronenergy.com/panel-systems-remote-monitoring/cerbo-gx) 🇳🇱
+  ## 48V
+  - what: battery
+    name: 48V battery bank
+    type: LiFePo4
+    manufacturer: Epoch Batteries
+    voltage: 48VDC
+    size: 19.2kWh
+    capacity: 400Ah (4 x 100Ah)
+    count: "4"
+    link: https://www.epochbatteries.com/products/48v-100ah-heated-bluetooth-lifepo4-battery
+    image: https://cdn.shopify.com/s/files/1/0251/0484/2798/files/54A98952-F238-4C65-ADE8-07891F1A3C16_fa4da043-6abf-48cb-9d01-dc4a8ea03156.png
+    _:
+      - what: battery charger, inverter, solar charge controller
+        name: MPPT / charge controller / inverter
+        voltage: 48VDC, 230VAC
+        manufacturer: Victron
+        model: Multi RS Solar 48/6000
+        power: 6KW
+        link: https://www.victronenergy.com/inverters-chargers/multi-rs-solar
+        image: https://www.victronenergy.com/upload/products/Multi%20RS%20Solar%20400-100.png
+        # purchased through [Battery One PR](https://www.batteryonepr.com)
+        designed_in: NL
+        manufactured_in: MX
+        _:
+          ## Photovoltaic system
+          - what: solar panel
+            name: solar panel array
+            power: 1.4KW (100W x 14)
+            manufacturer: SunPower
+            model: SPR-E-Flex-100
+            count: "14"
+            manufactured_in: FR
+            link: https://www.expertpower.us/products/100w-sunpower-solar-panel
+            image: https://www.expertpower.us/cdn/shop/products/0K7A6210-2_5888a236-6a4d-48f6-bb34-238530edf63f_1024x1024.jpg?v=1624302705
+  # - what: 2 × 200A 58V fuse by Victron
+  # - what: 2 × MEGA-Fuse holder by Victron
+  # - what: 2 × [275A 48V Switch by Victron](https://www.victronenergy.com/dc-distribution-systems/battery-switch-on-off)
+
+
+fishing:
+  - what: net
+    name: cast net
+    notes: 1/4" mesh × 4' high
+    weight: 4.8lb
+    link: https://www.amazon.com/gp/product/B08QJGRZNK/
+  - what: net
+    name: landing net
+    material: aluminum, nylon
+  - what: bait container
+    material: plastic, styrofoam
+  - what: spear gun
+
+
+food:
+  - what: solar grill
+    name: solar oven
+    manufacturer: GoSun
+    model: Sport Marine
+    link: https://gosun.co/products/sport-marine
+    # TODO: add ambassador code to the link
+    image: https://gosun.co/cdn/shop/products/sport-marine-sport-boat-clamp-gosun-sport-393599.jpg
+    _:
+      - what: bag
+        name: protective cover
+        notes: made out of GoSun Sport carry case
+      - what: container
+        name: sun kettle
+        material: stainless steel, culinary-grade silicone
+        capacity: 14oz
+        image: https://gosun.co/cdn/shop/products/kettle-solar-water-boiler-gosun-140786.jpg
+        link: https://gosun.co/products/sun-kettle
+        # TODO: add ambassador code to the link
+        notes: great for boiling water, making coffee, hot chocolate
+  - what: electric oven
+    name: Mini Electric Oven Toaster
+    power: 800W
+    voltage: 220VAC
+  - what: blender
+    name: Magic Bullet blender
+    voltage: 110VAC
+  # - what: Moccamaster coffee machine, home style burr grinder
+
+
+inspection:
+  ## Moisture
+  - what: moisture meter
+    name: moisture meter
+    manufacturer: Protimeter
+    link: https://www.protimeter.com/aquant
+    image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPN241t7ZyqYEdvg9zZHdsANtYZ-TRALsNAA&s
+    model: Aquant
+    voltage: 9VDC
+    manufactured_in: UK
+  ## Visual
+  - what: inspection camera
+    name: video endoscope
+    manufacturer: Wöhler
+    model: VE 200
+    manufactured_in: DE
+
+
+laundry:
+  ## Equipment
+  - what: washing machine
+    name: washer/dryer combo unit
+    manufacturer: Winia Daewoo
+    model: DWD-35MCRCR
+    voltage: 230VAC
+    image: https://m.media-amazon.com/images/I/617GXMBXolL.jpg
+    manufactured_in: KR
+  ## Consumables
+  - what: laundry detergent
+    name: eco-friendly laundry detergent
+    link: https://mollyssuds.com/collections/natural-laundry-detergent/products/original-laundry-detergent-powder?variant=40405366079547
+    image: https://mollyssuds.com/cdn/shop/files/120-UNS-MAIN_1_720x.png
+    manufacturer: Molly's Suds
+    manufactured_in: US
+
+
+lights:
+  ## Navigation
+  - what: light
+    name: stern light
+    location: stern
+    voltage: 12VDC
+    notes: LED
+  - what: light
+    name: anchor light
+    location: top of the mast
+    voltage: 12VDC
+  ## Illumination
+  - what: spreader light
+    name: foredeck spreader lights
+    count: "2"
+    location: underneath lower spreaders
+    voltage: 12VDC
+    notes: LED
+
+
+navigation:
+  ## Compasses
+  - what: compass
+    name: backlit binnacle-mount compasses
+    count: "2"
+    location: in front of helms
+    manufacturer: Ritchie Navigation
+    link: https://www.ritchienavigation.com
+  - what: compass
+    name: illuminated hand bearing compass
+    link: https://www.davisinstruments.com/products/hand-bearing-compass-illuminated
+    manufacturer: Davis Instruments
+  ## Radars
+  - what: radome
+    name: radar
+    model: Halo20+
+    manufacturer: B&G
+    voltage: 12VDC
+    image: https://www.bandg.com/globalassets/inriver/resources/000-14539-001_01.jpg
+    link: https://www.bandg.com/bg/type/radar/halo20bgradar-f52c997a/
+  ## Chart Plotters
+  - what: Zeus³S Glass Helm
+    manufacturer: B&G
+    size: 16"
+  ## Autopilots
+  - what: autopilot
+    name: GyroPilot 3
+    manufacturer: nke
+    manufactured_in: FR
+    image: https://nke-marine-electronics.com/wp-content/uploads/2022/04/produit-nke-gyropilot-3-1.png
+    link: https://nke-marine-electronics.com/project/gyropilot3/
+  ## Automatic Identification Systems
+  - what: ais
+    name: class B AIS transceiver
+    manufacturer: B&G
+    model: NAIS-500
+    _:
+      - what: antenna
+        name: whip antenna (162MHz)
+        material: stainless steel
+        manufacturer: Gam Electronics
+        model: SS-2
+        link: https://gamelectronicsinc.com/products/mini-series/
+
+
+openings:
+  ## Portlights
+  - what: portlight
+    name: portlights
+    manufacturer: Lewmar
+    model: Atlantic Size 32
+    manufactured_in: UK
+    count: "6"
+  ## Windows
+  - what: hatch
+    name: round hatches
+    location: cabin
+    manufacturer: Jim Black
+    model: 592-20RND-05-02-05
+    size: 20"
+    material: tempered glass, FRP
+    link: https://www.greatlakesskipper.com/jim-black-boat-hatch-592-20rnd-05-02sc-05-polar-white-20-inch
+    count: "10"
+    notes: glued shut, used as windows
+  ## Hatches
+  - what: hatch
+    name: deck hatches
+    location: deck
+    manufacturer: Lewmar
+    model: Ocean Hatch
+    size: "30"
+    manufactured_in: UK
+    count: "8"
+    image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/lewmar/ocean-hatch-10-10-1-16-x-10-1-16-flat-base-39610050.jpg
+  - what: hatch
+    name:  escape hatches
+    location: heads
+    manufacturer: Lewmar
+    model: Ocean Hatch
+    size: "44"
+    manufactured_in: UK
+    image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/lewmar/ocean-hatch-60-19-3-4-x-19-3-4-flat-base-39660050--3.jpg
+    count: "2"
+  - what: hatch
+    location: cabin
+    manufacturer: Lewmar
+    model: Ocean Hatch
+    size: "50"
+    manufactured_in: UK
+    image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/lewmar/ocean-hatch-70-24-1-2-x-24-1-2-flat-base-39670050--4.jpg
+  ## Inspection Hatches
+  - what: inspection hatch
+    name: inspection hatches
+    link: https://www.nuovarade.com/product.php?productId=5752&categoryId=219
+    manufacturer: Nuova Rade
+    size: 125mm
+    location: crash boxes
+    count: "2"
+    manufactured_in: IT
+  ## Doors
+  - what: door
+    name: sliding transparent cabin door
+    material: aluminum, acrylic ## is it really acrylic?
+    manufactured_in: CA
+
+
+sound:
+  - what: amplifier
+    name: Bluetooth amplifier
+    link: https://www.amazon.com/gp/product/B07XG33WPN/
+    manufactured_in: CN
+    _:
+      - what: speaker
+        name: stereo speakers
+        manufacturer: Pioneer
+        model: TS-MR165
+        location: cockpit
+        voltage: 12VDC
+        count: "2"
+  # https://www.nauticexpo.com/prod/musashi/product-200788-590152.html
+
+
+steering:
+  ## Helms
+  - what: helm wheel
+    name: 30" helms
+    material: stainless steel
+    manufacturer: Edson Marine
+    link: https://edsonmarine.com
+    count: "2"
+    _:
+      - what: detachable wheel break
+        count: "2"
+      - what: roller chain
+        name: helm roller chains
+        size: ANSI 50
+        material: grade 5 titanium 
+        manufacturer: RaceTech Titanium
+        link: https://racetechtitanium.com
+        manufactured_in: US
+        count: "2"
+  ## Mechanism
+  - what: stainless steel cables
+  - what: sheave
+    name: sheaves
+    material: bronze
+    manufacturer: Edson Marine
+    link: https://edsonmarine.com
+  ## Rudders
+  - what: rudder
+    name: rudders
+    material: cabon fiber, closed-cell foam
+    count: "2"
+    _:
+      - what: quadrant
+        name: composite quandrants
+        material: foam, S-glass, epoxy
+        size: 40cm in diameter, 2.25cm thick
+        count: "2"
+  # - what: 2 × 1113
+  # - what: 2 × 1050
+
+
+transportation:
+  - what: tender
+    name: RIB dinghy with aluminum floor
+    manufacturer: Zodiac Nautic
+    model: Wave 275
+    link: https://defender.com/en_us/zodiac-wave-275-aluminum-floor-9-boat-2020
+    image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/zodiac/wave-275-aluminum-floor-9-boat-2019-grey-pvc.jpg
+    length: 9'
+    manufactured_in: FR
+    _:
+      - what: outboard motor
+        name: electric outboard motor
+        manufacturer: ThrustMe
+        model: Kicker
+        link: https://www.thrustme.no/eu/kicker-eu
+        image: https://assets-global.website-files.com/5ecfb8704752d37621e86900/5ff6f5fa0cb26169190394e6_BagKicker.jpg
+        designed_in: "NO"
+        manufactured_in: CN
+        # Sabfoil Torpedo 100L
+      - what: oars
+        name: pair of oars
+        length: 78"
+        manufacturer: Oceansouth
+        material: aluminum, polypropylene
+        link: https://www.ebay.com/itm/251802096274
+        image: https://i.ebayimg.com/images/g/6~QAAOSwkyRdliQT/s-l960.jpg
+
+
+waste:
+  - what: toilet
+    name: electric fresh water toilets
+    manufacturer: Jabsco
+    model: "37055"
+    count: "2"
+    _:
+      - what: pump
+        name: macerator pumps
+        manufacturer: Jabsco
+        model: 74001-2852EU
+        voltage: 12VDC
+        count: "2"
+      - what: valve
+        name: solenoid valves
+        manufacturer: Jabsco
+        model: 37030-2012 
+        voltage: 12VDC
+        count: "2"
+  - what: waste water tank
+    name: holding tank
+    material: polyethylene
+    capacity: 13 gal.
+    size: 24" × 10" × 14" # 25×35×60cm
+    count: "2"
+    _:
+      - what: pump
+        name: waste pump
+        manufacturer: Johnson Pump
+        model: Viking Power 16 # 10-13350-03 
+        voltage: 12VDC
+        location: port bow
+      - what: waste pump
+        name: waste pump
+        manufacturer: Whale
+        model: Gulper
+        voltage: 12VDC
+        location: starboard bow
+
+
+water:
+  - what: water tank
+    name: fresh water tank
+    material: stainless steel
+    volume: 30 gal
+    location: port midship
+    _:
+      - what: pump
+        manufacturer: Jabsco
+        flow_rate: 2.9GPM
+        voltage: 12VDC
+        link: https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html
+        manufactured_in: CN
+        _:
+          - what: accumulator
+            name: pressure accumulator
+            manufacturer: SHURflo
+      - what: water line
+        name: fresh water lines
+        material: PVC
+        diameter: 15mm
+  - what: water tank
+    name: fresh water tank
+    material: stainless steel
+    volume: 30 gal
+    location: starboard midship
+    _:
+      - what: pump
+        name: fresh water pump
+        voltage: 12VDC
+      - what: water line
+        name: fresh water lines
+        material: PVC
+        diameter: 15mm
+  - what: water maker
+    name: desalination system
+    manufacturer: Schenker
+    model: Zen 30
+    voltage: 12VDC
+    link: https://mar-nautic.com/schenker-watermaker-zen-30
+    image: https://mar-nautic.com/media/image/product/64/lg/schenker-wassermacher-zen-30.webp
+    _:
+      - what: hose clamp
+        name: constant-tension hose clamps
+        manufacturer: Breeze
+        size: 9/16"–1-1/16"
+        count: "10+"
+        link: https://www.amazon.com/gp/product/B00NVA78BK/
+        manufactured_in: US
+  - what: water maker
+    name: emergency seawater desalination device
+    manufacturer: QuenchSea
+    model: "1.0"
+    image: https://www.quenchsea.world/cdn/shop/files/pict_6_1.png
+    link: https://www.quenchsea.world/
+  - what: TDS meter
+    name: water quality measurement device
+    manufacturer: Apera
+    model: EC60
+    link: https://aperainst.com/ec60-premium-ec-tds-salinity-pocket-tester
+    image: https://cfrouting.zoeysite.com/cdn-cgi/image/fit=scale-down,width=1200,format=auto,quality=70/https://s3.amazonaws.com/zcom-media/sites/a0i0L00000VJHGsQAP/media/catalog/product/e/c/ec60-main.jpg
+  - what: container
+    name: water jerry cans
+    manufacturer: Hopkins Towing Solutions
+    capacity: 6.5 gal.
+    image: https://m.media-amazon.com/images/I/51C20OHDUML._SL1200_.jpg
+    link: https://www.amazon.com/Flotool-International-50863-Gallon-Self-Venting/dp/B00P84ZYTU
+    count: "4"
+  # P&L LL-210-48 high efficiency 210W DC thermoelectric heating water device peltier heater
+  - what: shower
+    name: RV-style shower
+    location: port head
+  - what: shower
+    name: RV-style shower
+    location: starboard head
+  - what: sun shower
+    name: sun shower
+    capacity: 5 gal.
+    count: "3"
+
+
+workshop:
+  ## Powertools
+  - what: resin mixer
+    name: electric resin mixer
+    link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
+  ## 3D printing & scanning
+  - what: 3D printer
+    name: FDM 3D printer
+    manufacturer: Bambu Lab
+    model: P1P
+    link: https://us.store.bambulab.com/products/p1p
+    manufactured_in: CN
+  - what: 3D scanner
+    name: handheld 3D scanner
+    link: https://www.einstar.com/products/prosumer-portable-3d-scanner
+    manufacturer: Shining
+    model: Einstar
+    manufactured_in: CN
+  ## CNC
+  - what: CNC machine
+    name: CNC machine
+    link: https://sienci.com/product/longmill-mk2/
+    manufactured_in: CA
+    _:
+      - what: laser beam
+        name: laser beam attachment
+        link: https://sienci.com/product/laser/
+        power: 7W
+      - what: router
+        name: air-cooled milling motor
+        manufacturer: Mafell
+        model: FM1000
+        power: 1000W
+        link: https://ooznest.co.uk/product/mafell-fm-1000-milling-motor/
+        manufactured_in: DE
+        _:
+          - what: end mill
+            name: end mill
+            model: HSS1611-M
+            link: https://www.amanatool.com/hss1611-m-high-speed-steel-hss-foam-cutting-straight-v-flute-6mm-dia-x-25mm-x-6mm-shank-router-bit.html
+            # purchased via toolstoday.com
+          - what: end mill
+            name: end mill
+            model: 48442-K
+            link: https://www.amanatool.com/48442-k-solid-carbide-cnc-spektratm-extreme-tool-life-coated-foam-cutting-up-cut-square-end-spiral-3mm-dia-x-28mm-x-6mm-shank-x-64mm-long-router-bit.html
+            # purchased via toolstoday.com
+  ## Measurement devices
+  - what: distance measure
+    name: laser range meters
+    manufacturer: Bosch
+    model: GLM 20
+    count: "2"
+    link: https://www.bosch-professional.com/eg/en/products/glm-20-0601072EG0
+  - what: scales
+    name: bathroom scales
+    link: https://www.soehnle-professional.com/en
+    weight limit: 180kg
+    precision: 100g
+    manufacturer: Soehnle
+    model: Style Sense Safe 100
+    manufactured_in: DE
+  - what: scales
+    name: kitchen scales
+    link: https://www.soehnle-professional.com/en
+    weight limit: 20kg
+    precision: 1g
+    manufacturer: Soehnle
+    model: Page Profi 300
+    manufactured_in: DE
+  - what: scales
+    name: precision scales
+    link: https://www.soehnle-professional.com/en
+    weight limit: 500g
+    precision: 0.1g
+    manufacturer: Soehnle
+    model: Ultra 2.0
+    manufactured_in: DE
+
+# Premium Marine ClampTite Tool Kit
+
+# tisin titanium silicium nitride / alcrn aluminum chromium nitride

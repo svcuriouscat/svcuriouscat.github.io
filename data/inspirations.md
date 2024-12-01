@@ -50,7 +50,7 @@ Achieving that is one of the main goals that Curious Cat has.
 
 ![Ya main photo](../assets/inspirations/ya/ya-main.jpg)![Ya side photo](../assets/inspirations/ya/ya-side.jpg)
 
-Built out of vinylester, equipped with two 7.5KW motors by E-Tech.
+Built out of vinylester, equipped with two electric motors.
 This is what I want to do with my boat, the way I want Curious Cat to be: green, sustainable, free.
 More info is available on [their website](https://fossilfreearoundtheworld.org).
 
