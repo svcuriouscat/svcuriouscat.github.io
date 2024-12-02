@@ -109,7 +109,7 @@ decals:
   - what: decal
     name: QR Codes
     material: vinyl
-    count: "2"
+    count: 2
     location: port & starboard
   - what: metal plate
     name: vessel number plate
@@ -155,48 +155,52 @@ docking:
     name: deck cleats
     material: aluminum
     size: 10"
-    count: "6"
+    count: 6
     location: three along each hull
   - what: cleat
     name: deck cleats
     material: aluminum
     size: 6"
-    count: "2"
+    count: 2
     location: stern
   - what: chock
     name: bow chocks
     material: aluminum
-    count: "4"
+    count: 4
     location: two per bow
   - what: fender
     name: fenders
     manufacturer: Taylor Made
     size: 8"
-    count: "4"
+    count: 4
+    link: https://www.taylormadeproducts.com/products/fenders-and-buoys/boat-fenders/super-gard-fenders/
+    image: https://cdn11.bigcommerce.com/s-6rtev5owwo/images/stencil/1280x1280/products/232175/198802/super-gard-navy__81685.1722354742.jpg
     _:
       - what: fender line
         name: braided nylon fender lines
         link: https://www.amazon.com/dp/B07HWDQJ51
-        count: "4"
+        count: 4
       - what: fender board
         name: wooden fender planks
-        count: "2"
+        count: 2
         _:
           - what: fender line
             name: braided nylon fender lines
             link: https://www.amazon.com/dp/B07HWDQJ51
-            count: "4"
+            count: 4
   - what: docking line
     name: docking lines
     material: nylon
-    count: "4"
+    count: 4
     _:
       - what: chafe guard
         name: chafe guards
         manufacturer: Osculati
         link: https://www.osculati.com/en/11034-06.315.01/woolen-chafe-guard-for-rope-ø-1422-mm-black
+        image: https://www.osculati.com/SupplyImages/WF-0044/06.315.xx.jpg
         material: wool, polyester, velcro
-        count: "4"
+        size: 14mm – 22mm rope diameter
+        count: 4
 
 
 electric:
@@ -210,7 +214,7 @@ electric:
     size: 2.4kWh
     voltage: 12VDC
     capacity: 200Ah (2 x 100Ah)
-    count: "2"
+    count: 2
     _:
       - what: battery charger
         name: battery charger
@@ -229,7 +233,7 @@ electric:
     voltage: 48VDC
     size: 19.2kWh
     capacity: 400Ah (4 x 100Ah)
-    count: "4"
+    count: 4
     link: https://www.epochbatteries.com/products/48v-100ah-heated-bluetooth-lifepo4-battery
     image: https://cdn.shopify.com/s/files/1/0251/0484/2798/files/54A98952-F238-4C65-ADE8-07891F1A3C16_fa4da043-6abf-48cb-9d01-dc4a8ea03156.png
     _:
@@ -251,7 +255,7 @@ electric:
             power: 1.4KW (100W x 14)
             manufacturer: SunPower
             model: SPR-E-Flex-100
-            count: "14"
+            count: 14
             manufactured_in: FR
             link: https://www.expertpower.us/products/100w-sunpower-solar-panel
             image: https://www.expertpower.us/cdn/shop/products/0K7A6210-2_5888a236-6a4d-48f6-bb34-238530edf63f_1024x1024.jpg?v=1624302705
@@ -285,7 +289,10 @@ food:
     _:
       - what: bag
         name: protective cover
+        link: https://gosun.co/products/sport-bag
+        image: https://gosun.co/cdn/shop/products/sport-bag-carry-case-for-sport-gosun-822174.jpg
         notes: made out of GoSun Sport carry case
+        # TODO: add ambassador code to the link
       - what: container
         name: sun kettle
         material: stainless steel, culinary-grade silicone
@@ -354,7 +361,7 @@ lights:
   ## Illumination
   - what: spreader light
     name: foredeck spreader lights
-    count: "2"
+    count: 2
     location: underneath lower spreaders
     voltage: 12VDC
     notes: LED
@@ -364,7 +371,7 @@ navigation:
   ## Compasses
   - what: compass
     name: backlit binnacle-mount compasses
-    count: "2"
+    count: 2
     location: in front of helms
     manufacturer: Ritchie Navigation
     link: https://www.ritchienavigation.com
@@ -396,13 +403,16 @@ navigation:
     name: class B AIS transceiver
     manufacturer: B&G
     model: NAIS-500
+    link: https://www.bandg.com/bg/type/vhf-ais/nais-500/
+    image: https://www.bandg.com/globalassets/inriver/resources/000-13611-001_01.jpg
     _:
       - what: antenna
         name: whip antenna (162MHz)
         material: stainless steel
         manufacturer: Gam Electronics
         model: SS-2
-        link: https://gamelectronicsinc.com/products/mini-series/
+        link: https://gamelectronicsinc.com/product/ss-2/
+        image: https://gamelectronicsinc.com/wp-content/uploads/2020/05/GAMmini.jpg
 
 
 openings:
@@ -412,7 +422,7 @@ openings:
     manufacturer: Lewmar
     model: Atlantic Size 32
     manufactured_in: UK
-    count: "6"
+    count: 6
   ## Windows
   - what: hatch
     name: round hatches
@@ -422,7 +432,7 @@ openings:
     size: 20"
     material: tempered glass, FRP
     link: https://www.greatlakesskipper.com/jim-black-boat-hatch-592-20rnd-05-02sc-05-polar-white-20-inch
-    count: "10"
+    count: 10
     notes: glued shut, used as windows
   ## Hatches
   - what: hatch
@@ -430,34 +440,35 @@ openings:
     location: deck
     manufacturer: Lewmar
     model: Ocean Hatch
-    size: "30"
+    size: 30
     manufactured_in: UK
-    count: "8"
+    count: 8
     image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/lewmar/ocean-hatch-10-10-1-16-x-10-1-16-flat-base-39610050.jpg
   - what: hatch
     name:  escape hatches
     location: heads
     manufacturer: Lewmar
     model: Ocean Hatch
-    size: "44"
+    size: 44
     manufactured_in: UK
     image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/lewmar/ocean-hatch-60-19-3-4-x-19-3-4-flat-base-39660050--3.jpg
-    count: "2"
+    count: 2
   - what: hatch
     location: cabin
     manufacturer: Lewmar
     model: Ocean Hatch
-    size: "50"
+    size: 50
     manufactured_in: UK
     image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/lewmar/ocean-hatch-70-24-1-2-x-24-1-2-flat-base-39670050--4.jpg
   ## Inspection Hatches
   - what: inspection hatch
     name: inspection hatches
     link: https://www.nuovarade.com/product.php?productId=5752&categoryId=219
+    image: https://www.nuovarade.com/img/products/800x800/626.jpg
     manufacturer: Nuova Rade
     size: 125mm
     location: crash boxes
-    count: "2"
+    count: 2
     manufactured_in: IT
   ## Doors
   - what: door
@@ -476,12 +487,20 @@ paint:
         name: primer
         manufacturer: Alexseal
         model: Finish Primer 442
+        link: https://www.alexseal.com/products/finish-primers/finish-primer-442
+        notes: P4420 & C4427, R5015 (12.5% by volume of P+C); target surface is sanded with 150 grit; at least two layers
         _:
           - what: additive
             name: insulating ceramic paint additive
             manufacturer: Insuladd
             link: https://www.insuladd.com/product/insulating-additive-one-1-lb-bag/
             image: https://www.insuladd.com/wp-content/uploads/2014/02/New-Insuladd-Bags.jpeg
+      - what: build primer
+        name: hign build primer
+        manufacturer: Alexseal
+        model: Super Build 302
+        link: https://www.alexseal.com/products/high-build-surfacers/super-build-302
+        notes: P3002 & C3052, R3040 (10%–12.5% by volume of P+C); target surface is sanded with 80 grit
   ## Interior
   # - what: paint
   #   name: interior paint
@@ -493,16 +512,6 @@ paint:
 #         - ✅ R5015 (33% by volume of T+C+A)
 #         - procedure: [mix T & C, add A, wait 20 minutes, then add R]
 #         - target surface: sanded with 320 grit (soft pad backing)
-#     - [ALEXSEAL® Finish Primer 442](https://www.alexseal.com/products/finish-primers/finish-primer-442) finish primer (epoxy-based)
-#         - ✅ P4420
-#         - ✅ C4427
-#         - ✅ R5015 (12.5% by volume of P+C)
-#         - target surface: sanded with 150 grit
-#     - [ALEXSEAL® Super Build 302](https://www.alexseal.com/products/high-build-surfacers/super-build-302) high build primer (epoxy-based)
-#         - ✅ P3002
-#         - ✅ C3052
-#         - ✅ R3040 (10%–12.5% by volume of P+C)
-#         - target surface: sanded with 80 grit
 #     - [ALEXSEAL® Fairing Compound 202](https://www.alexseal.com/products/fairing-compounds/fairing-compound-202) base (epoxy-based)
 #         - ✅ P2094 (not P2083)
 #         - ✅ C2075 (not C2028 — what is "LV"?)
@@ -515,6 +524,118 @@ paint:
 #         - target surface: ?? grit
 # **Bilges and storage compartments**:
 #     - [TotalBilge Epoxy Bilge Paint](https://www.totalboat.com/products/totalbilge-epoxy-bilge-paint?variant=43757099221216) by TotalBoat
+
+
+rigging:
+  - what: mast
+    name: fixed mast
+    material: aluminum
+    length: 62' # off the waterline; TODO: measure true length
+    note: 2 diamonds (4 spreaders)
+    _:
+      # TODO: add spreaders
+      # TODO: add cap shrouds (back stays?)
+      # TODO:
+      - what: battcar system
+        name: battcar system
+        manufacturer: Harken
+        size: 22mm
+        link: https://www.harken.com/en/home/
+      - what: boom
+        name: boom
+        material: aluminum
+        lengh: 18-1/3'
+        _:
+          - what: sail
+            name: fully-batened mainsail
+            manufacturer: North Sails
+            link: https://www.northsails.com
+            notes: ND72V
+            _:
+              - what: batten
+                material: fiberglass
+                notes: 508, 2.5, 40,  8, 2200
+              - what: batten
+                material: fiberglass
+                notes: 477, 3.0, 40,  9, 2100
+              - what: batten
+                material: fiberglass
+                notes: 441, 3.5, 40, 10, 1850
+              - what: batten
+                material: fiberglass
+                notes: 396, 4.0, 40, 12, 1700
+              - what: batten
+                material: fiberglass
+                notes: 332, 4.0, 40, 12, 1200
+              - what: batten
+                material: fiberglass
+                notes: 227, 5.0, 40, 15, 650
+              - what: batten
+                material: fiberglass
+                notes: 137, 6.0, 40, 16, 350
+          # lazy jack system
+          #  _:
+          #    - what: 2 × 5" plastic cleat for lazy jacks
+          #    - nylon rope 
+          # - 2 × [barbell squat pad](https://www.amazon.com/dp/B01MPY50V2) on T-top for cushioning
+      - what: forestay
+        name: forestay
+        material: stainless steel
+        _:
+          - what: a frame
+            name: aerodynamic seagull striker
+            manufacturer: GMT Composites
+            link: https://gmtcomposites.com
+            material: prepreg carbon fiber, G-10
+            _:
+              - what: martingale
+                material: stainless steel
+                _:
+                  - what: turnbuckle
+                    name:  5/8" 8" turnbuckle
+                    material: bronze
+              # - what: 2 × [titanium screw](https://www.ti64.com/product-p/6315.htm)
+              # - what: 2 × [titanium washer](https://www.ti64.com/product-p/1033.htm)
+          - what: furler
+            name: Profurl NCI-42 furler (genoa)
+            _:
+              - what: sail
+                name: genoa
+                manufacturer: North Sails
+                link: https://www.northsails.com
+                _:
+                  - what: track
+                    name: sliding drilled bolt tracks
+                    count: 2
+                    manufacturer: Lewmar
+                    size: 2
+                    location: cockpit
+                    manufactured_in: UK
+      - what: forestay
+        name: inner forestay
+        _:
+          - what: martingale
+            material: stainless steel
+            _:
+              - what: turnbuckle
+                name:  5/8" 8" turnbuckle # the size may be smaller than 8", need confirmation
+                material: bronze
+          - what: furler
+            name: Profurl N31/N41 furler (staysail) # jib
+            _:
+              - what: sail
+                name: jib
+                manufacturer: North Sails
+                link: https://www.northsails.com
+                _:
+                  - what: track
+                    name: sliding bolt tracks
+                    count: 2
+                    manufacturer: Lewmar
+                    size: 2
+                    location: cabin
+                    manufactured_in: UK
+  # https://www.colligomarine.com/products/p/torque-rope-clamps-hfrc9
 
 
 safety:
@@ -531,13 +652,14 @@ safety:
       - what: lifeline
         name: lifelines
         material: stainless steel, vinyl
-        count: "4"
+        count: 4
   ## Beacons
   - what: emergency beacon
     name: 406MHz EPIRB emergency beacon
     manufacturer: ACR
     model: RLB-41 2831 GLOBALFIX™ V4 Cat 2
     link: https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/
+    image: https://www.acrartex.com/wp-content/uploads/2021/04/01f7ba4c98b85d1ef6942cd5952d5a35.gif
     manufactured_in: US
     notes: manual activaion
   ## Signals
@@ -568,7 +690,6 @@ safety:
   # <!-- Kingii -->
   # <!-- https://www.ibukikogyo.co.jp/english/prd01/product01es15.html -->
 
-
 sound:
   - what: amplifier
     name: Bluetooth amplifier
@@ -582,7 +703,9 @@ sound:
         model: TS-MR165
         location: cockpit
         voltage: 12VDC
-        count: "2"
+        count: 2
+        image: https://images.crutchfieldonline.com/ImageHandler/trim/750/457/products/2001/130/x130TSMR165.jpeg
+        link: https://www.crutchfield.com/S-8qT8CRDnYcd/p_130TSMR165/Pioneer-TS-MR165-Nautica-Speakers.html
   # https://www.nauticexpo.com/prod/musashi/product-200788-590152.html
 
 
@@ -595,10 +718,10 @@ steering:
     size: 30"
     link: https://edsonmarine.com/stainless-steel-sailboat-destroyer-wheel/
     image: https://www.mauriprosailing.com/mm5/Edson/images/pi/Oct-18/EDS-647ST_580x580.jpg
-    count: "2"
+    count: 2
     _:
       - what: detachable wheel break
-        count: "2"
+        count: 2
       - what: roller chain
         name: helm roller chains
         size: ANSI 50
@@ -606,7 +729,7 @@ steering:
         manufacturer: RaceTech Titanium
         link: https://racetechtitanium.com
         manufactured_in: US
-        count: "2"
+        count: 2
   ## Mechanism
   - what: stainless steel cables
   - what: sheave
@@ -618,13 +741,13 @@ steering:
   - what: rudder
     name: rudders
     material: cabon fiber, closed-cell foam
-    count: "2"
+    count: 2
     _:
       - what: quadrant
-        name: composite quandrants
+        name: composite quadrants
         material: foam, S-glass, epoxy
         size: 40cm in diameter, 2.25cm thick
-        count: "2"
+        count: 2
   # - what: 2 × 1113
   # - what: 2 × 1050
 
@@ -661,27 +784,29 @@ waste:
   - what: toilet
     name: electric fresh water toilets
     manufacturer: Jabsco
-    model: "37055"
-    count: "2"
+    model: 37055
+    count: 2
+    link: https://www.hodgesmarine.com/jab37010-4192-jabsco-electric-marine-toilet-regular-bowl-ws.html
+    image: https://www.hodgesmarine.com/media/catalog/product/cache/3c0a6f7446c4f40830e075673927968a/j/a/jab37010-4192-2.jpg
     _:
       - what: pump
         name: macerator pumps
         manufacturer: Jabsco
         model: 74001-2852EU
         voltage: 12VDC
-        count: "2"
+        count: 2
       - what: valve
         name: solenoid valves
         manufacturer: Jabsco
         model: 37030-2012 
         voltage: 12VDC
-        count: "2"
+        count: 2
   - what: waste water tank
     name: holding tank
     material: polyethylene
     capacity: 13 gal.
     size: 24" × 10" × 14" # 25×35×60cm
-    count: "2"
+    count: 2
     _:
       - what: pump
         name: waste pump
@@ -743,8 +868,9 @@ water:
         name: constant-tension hose clamps
         manufacturer: Breeze
         size: 9/16"–1-1/16"
-        count: "10+"
+        count: 10+
         link: https://www.amazon.com/gp/product/B00NVA78BK/
+        image: https://m.media-amazon.com/images/I/61CoyKhxOgL.__AC_SY300_SX300_QL70_FMwebp_.jpg
         manufactured_in: US
   - what: water maker
     name: emergency seawater desalination device
@@ -764,7 +890,7 @@ water:
     capacity: 6.5 gal.
     image: https://m.media-amazon.com/images/I/51C20OHDUML._SL1200_.jpg
     link: https://www.amazon.com/Flotool-International-50863-Gallon-Self-Venting/dp/B00P84ZYTU
-    count: "4"
+    count: 4
   # P&L LL-210-48 high efficiency 210W DC thermoelectric heating water device peltier heater
   - what: shower
     name: RV-style shower
@@ -775,7 +901,7 @@ water:
   - what: sun shower
     name: sun shower
     capacity: 5 gal.
-    count: "3"
+    count: 3
 
 
 workshop:
@@ -832,7 +958,7 @@ workshop:
     name: laser range meters
     manufacturer: Bosch
     model: GLM 20
-    count: "2"
+    count: 2
     link: https://www.bosch-professional.com/eg/en/products/glm-20-0601072EG0
     image: https://www.bosch-professional.com/eg/en/ocsmedia/225436-54/application-image/1434x828/laser-measure-glm-20-0601072eg0.png
   - what: scales
@@ -842,6 +968,8 @@ workshop:
     precision: 100g
     manufacturer: Soehnle
     model: Style Sense Safe 100
+    link: https://bigamart.com/product/soehnle-style-sense-safe-electronic-bathroom-scale-100-scale-white
+    image: https://images-na.ssl-images-amazon.com/images/I/51cDK6-ehDL._AC_SL1280_.jpg
     manufactured_in: DE
   - what: scales
     name: kitchen scales
@@ -850,6 +978,8 @@ workshop:
     precision: 1g
     manufacturer: Soehnle
     model: Page Profi 300
+    link: https://www.amazon.com/Soehnle-Kitchen-Scales-White-Extra/dp/B07DQV938Q/
+    image: https://m.media-amazon.com/images/I/513d1XDzxUL._SX522_.jpg
     manufactured_in: DE
   - what: scales
     name: precision scales
@@ -858,6 +988,8 @@ workshop:
     precision: 0.1g
     manufacturer: Soehnle
     model: Ultra 2.0
+    image: https://i5.walmartimages.com/seo/Soehnle-ULTRA-2-0-Precision-Digital-Food-Scale-17-6-oz-White_d62da634-c43c-4cbb-ac3c-b0c63f26277b_1.c8ec36773a6ed0e6781a1d43d53d410c.jpeg
+    link: https://www.walmart.com/ip/Soehnle-ULTRA-2-0-Precision-Digital-Food-Scale-17-6-oz-White/38423055
     manufactured_in: DE
 
 # Premium Marine ClampTite Tool Kit

@@ -17,7 +17,7 @@ blankPixel = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC
 
 def printSystemHtml(systemDataItem):
     # Print system component's title
-    title = (systemDataItem["name"] if "name" in systemDataItem else systemDataItem["what"])
+    title: str = str(systemDataItem["name"] if "name" in systemDataItem else systemDataItem["what"])
     output = "<div>"
     output += "<h3>" + title + "</h3>"
     output += "<a href=" + (systemDataItem["link"] if "link" in systemDataItem else "javascript:void(0)") + "><img src=" + (systemDataItem["image"] if "image" in systemDataItem else blankPixel) + " alt=" + title + " /></a>"
@@ -26,7 +26,7 @@ def printSystemHtml(systemDataItem):
         if systemKey != "_":
             # Print properties of the system
             if systemKey not in ["what", "name", "image", "link"]:
-                value = systemValue if (isinstance(systemValue, str)) else ", ".join(systemValue)
+                value: str = str(systemValue) if (isinstance(systemValue, str) or isinstance(systemValue, int)) else ", ".join(systemValue)
                 output += "<li>" + systemKey.replace("_", " ").title() + ": " + value + " </li>"
         else:
             # Print sub-systems
