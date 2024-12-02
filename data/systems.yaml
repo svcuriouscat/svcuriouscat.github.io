@@ -390,6 +390,8 @@ navigation:
   ## Chart Plotters
   - what: Zeus³S Glass Helm
     manufacturer: B&G
+    link: https://www.bandg.com/bg/series/zeuss-glass-helm/
+    image: https://www.bandg.com/globalassets/bandg/products/series/zeus3s-glass-helm/zeus3gh24-3_sized_web.jpg
     size: 16"
   ## Autopilots
   - what: autopilot
@@ -476,11 +478,14 @@ openings:
     material: aluminum, acrylic ## is it really acrylic?
     manufactured_in: CA
 
+
 paint:
   ## Topdeck
   - what: paint
     name: topdeck paint
     manufacturer: AwlGrip
+    link: https://www.bottompaintstore.com/awlgrip-topcoat-sky-blue-g5014-p-9836.html
+    image: https://www.bottompaintstore.com/image/cache/catalog/products/Awlgrip/awlgrip_topside2-500x539.jpg
     color: sky blue
     _:
       - what: primer
@@ -488,6 +493,7 @@ paint:
         manufacturer: Alexseal
         model: Finish Primer 442
         link: https://www.alexseal.com/products/finish-primers/finish-primer-442
+        image: https://www.alexseal.com/fileadmin/_processed_/1/4/csm_P4420_f0381b0ad9.jpg
         notes: P4420 & C4427, R5015 (12.5% by volume of P+C); target surface is sanded with 150 grit; at least two layers
         _:
           - what: additive
@@ -500,6 +506,7 @@ paint:
         manufacturer: Alexseal
         model: Super Build 302
         link: https://www.alexseal.com/products/high-build-surfacers/super-build-302
+        image: https://www.alexseal.com/fileadmin/_processed_/3/3/csm_Super_Build_P3002_c326bb4f15.jpg
         notes: P3002 & C3052, R3040 (10%–12.5% by volume of P+C); target surface is sanded with 80 grit
   ## Interior
   # - what: paint
@@ -597,7 +604,11 @@ rigging:
               # - what: 2 × [titanium screw](https://www.ti64.com/product-p/6315.htm)
               # - what: 2 × [titanium washer](https://www.ti64.com/product-p/1033.htm)
           - what: furler
-            name: Profurl NCI-42 furler (genoa)
+            name: genoa furler
+            manufacturer: Profurl
+            model: NCI-42
+            link: https://www.fisheriessupply.com/profurl-classic-and-elite-furlers/nci-42
+            image: https://image.fisheriessupply.com/w_619,b_rgb:ffffff,c_lpad,dpr_1.0,ar_1:1,d_imageComingSoon-tiff/f_auto,q_auto:eco/v1/static-images/132188_fur_furling_ppm-tif
             _:
               - what: sail
                 name: genoa
@@ -621,7 +632,11 @@ rigging:
                 name:  5/8" 8" turnbuckle # the size may be smaller than 8", need confirmation
                 material: bronze
           - what: furler
-            name: Profurl N31/N41 furler (staysail) # jib
+            name: jib furler
+            manufacturer: Profurl
+            model: N31
+            notes: may be N41
+            # notes: staysail
             _:
               - what: sail
                 name: jib
@@ -651,8 +666,13 @@ safety:
     _:
       - what: lifeline
         name: lifelines
+        length: 30'
         material: stainless steel, vinyl
+        color: white
         count: 4
+        manufacturer: Suncor
+        link: https://www.westmarine.com/suncor-30--of-5-16inch-white-vinyl-coated-7-x-7-lifeline-wire-15227259.html
+        image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dwc16ac9b0/images/orig/15227275_PVC.JPG
   ## Beacons
   - what: emergency beacon
     name: 406MHz EPIRB emergency beacon
@@ -909,6 +929,7 @@ workshop:
   - what: resin mixer
     name: electric resin mixer
     link: https://pixiss.com/products/pixiss-epoxy-resin-mixer
+    notes: mostly used for mixing epoxy
   ## 3D printing & scanning
   - what: 3D printer
     name: FDM 3D printer
