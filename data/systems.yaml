@@ -115,6 +115,7 @@ decals:
     name: vessel number plate
     manufacturer: Vessel Placards
     link: https://vesselplacards.com/product/stainless-steel-placard/
+    image: https://vesselplacards.com/wp-content/uploads/2017/08/Metal.png
     material: stainless steel
     location: cockpit, starboard side
 
@@ -166,6 +167,7 @@ docking:
   - what: chock
     name: bow chocks
     material: aluminum
+    manufacturer: Simpson-Lawrence
     count: 4
     location: two per bow
   - what: fender
@@ -377,7 +379,8 @@ navigation:
     link: https://www.ritchienavigation.com
   - what: compass
     name: illuminated hand bearing compass
-    link: https://www.davisinstruments.com/products/hand-bearing-compass-illuminated
+    link: https://defender.com/en_us/davis-instruments-illuminated-handheld-compass-215
+    image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/davis-instruments/illuminated-handheld-compass-215.jpg
     manufacturer: Davis Instruments
   ## Radars
   - what: radome
@@ -650,6 +653,20 @@ rigging:
                     size: 2
                     location: cabin
                     manufactured_in: UK
+  - what: winch handle
+    manufacturer: Harken
+    link: https://www.harken.com/en/shop/aluminum-chrome-bronze-winch-handles-592/chrome-speedgrip-lock-in-winch-handle-203-mm/
+    image: https://gallery.harken.com/gallery/product_0ab8467b-ba65-4c98-a0fa-66d48bd0d8d5.jpg
+  - what: winch handle
+    manufacturer: Lewmar
+    link: https://www.westmarine.com/lewmar-10inch-aluminum-onetouch-lock-in-power-grip-winch-handle-8740441.html
+    image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw63a3d7b8/images/orig/8740441_1500.jpg
+    material: aluminum
+    count: 2
+  - what: winch handle pocket
+    manufacturer: Lewmar
+    link: https://www.westmarine.com/lewmar-winch-handle-pocket-173403.html
+    image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw625f5eb0/images/orig/173403_1500.jpg
   # https://www.colligomarine.com/products/p/torque-rope-clamps-hfrc9
 
 
@@ -736,8 +753,6 @@ steering:
     material: stainless steel
     manufacturer: Edson Marine
     size: 30"
-    link: https://edsonmarine.com/stainless-steel-sailboat-destroyer-wheel/
-    image: https://www.mauriprosailing.com/mm5/Edson/images/pi/Oct-18/EDS-647ST_580x580.jpg
     count: 2
     _:
       - what: detachable wheel break
@@ -751,7 +766,9 @@ steering:
         manufactured_in: US
         count: 2
   ## Mechanism
-  - what: stainless steel cables
+  - what: cables
+    material: stainless steel
+    manufacturer: Edson Marine
   - what: sheave
     name: sheaves
     material: bronze
@@ -760,7 +777,7 @@ steering:
   ## Rudders
   - what: rudder
     name: rudders
-    material: cabon fiber, closed-cell foam
+    material: cabon fiber, stainless steel, epoxy, closed-cell foam
     count: 2
     _:
       - what: quadrant
@@ -826,6 +843,9 @@ waste:
     material: polyethylene
     capacity: 13 gal.
     size: 24" × 10" × 14" # 25×35×60cm
+    manufacturer: Todd
+    link: https://defender.com/en_us/todd-fresh-water-waste-water-holding-tank
+    image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/todd/fresh-water-waste-water-holding-tank-85-1626wh.jpg
     count: 2
     _:
       - what: pump
@@ -877,7 +897,7 @@ water:
         material: PVC
         diameter: 15mm
   - what: water maker
-    name: desalination system
+    name: water maker
     manufacturer: Schenker
     model: Zen 30
     voltage: 12VDC
@@ -893,7 +913,7 @@ water:
         image: https://m.media-amazon.com/images/I/61CoyKhxOgL.__AC_SY300_SX300_QL70_FMwebp_.jpg
         manufactured_in: US
   - what: water maker
-    name: emergency seawater desalination device
+    name: emergency manual water maker
     manufacturer: QuenchSea
     model: "1.0"
     image: https://www.quenchsea.world/cdn/shop/files/pict_6_1.png
@@ -920,8 +940,10 @@ water:
     location: starboard head
   - what: sun shower
     name: sun shower
-    capacity: 5 gal.
-    count: 3
+    capacity: 4 gal.
+    count: 2
+    link: https://nextadventure.net/products/portable-sun-shower-2000005826
+    image: https://nextadventure.net/cdn/shop/files/portable-sun-shower-stearns-470415_670x977.jpg
 
 
 workshop:
