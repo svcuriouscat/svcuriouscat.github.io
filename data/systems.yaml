@@ -38,11 +38,11 @@ anchoring:
     name: delta anchor
     material: steel
     weight: 35lbs
-    _:
-      - what: rope
-        name: docking lines
-        material: nylon
-        length: 150'
+    # _:
+    #   - what: rope
+    #     name: docking lines
+    #     material: nylon
+    #     length: 150'
   - what: sea anchor
     name: offshore para-anchor
     diameter: 21'
@@ -86,6 +86,7 @@ communication:
     manufacturer: Starlink
     model: RV
     manufactured_in: US
+    voltage: 230VAC
     image: https://m.media-amazon.com/images/I/71qzo-1c7AL._AC_SL1500_.jpg
     link: https://www.starlink.com/residential?referral=RC-2071102-88843-59RC-2071110-95086-55RC-2071140-14719-52RC-2071166-85262-61RC-2071200-37308-48RC-2071228-68274-64RC-2071253-93175-60RC-2071280-89385-68RC-2071312-28461-52RC-2071339-32459-63RC-2071358-32991-65RC-2071373-55215-56RC-2071383-44877-69
   - what: radio
@@ -103,21 +104,21 @@ communication:
 
 decals:
   - what: decal
-    name: vessel name and home port
+    name: vessel name and home port sticker
     material: vinyl
     location: stern
   - what: decal
-    name: QR Codes
+    name: QR Code stickers
     material: vinyl
     count: 2
     location: port & starboard
   - what: metal plate
     name: vessel number plate
     manufacturer: Vessel Placards
-    link: https://vesselplacards.com/product/stainless-steel-placard/
-    image: https://vesselplacards.com/wp-content/uploads/2017/08/Metal.png
     material: stainless steel
     location: cockpit, starboard side
+    link: https://vesselplacards.com/product/stainless-steel-placard/
+    image: https://vesselplacards.com/wp-content/uploads/2017/08/Metal.png
 
 
 diving equipment:
@@ -159,7 +160,7 @@ docking:
     count: 6
     location: three along each hull
   - what: cleat
-    name: deck cleats
+    name: stern cleats
     material: aluminum
     size: 6"
     count: 2
@@ -536,6 +537,28 @@ paint:
 #     - [TotalBilge Epoxy Bilge Paint](https://www.totalboat.com/products/totalbilge-epoxy-bilge-paint?variant=43757099221216) by TotalBoat
 
 
+rescue:
+  ## Beacons
+  - what: emergency beacon
+    name: 406MHz EPIRB emergency beacon
+    manufacturer: ACR
+    model: RLB-41 2831 GLOBALFIX™ V4 Cat 2
+    link: https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/
+    image: https://www.acrartex.com/wp-content/uploads/2021/04/01f7ba4c98b85d1ef6942cd5952d5a35.gif
+    manufactured_in: US
+    notes: manual activaion
+  ## Signals
+  # - 2 × horn by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
+  #     - 2 × [stainless steel horn push button](https://www.sheridanmarine.com/product/stainless-steel-horn-push-switch) by Sheridan Marine
+  # - [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/) by [ACR](https://www.acrartex.com) 🇺🇸
+  #     - [Alkaline C batteries](https://www.amazon.com/dp/B09KD6YD8C) 🇩🇪
+  # - [Orion](https://www.orionsignals.com) flare gun
+  #     - 4 × cartidges
+  # - 4 × Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
+  # - Small stainless steel signaling mirror
+  # - Orange daytime signal piece of square fabric by ACR 🇺🇸
+
+
 rigging:
   - what: mast
     name: fixed mast
@@ -545,12 +568,30 @@ rigging:
     _:
       # TODO: add spreaders
       # TODO: add cap shrouds (back stays?)
-      # TODO:
       - what: battcar system
         name: battcar system
         manufacturer: Harken
         size: 22mm
         link: https://www.harken.com/en/home/
+        _:
+          - what: bolt
+            name: bolts
+            material: titanium
+            image: https://www.ti64.com/v/vspfiles/photos/4957-2.jpg
+            link: https://www.ti64.com/product-p/4957.htm
+            count: 6
+          - what: nut
+            name: nuts
+            material: titanium
+            image: https://www.ti64.com/v/vspfiles/photos/3316-2.jpg
+            link: https://www.ti64.com/product-p/3316.htm
+            count: 6
+          - what: nut holder
+            name: nut holder
+            material: XT-CF20
+            image: https://media.printables.com/media/prints/1068705/images/8085453_10c76591-ee65-4e7d-b353-1129e5dda702_60a12237-8149-4975-9540-fe9fbcfc0e53/thumbs/inside/1280x960/png/battcar-nut-holder.webp
+            link: https://www.printables.com/model/1068705-battcar-nut-holder
+            count: 6
       - what: boom
         name: boom
         material: aluminum
@@ -657,11 +698,13 @@ rigging:
     manufacturer: Harken
     link: https://www.harken.com/en/shop/aluminum-chrome-bronze-winch-handles-592/chrome-speedgrip-lock-in-winch-handle-203-mm/
     image: https://gallery.harken.com/gallery/product_0ab8467b-ba65-4c98-a0fa-66d48bd0d8d5.jpg
+    manufactured_in: IT
   - what: winch handle
     manufacturer: Lewmar
     link: https://www.westmarine.com/lewmar-10inch-aluminum-onetouch-lock-in-power-grip-winch-handle-8740441.html
     image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dw63a3d7b8/images/orig/8740441_1500.jpg
     material: aluminum
+    manufactured_in: UK
     count: 2
   - what: winch handle pocket
     manufacturer: Lewmar
@@ -690,25 +733,14 @@ safety:
         manufacturer: Suncor
         link: https://www.westmarine.com/suncor-30--of-5-16inch-white-vinyl-coated-7-x-7-lifeline-wire-15227259.html
         image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dwc16ac9b0/images/orig/15227275_PVC.JPG
-  ## Beacons
-  - what: emergency beacon
-    name: 406MHz EPIRB emergency beacon
-    manufacturer: ACR
-    model: RLB-41 2831 GLOBALFIX™ V4 Cat 2
-    link: https://www.acrartex.com/products/globalfix-v4-epirb-emergency-positioning-indicading-radio-beacon/
-    image: https://www.acrartex.com/wp-content/uploads/2021/04/01f7ba4c98b85d1ef6942cd5952d5a35.gif
-    manufactured_in: US
-    notes: manual activaion
-  ## Signals
-  # - 2 × horn by [Schmitt & Ongaro](http://www.schmittongaromarine.com)
-  #     - 2 × [stainless steel horn push button](https://www.sheridanmarine.com/product/stainless-steel-horn-push-switch) by Sheridan Marine
-  # - [ResQFlare](https://www.acrartex.com/products/resqflare-boat-flare/) by [ACR](https://www.acrartex.com) 🇺🇸
-  #     - [Alkaline C batteries](https://www.amazon.com/dp/B09KD6YD8C) 🇩🇪
-  # - [Orion](https://www.orionsignals.com) flare gun
-  #     - 4 × cartidges
-  # - 4 × Orange handheld smoke signals by [Orion](https://www.orionsignals.com)
-  # - Small stainless steel signaling mirror
-  # - Orange daytime signal piece of square fabric by ACR 🇺🇸
+  ## Grip
+  - what: handle
+    name: grab handles
+    material: 304 stainless steel
+    model: 18"
+    count: 4
+    link: https://www.hardin-marine.com/p-14056-polished-stainless-steel-grab-handles.aspx
+    image: https://www.hardin-marine.com/images/product/large/950-478150.jpg
   ## Fire Suppression
   # - Kidde marine dry chemical fire extinguisher (class BC)
   # - Kidde marine dry chemical fire extinguisher (class ABC)
@@ -730,6 +762,8 @@ safety:
 sound:
   - what: amplifier
     name: Bluetooth amplifier
+    voltage: 12VDC
+    location: cockpit
     link: https://www.amazon.com/gp/product/B07XG33WPN/
     image: https://m.media-amazon.com/images/I/71+Mcv1gsqL._SX522_.jpg
     manufactured_in: CN
@@ -740,7 +774,6 @@ sound:
         model: TS-MR165
         location: cockpit
         voltage: 12VDC
-        count: 2
         image: https://images.crutchfieldonline.com/ImageHandler/trim/750/457/products/2001/130/x130TSMR165.jpeg
         link: https://www.crutchfield.com/S-8qT8CRDnYcd/p_130TSMR165/Pioneer-TS-MR165-Nautica-Speakers.html
   # https://www.nauticexpo.com/prod/musashi/product-200788-590152.html
