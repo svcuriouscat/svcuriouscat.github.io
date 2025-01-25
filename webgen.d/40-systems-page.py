@@ -15,23 +15,24 @@ blankPixel = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwC
 # UK: 🇬🇧
 # US: 🇺🇸
 
-def printSystemHtml(systemDataItem):
+connections = []
+
+def printSystemHtml(systemName, systemDataItem):
+    id = systemName.replace(" ", "_") + "__" + systemDataItem["what"].replace(" ", "_")
     # Print system component's title
     title: str = str(systemDataItem["name"] if "name" in systemDataItem else systemDataItem["what"])
-    output = "<div>"
+    output = "<div id=\"" + id + "\">"
     output += "<h3>" + title + "</h3>"
     output += "<a href=" + (systemDataItem["link"] if "link" in systemDataItem else "javascript:void(0)") + "><img src=" + (systemDataItem["image"] if "image" in systemDataItem else blankPixel) + " alt=" + title + " /></a>"
     output += "<ul>"
     for systemKey, systemValue in systemDataItem.items():
-        if systemKey != "_":
+        if systemKey == "connected_to":
+            connections.append([id, systemName.replace(" ", "_") + "__" + systemValue.replace(" ", "_")])
+        else:
             # Print properties of the system
             if systemKey not in ["what", "name", "image", "link"]:
                 value: str = str(systemValue) if (isinstance(systemValue, str) or isinstance(systemValue, int)) else ", ".join(systemValue)
                 output += "<li>" + systemKey.replace("_", " ").title() + ": " + value + " </li>"
-        else:
-            # Print sub-systems
-            for subSystemDataItem in systemValue:
-                output += "<li>" + printSystemHtml(subSystemDataItem) + "</li>"
     output += "</ul>"
     output += "</div>"
     return output
@@ -52,11 +53,14 @@ def stage(data):
         try:
             # print(yaml.safe_load(stream))
             systemsObject = yaml.safe_load(stream)
-            for systemKey, systemData in systemsObject.items():
+            for systemName, systemData in systemsObject.items():
                 pageHtml += "<fieldset>"
-                pageHtml += "<legend><h2>" + systemKey.title() + "</h2></legend>"
+                pageHtml += "<legend><h2>" + systemName.title() + "</h2></legend>"
                 for systemDataItem in systemData:
-                    pageHtml += printSystemHtml(systemDataItem)
+                    if systemDataItem["what"] == "separator":
+                        pageHtml += "<hr />"
+                    else:
+                        pageHtml += printSystemHtml(systemName, systemDataItem)
                 pageHtml += "</fieldset>"
                 pageHtml += "<br />"
         except yaml.YAMLError as exception:
@@ -75,6 +79,11 @@ def stage(data):
         "class":        "systems content",
         "content":     webgen.renderMarkdown(open("../data/systems.md", "r").read()) + pageHtml,
     })
+    html += "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.7/leader-line.min.js\"></script>"
+    html += "<script>"
+    for c in connections:
+        html += "new LeaderLine(document.getElementById('" + c[0] +"'),document.getElementById('" + c[1] +"'));"
+    html += "</script>"
     htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],
         data["config"]["Filesystem"]["DestinationDirPath"],

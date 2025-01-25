@@ -328,17 +328,18 @@ table {
     fieldset {
         align-items: self-start;
         border-radius: 0.5rem;
-        display: flex;
-        flex-wrap: wrap;
     }
 
     div {
+        background: $color-bg;
         border: 2px solid rgb(192, 192, 192);
         border-radius: 0.5rem;
         display: inline-block;
-        margin: 0.5rem;
+        margin: 2.5rem;
         padding: 0.5rem;
+        position: relative;
         vertical-align: top;
+        z-index: 1;
     }
 
     legend {
@@ -492,28 +493,6 @@ table {
         }
     }
 
-    .logbook {
-        & > div {
-            width: $captains-log-page-width-small;
-
-            // Current page (center)
-            &:not(:first-child):not(:last-child) {
-                margin-left: -70%;
-                margin-right: -70%;
-
-                & > div {
-                    box-shadow: 0 0 $spacing-small $color-bg;
-                }
-            }
-
-            & > div {
-                border-radius: $spacing-small / 4;
-                padding-left: $spacing-small;
-                padding-right: $spacing-small;
-            }
-        }
-    }
-
 }
 
 // Dark mode
@@ -555,22 +534,9 @@ table {
         }
     }
 
-    .logbook {
-        img {
-            border-color: mix($color-fg-dark, $color-bg-dark, 25%);
-        }
-
-        & > div {
-            & > div {
-                background-color: $color-bg-dark;
-            }
-
-            // Current page (center)
-            &:not(:first-child):not(:last-child) {
-                & > div {
-                    box-shadow: 0 0 $spacing $color-bg-dark;
-                }
-            }
+    .systems {
+        div {
+            background: $color-bg-dark;
         }
     }
 

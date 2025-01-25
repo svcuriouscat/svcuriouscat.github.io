@@ -15,15 +15,11 @@
         — 2 × 5/8" 8" bronze turnbuckle
     - 2 × lower shroud
         — 2 × 5/8" 8" bronze turnbuckle
-- 4 × stainless steel backstays
+<!-- - 4 × stainless steel backstays -->
 
 
 ## Running
 
-- **Winches**:
-    - 2 × Lewmar 50 self-tailing (cockpit) 🇬🇧
-    - 3 × Lewmar 44 self-tailing (cockpit) 🇬🇧
-    - 2 × Lewmar 40 self-tailing (mast) 🇬🇧
 - **Tracks**:
     - 2 × Lewmar Size 2 sliding bolt track (5' long, on top of the cabin, jib) 🇬🇧
         - 2 × Lewmar Size 2 ocean T-track genoa car 🇬🇧
