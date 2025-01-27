@@ -82,7 +82,7 @@ def stage(data):
     html += "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/leader-line/1.0.7/leader-line.min.js\"></script>"
     html += "<script>"
     for c in connections:
-        html += "new LeaderLine(document.getElementById('" + c[0] +"'),document.getElementById('" + c[1] +"'));"
+        html += "new LeaderLine(document.getElementById('" + c[0] +"'),document.getElementById('" + c[1] +"'), { color: 'gray', dash: { animation: true } });"
     html += "</script>"
     htmlFile = webgen.mkfile(
         data["definitions"]["runtime"]["cwd"],

@@ -262,68 +262,6 @@ table {
     }
 }
 
-/*
-.logbook {
-    display: flex;
-    margin: 0;
-
-    img {
-        display: block;
-        width: 50%;
-
-        // Put a border around to separate images from website background
-        border: solid mix($color-fg, $color-bg, 25%) 10px;
-    }
-
-    & > div {
-        pointer-events: none;
-        width: $captains-log-page-width-extra-large;
-
-        // Background pages (left and right)
-        &:first-child,
-        &:last-child {
-            & > div {
-                & > a {
-                    color: inherit;
-                    display: block;
-                    filter: blur(.3rem) grayscale(1);
-                    opacity: .65;
-                    text-decoration: none;
-                    transition: filter .15s, opacity .15s;
-
-                    &:hover {
-                        filter: blur(.1rem) grayscale(.66);
-                        opacity: .85;
-                    }
-
-//                    &:visited {
-//                        color: inherit;
-//                    }
-                }
-            }
-        }
-
-        // Current page (center)
-        &:not(:first-child):not(:last-child) {
-            & > div {
-                box-shadow: 0 0 $spacing $color-bg;
-                position: relative;
-                z-index: 1;
-            }
-        }
-
-        & > div {
-            background-color: $color-bg;
-            border-radius: $spacing / 4;
-            overflow: hidden;
-            padding-left: $spacing;
-            padding-right: $spacing;
-            pointer-events: auto;
-        }
-    }
-}
-*/
-
 .systems {
     fieldset {
         align-items: self-start;
@@ -389,18 +327,6 @@ table {
 
     body {
         max-width: 80rem;
-    }
-
-    .logbook {
-        & > div {
-            width: $captains-log-page-width-large;
-
-            // Current page (center)
-            &:not(:first-child):not(:last-child) {
-                margin-left: -((100% - $captains-log-page-width-large) / 2);
-                margin-right: -((100% - $captains-log-page-width-large) / 2);
-            }
-        }
     }
 
 }
@@ -543,14 +469,9 @@ table {
     // Smartphones
     @media (max-width: 30rem) {
 
-        .logbook {
-            & > div {
-                // Current page (center)
-                &:not(:first-child):not(:last-child) {
-                    & > div {
-                        box-shadow: 0 0 $spacing-small $color-bg-dark;
-                    }
-                }
+        .systems {
+            div {
+                margin: 1.5rem;
             }
         }
 

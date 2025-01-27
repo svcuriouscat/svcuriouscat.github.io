@@ -191,3 +191,6 @@ Painted with Atlex Elite Polyurethane, this is one of the vessels I look up to, 
 Custom one-of-a-kind all-carbon 50' luxury cruising catamaran built by Morrelli & Melvin.
 Early inspiration for Gunboats, this beauty is strong, light, and lets you sail while being protected from nasty wind and water.
 I wish there were more cats in the world like this masterpiece.
+
+
+<!-- https://grabcad.com/kanoet-1 -->

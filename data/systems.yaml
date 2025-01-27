@@ -320,6 +320,7 @@ electric:
 
 
 fishing:
+  ## Nets
   - what: net
     name: cast net
     notes: 1/4" mesh × 4' high
@@ -328,15 +329,20 @@ fishing:
   - what: net
     name: landing net
     material: aluminum, nylon
+
   - what: bait container
     material: plastic, styrofoam
+
   - what: spear gun
+
+# https://www.ebay.com/itm/276703272679
 
 
 ##############################################################################
 
 
 food:
+  ## GoSun
   - what: solar grill
     name: solar oven
     manufacturer: GoSun
@@ -353,6 +359,8 @@ food:
     link: https://gosun.co/products/sun-kettle
     # TODO: add ambassador code to the link
     notes: great for boiling water, making coffee, hot chocolate
+
+  - what: separator
 
   - what: electric oven
     name: Mini Electric Oven Toaster
@@ -381,6 +389,7 @@ inspection:
     model: Aquant
     voltage: 9VDC
     manufactured_in: UK
+
   ## Visual
   - what: inspection camera
     name: video endoscope
@@ -576,6 +585,9 @@ paint:
     link: https://www.bottompaintstore.com/awlgrip-topcoat-sky-blue-g5014-p-9836.html
     image: https://www.bottompaintstore.com/image/cache/catalog/products/Awlgrip/awlgrip_topside2-500x539.jpg
     color: sky blue
+
+  - what: separator
+
   - what: primer
     connected_to: build primer
     name: primer
@@ -590,6 +602,9 @@ paint:
     manufacturer: Insuladd
     link: https://www.insuladd.com/product/insulating-additive-one-1-lb-bag/
     image: https://www.insuladd.com/wp-content/uploads/2014/02/New-Insuladd-Bags.jpeg
+
+  - what: separator
+
   - what: build primer
     name: hign build primer
     manufacturer: Alexseal
@@ -901,12 +916,15 @@ safety:
     link: https://www.westmarine.com/suncor-30--of-5-16inch-white-vinyl-coated-7-x-7-lifeline-wire-15227259.html
     image: https://www.westmarine.com/dw/image/v2/BGFG_PRD/on/demandware.static/-/Sites-wm-master-catalog/default/dwc16ac9b0/images/orig/15227275_PVC.JPG
 
+  - what: separator
+
   ## Grip
   - what: handle
     name: grab handles
     material: 304 stainless steel
     model: 18"
     count: 4
+    location: cockpit
     link: https://www.hardin-marine.com/p-14056-polished-stainless-steel-grab-handles.aspx
     image: https://www.hardin-marine.com/images/product/large/950-478150.jpg
 
@@ -933,15 +951,6 @@ safety:
 
 
 sound:
-  - what: amplifier
-    connected_to: speakers
-    name: Bluetooth amplifier
-    voltage: 12VDC
-    location: cockpit
-    link: https://www.amazon.com/gp/product/B07XG33WPN/
-    image: https://m.media-amazon.com/images/I/71+Mcv1gsqL._SX522_.jpg
-    manufactured_in: CN
-
   - what: speakers
     name: stereo speakers
     manufacturer: Pioneer
@@ -950,6 +959,15 @@ sound:
     voltage: 12VDC
     image: https://images.crutchfieldonline.com/ImageHandler/trim/750/457/products/2001/130/x130TSMR165.jpeg
     link: https://www.crutchfield.com/S-8qT8CRDnYcd/p_130TSMR165/Pioneer-TS-MR165-Nautica-Speakers.html
+
+  - what: amplifier
+    connected_to: speakers
+    name: Bluetooth amplifier
+    voltage: 12VDC
+    location: cockpit
+    link: https://www.amazon.com/gp/product/B07XG33WPN/
+    image: https://m.media-amazon.com/images/I/71+Mcv1gsqL._SX522_.jpg
+    manufactured_in: CN
 
   # https://www.nauticexpo.com/prod/musashi/product-200788-590152.html
 
@@ -965,9 +983,6 @@ steering:
     manufacturer: Edson Marine
     size: 30"
     count: 2
-  - what: detachable wheel breaks
-    connected_to: helm wheels
-    count: 2
   - what: roller chains
     connected_to: helm wheels
     name: helm roller chains
@@ -977,17 +992,23 @@ steering:
     link: https://racetechtitanium.com
     manufactured_in: US
     count: 2
+  - what: detachable wheel breaks
+    connected_to: helm wheels
+    count: 2
+
   ## Mechanism
   - what: cables
-    connected_to: roller chains #, quadrants
     material: stainless steel
     manufacturer: Edson Marine
+    count: 4
   - what: sheave
     connected_to: cables
     name: sheaves
     material: bronze
     manufacturer: Edson Marine
     link: https://edsonmarine.com
+    count: 6
+
   ## Rudders
   - what: rudders
     connected_to: quadrants
@@ -995,6 +1016,7 @@ steering:
     material: cabon fiber, stainless steel, epoxy, closed-cell foam
     count: 2
   - what: quadrants
+    connected_to: cables
     name: composite quadrants
     material: foam, S-glass, epoxy
     size: 40cm in diameter, 2.25cm thick
@@ -1015,6 +1037,9 @@ transportation:
     image: https://defender.com/media/catalog/product/cache/a2bf45e9635ff86c8c09fbc84b193941/catalogimages/zodiac/wave-275-aluminum-floor-9-boat-2019-grey-pvc.jpg
     length: 9'
     manufactured_in: FR
+
+  - what: separator
+
   - what: outboard motor
     connected_to: tender
     name: electric outboard motor
@@ -1062,6 +1087,9 @@ waste:
     model: 37030-2012 
     voltage: 12VDC
     count: 2
+
+  - what: separator
+
   - what: waste water tanks
     name: holding tanks
     material: polyethylene
@@ -1090,24 +1118,41 @@ waste:
 
 
 water:
-  - what: water tank
+  - what: drinking water tap
+    name: Drinking Water Faucet
+    manufacturer: NU Aqua
+    manterial: stainless steel
+    location: galley
+    link: https://nuaquasystems.com/products/nu-aqua-brushed-chrome-classic-reverse-osmosis-faucet
+    image: https://nuaquasystems.com/cdn/shop/products/faucets-nu-aqua-brushed-chrome-classic-reverse-osmosis-faucet-1_600x.jpg
+  - what: remineralization cartridge
+    connected_to: drinking water tap
+    name: Alkaline 5 Stage Remineralization Filter
+    manufacturer: NU Aqua
+    location: galley
+    link: https://nuaquasystems.com/products/nu-aqua-alkaline-5-stage-reminerlization-filter-kit?_pos=3&_sid=f613bc791
+    image: https://nuaquasystems.com/cdn/shop/files/Reverse-Osmosis-Filter-Replacement-NUAqua-Alkaline-Side-Fittings_600x.png
+
+  - what: separator
+
+  - what: port water tank
     name: fresh water tank
     material: stainless steel
     volume: 30 gal
     location: port midship
   - what: pump
-    connected_to: water tank
+    connected_to: port water tank
     manufacturer: Jabsco
     flow_rate: 2.9GPM
     voltage: 12VDC
     link: https://www.westmarine.com/jabsco-2.9gpm-par-max-freshwater-pump-50psi-8719064.html
     manufactured_in: CN
   - what: accumulator
-    connected_to: water tank
+    connected_to: port water tank
     name: pressure accumulator
     manufacturer: SHURflo
   - what: water line
-    connected_to: water tank
+    connected_to: port water tank
     name: fresh water lines
     material: PVC
     diameter: 15mm
@@ -1128,23 +1173,28 @@ water:
     name: fresh water lines
     material: PVC
     diameter: 15mm
-  - what: water maker
-    connected_to: water tank
+
+  - what: separator
+
+  - what: starboard water maker
+    connected_to: port water tank
     name: water maker
     manufacturer: Schenker
     model: Zen 30
     voltage: 12VDC
     link: https://mar-nautic.com/schenker-watermaker-zen-30
     image: https://mar-nautic.com/media/image/product/64/lg/schenker-wassermacher-zen-30.webp
-  - what: hose clamp
-    connected_to: water maker
-    name: constant-tension hose clamps
-    manufacturer: Breeze
-    size: 9/16"–1-1/16"
-    count: 10+
-    link: https://www.amazon.com/gp/product/B00NVA78BK/
-    image: https://m.media-amazon.com/images/I/61CoyKhxOgL.__AC_SY300_SX300_QL70_FMwebp_.jpg
-    manufactured_in: US
+  # - what: hose clamp
+  #   connected_to: starboard water maker
+  #   name: constant-tension hose clamps
+  #   manufacturer: Breeze
+  #   size: 9/16"–1-1/16"
+  #   count: 10+
+  #   link: https://www.amazon.com/gp/product/B00NVA78BK/
+  #   image: https://m.media-amazon.com/images/I/61CoyKhxOgL.__AC_SY300_SX300_QL70_FMwebp_.jpg
+  #   manufactured_in: US
+
+  - what: separator
 
   - what: water maker
     name: emergency manual water maker
@@ -1170,13 +1220,17 @@ water:
 
   # P&L LL-210-48 high efficiency 210W DC thermoelectric heating water device peltier heater
 
+  - what: separator
+
   ## Showers
-  - what: shower
+  - what: showers
     name: RV-style shower
     location: port head
+
   - what: shower
     name: RV-style shower
     location: starboard head
+
   - what: sun shower
     name: sun shower
     capacity: 4 gal.
@@ -1210,6 +1264,9 @@ workshop:
     link: https://www.einstar.com/products/prosumer-portable-3d-scanner
     image: https://www.einstar.com/cdn/shop/files/einstarmainimage1_629eb920-35ed-419e-b02c-78dce6ededee.png
     manufactured_in: CN
+
+  - what: separator
+
   ## CNC
   - what: cnc machine
     name: CNC machine
@@ -1231,14 +1288,17 @@ workshop:
     power: 1000W
     link: https://ooznest.co.uk/product/mafell-fm-1000-milling-motor/
     manufactured_in: DE
+
+  - what: separator
+
   ## End mills
-  - what: end mill
+  - what: end mill 1
     connected_to: router
     name: end mill
     model: HSS1611-M
     link: https://www.amanatool.com/hss1611-m-high-speed-steel-hss-foam-cutting-straight-v-flute-6mm-dia-x-25mm-x-6mm-shank-router-bit.html
     # purchased via toolstoday.com
-  - what: end mill
+  - what: end mill 2
     connected_to: router
     name: end mill
     model: 48442-K
@@ -1255,6 +1315,10 @@ workshop:
     count: 2
     link: https://www.bosch-professional.com/eg/en/products/glm-20-0601072EG0
     image: https://www.bosch-professional.com/eg/en/ocsmedia/225436-54/application-image/1434x828/laser-measure-glm-20-0601072eg0.png
+
+  - what: separator
+
+  ## Scales
   - what: scales
     name: bathroom scales
     link: https://www.soehnle-professional.com/en
@@ -1285,6 +1349,7 @@ workshop:
     image: https://i5.walmartimages.com/seo/Soehnle-ULTRA-2-0-Precision-Digital-Food-Scale-17-6-oz-White_d62da634-c43c-4cbb-ac3c-b0c63f26277b_1.c8ec36773a6ed0e6781a1d43d53d410c.jpeg
     link: https://www.walmart.com/ip/Soehnle-ULTRA-2-0-Precision-Digital-Food-Scale-17-6-oz-White/38423055
     manufactured_in: DE
+
 # https://solarez.com/3m-microballoons.html
 # Premium Marine ClampTite Tool Kit
 # tisin titanium silicium nitride / alcrn aluminum chromium nitride
@@ -1293,3 +1358,5 @@ workshop:
 # goldn.co.uk
 # gsplating.co.uk
 # https://www.mcfeelys.com/5-piece-un-screw-extractor-set-5-32-to-5-16.html
+# https://grabcad.com/kanoet-1
+# https://www.ebay.com/itm/276703272679
